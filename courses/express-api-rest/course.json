@@ -1,0 +1,91 @@
+{
+  "id": "express-api-rest",
+  "slug": "express-api-rest",
+  "title": "Creación de APIs REST con Express y Bases de Datos",
+  "description": "Domina Express.js creando servicios web profesionales con arquitectura modular en capas, validación con Zod, base de datos y seguridad JWT.",
+  "category": "api",
+  "level": "Intermedio",
+  "duration": "5 Horas",
+  "icon": "fa-solid fa-server",
+  "badgeColor": "orange",
+  "author": "EduXP Community Team",
+  "requirements": [
+    "Fundamentos de Node.js y ES Modules",
+    "JavaScript asíncrono (Promises y async/await)"
+  ],
+  "objectives": [
+    "Construir servidores HTTP robustos con Express y middlewares personalizados.",
+    "Implementar una arquitectura limpia modular en 4 capas (Routes, Controller, Service, Model).",
+    "Validar peticiones HTTP de forma estricta con esquemas Zod.",
+    "Conectar la API con bases de datos relacionales usando Connection Pools y sentencias SQL.",
+    "Implementar un sistema completo de autenticación JWT con contraseñas encriptadas y roles (RBAC)."
+  ],
+  "project": {
+    "title": "API RESTful Profesional de Gestión y Autenticación de Usuarios",
+    "description": "Construirás una API segura de producción con endpoints de registro, login, cookies seguras, hashing con bcryptjs, JWT y control de roles.",
+    "deliverables": [
+      "Arquitectura modular separada en capas limpias (Routes, Controllers, Services, Models)",
+      "Middleware centralizado de validación con Zod y manejo global de errores",
+      "Endpoints autenticados con JWT en cookies httpOnly y permisos por rol (Admin/User)"
+    ]
+  },
+  "targetAudience": [
+    "Desarrolladores Backend que desean estructurar APIs mantenibles y seguras.",
+    "Programadores Fullstack que necesitan conectar clientes web con backends robustos."
+  ],
+  "modules": [
+    {
+      "id": "modulo-1-express-core",
+      "title": "Módulo 1: Servidor HTTP y Middlewares en Express",
+      "lessons": [
+        {
+          "id": "01-fundamentos-express-y-middlewares",
+          "title": "1. Express Core: Servidores, Rutas HTTP y Middlewares",
+          "file": "lessons/01-fundamentos-express-y-middlewares.md",
+          "duration": "50 min",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-arquitectura-y-validacion",
+      "title": "Módulo 2: Arquitectura Modular y Validación de Datos",
+      "lessons": [
+        {
+          "id": "02-arquitectura-modular-en-capas",
+          "title": "2. Arquitectura Limpia Modular: Routes, Controller, Service y Model",
+          "file": "lessons/02-arquitectura-modular-en-capas.md",
+          "duration": "60 min",
+          "xp": 75
+        },
+        {
+          "id": "03-validacion-de-datos-con-zod",
+          "title": "3. Validación Schematizada de Payloads con Zod y Error Handler",
+          "file": "lessons/03-validacion-de-datos-con-zod.md",
+          "duration": "50 min",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "modulo-3-persistencia-y-seguridad",
+      "title": "Módulo 3: Bases de Datos y Seguridad Avanzada con JWT",
+      "lessons": [
+        {
+          "id": "04-persistencia-con-bases-de-datos",
+          "title": "4. Persistencia en Base de Datos Relacional (Connection Pool y SQL)",
+          "file": "lessons/04-persistencia-con-bases-de-datos.md",
+          "duration": "65 min",
+          "xp": 100
+        },
+        {
+          "id": "05-autenticacion-jwt-bcrypt-y-rbac",
+          "title": "5. Autenticación con JWT, Cookies httpOnly, Bcrypt y Roles (RBAC)",
+          "file": "lessons/05-autenticacion-jwt-bcrypt-y-rbac.md",
+          "duration": "75 min",
+          "xp": 150
+        }
+      ]
+    }
+  ]
+}

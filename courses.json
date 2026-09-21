@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-09-21",
+  "courses": [
+    {
+      "id": "nodejs-esencial",
+      "slug": "nodejs-esencial",
+      "title": "Node.js Fundamentos: JavaScript en el Servidor",
+      "description": "Aprende a ejecutar JavaScript fuera del navegador. Domina el Event Loop, el sistema de módulos ES6, NPM, el sistema de archivos y scripts CLI.",
+      "category": "backend",
+      "level": "Principiante",
+      "duration": "3 Horas",
+      "icon": "fa-brands fa-node-js",
+      "badgeColor": "mint",
+      "totalLessons": 4,
+      "tags": ["Node.js", "JavaScript", "Backend", "NPM", "Event Loop", "CLI"],
+      "requirements": [
+        "Fundamentos de JavaScript (ES6+)",
+        "Manejo básico de la terminal de comandos"
+      ],
+      "objectives": [
+        "Comprender la arquitectura no bloqueante y el Event Loop de Node.js.",
+        "Gestionar paquetes y dependencias con NPM y ES Modules.",
+        "Manipular archivos y rutas del sistema operativo de forma asíncrona con fs y path.",
+        "Crear utilidades de línea de comandos (CLI) con variables de entorno."
+      ],
+      "project": {
+        "title": "Analizador de Archivos y Generador de Reportes CLI",
+        "description": "Construirás un script ejecutable por consola capaz de escanear directorios, leer archivos de forma asíncrona y generar reportes analíticos en formato JSON.",
+        "deliverables": [
+          "Script ejecutable con procesamiento de argumentos de consola (process.argv)",
+          "Manipulación de sistema de archivos usando fs/promises y path",
+          "Manejo de variables de entorno y scripts configurados en package.json"
+        ]
+      },
+      "targetAudience": [
+        "Desarrolladores JavaScript que quieren iniciar en el desarrollo de servidores.",
+        "Estudiantes que buscan dominar herramientas CLI y automatización con Node.js."
+      ]
+    },
+    {
+      "id": "express-api-rest",
+      "slug": "express-api-rest",
+      "title": "Creación de APIs REST con Express y Bases de Datos",
+      "description": "Domina Express.js creando servicios web profesionales con arquitectura modular en capas, validación con Zod, base de datos y seguridad JWT.",
+      "category": "api",
+      "level": "Intermedio",
+      "duration": "5 Horas",
+      "icon": "fa-solid fa-server",
+      "badgeColor": "orange",
+      "totalLessons": 5,
+      "tags": ["Express", "API REST", "Node.js", "Zod", "JWT", "Bcrypt", "MySQL", "SQLite"],
+      "requirements": [
+        "Fundamentos de Node.js y ES Modules",
+        "JavaScript asíncrono (Promises y async/await)"
+      ],
+      "objectives": [
+        "Construir servidores HTTP robustos con Express y middlewares personalizados.",
+        "Implementar una arquitectura limpia modular en 4 capas (Routes, Controller, Service, Model).",
+        "Validar peticiones HTTP de forma estricta con esquemas Zod.",
+        "Conectar la API con bases de datos relacionales usando Connection Pools y sentencias SQL.",
+        "Implementar un sistema completo de autenticación JWT con contraseñas encriptadas y roles (RBAC)."
+      ],
+      "project": {
+        "title": "API RESTful Profesional de Gestión y Autenticación de Usuarios",
+        "description": "Construirás una API segura de producción con endpoints de registro, login, cookies seguras, hashing con bcryptjs, JWT y control de roles.",
+        "deliverables": [
+          "Arquitectura modular separada en capas limpias (Routes, Controllers, Services, Models)",
+          "Middleware centralizado de validación con Zod y manejo global de errores",
+          "Endpoints autenticados con JWT en cookies httpOnly y permisos por rol (Admin/User)"
+        ]
+      },
+      "targetAudience": [
+        "Desarrolladores Backend que desean estructurar APIs mantenibles y seguras.",
+        "Programadores Fullstack que necesitan conectar clientes web con backends robustos."
+      ]
+    },
+    {
+      "id": "react-esencial",
+      "slug": "react-esencial",
+      "title": "React Esencial: Desarrollo Frontend Moderno con Vite",
+      "description": "Aprende React 18+ desde cero con Vite. Domina JSX, componentes, Hooks (useState, useEffect), consumo de APIs, estado global con Context e integración Fullstack.",
+      "category": "frontend",
+      "level": "Principiante - Intermedio",
+      "duration": "6 Horas",
+      "icon": "fa-brands fa-react",
+      "badgeColor": "cyan",
+      "totalLessons": 6,
+      "tags": ["React", "Vite", "JavaScript", "JSX", "Hooks", "Context API", "Frontend"],
+      "requirements": [
+        "HTML5 y CSS3 intermedio",
+        "JavaScript moderno (ES6+, Arrow Functions, Destructuring, Promises)"
+      ],
+      "objectives": [
+        "Crear aplicaciones web reactivas y rápidas configuradas con Vite.",
+        "Construir componentes funcionales modulares y dominar el flujo de datos con Props.",
+        "Gestionar el estado local con useState y efectos secundarios de red con useEffect.",
+        "Diseñar componentes de UI interactivos (Modales, Drawers) y formularios controlados.",
+        "Manejar el estado global de la aplicación utilizando React Context (Auth y Carrito).",
+        "Integrar React con un backend Express mediante proxy de desarrollo y consumo de APIs."
+      ],
+      "project": {
+        "title": "Aplicación Web Fullstack e-Commerce con Carrito y Autenticación",
+        "description": "Crearás una SPA (Single Page Application) completa con catálogo de productos, carrito de compras reactivo con Context API, login de usuarios y consumo de API REST.",
+        "deliverables": [
+          "Componentes de UI modulares y reutilizables",
+          "Consumo de API REST asíncrona con manejo de carga y errores",
+          "Estado global con CartContext y AuthContext con persistencia en localStorage"
+        ]
+      },
+      "targetAudience": [
+        "Desarrolladores Frontend que quieren aprender React con la pila de herramientas moderna.",
+        "Estudiantes Fullstack que buscan conectar sus conocimientos backend con interfaces interactivas."
+      ]
+    }
+  ]
+}

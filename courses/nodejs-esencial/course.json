@@ -1,0 +1,77 @@
+{
+  "id": "nodejs-esencial",
+  "slug": "nodejs-esencial",
+  "title": "Node.js Fundamentos: JavaScript en el Servidor",
+  "description": "Aprende a ejecutar JavaScript fuera del navegador. Domina el Event Loop, el sistema de módulos ES6, NPM, el sistema de archivos y scripts CLI.",
+  "category": "backend",
+  "level": "Principiante",
+  "duration": "3 Horas",
+  "icon": "fa-brands fa-node-js",
+  "badgeColor": "mint",
+  "author": "EduXP Community Team",
+  "requirements": [
+    "Fundamentos de JavaScript (ES6+, funciones flecha, promesas)",
+    "Manejo básico de la terminal de comandos (bash/zsh)"
+  ],
+  "objectives": [
+    "Comprender la arquitectura no bloqueante y el Event Loop de Node.js.",
+    "Gestionar paquetes y dependencias con NPM y ES Modules.",
+    "Manipular archivos y rutas del sistema operativo de forma asíncrona con fs y path.",
+    "Crear utilidades de línea de comandos (CLI) con variables de entorno."
+  ],
+  "project": {
+    "title": "Analizador de Archivos y Generador de Reportes CLI",
+    "description": "Construirás un script ejecutable por consola capaz de escanear directorios, leer archivos de forma asíncrona y generar reportes analíticos en formato JSON.",
+    "deliverables": [
+      "Script ejecutable con procesamiento de argumentos de consola (process.argv)",
+      "Manipulación de sistema de archivos usando fs/promises y path",
+      "Manejo de variables de entorno y scripts configurados en package.json"
+    ]
+  },
+  "targetAudience": [
+    "Desarrolladores JavaScript que quieren iniciar en el desarrollo de servidores.",
+    "Estudiantes que buscan dominar herramientas CLI y automatización con Node.js."
+  ],
+  "modules": [
+    {
+      "id": "modulo-1-fundamentos",
+      "title": "Módulo 1: Fundamentos y Motor de Ejecución",
+      "lessons": [
+        {
+          "id": "01-introduccion-y-event-loop",
+          "title": "1. Introducción a Node.js y la Arquitectura No Bloqueante",
+          "file": "lessons/01-introduccion-y-event-loop.md",
+          "duration": "40 min",
+          "xp": 50
+        },
+        {
+          "id": "02-modulos-es6-y-npm",
+          "title": "2. ES Modules, package.json y Ecosistema NPM",
+          "file": "lessons/02-modulos-es6-y-npm.md",
+          "duration": "45 min",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-operaciones-y-cli",
+      "title": "Módulo 2: Operaciones I/O y Herramientas CLI",
+      "lessons": [
+        {
+          "id": "03-sistema-de-archivos-fs-path",
+          "title": "3. Manejo del Sistema de Archivos con fs/promises y path",
+          "file": "lessons/03-sistema-de-archivos-fs-path.md",
+          "duration": "50 min",
+          "xp": 75
+        },
+        {
+          "id": "04-variables-entorno-y-cli",
+          "title": "4. Variables de Entorno, dotenv y Scripts de Consola CLI",
+          "file": "lessons/04-variables-entorno-y-cli.md",
+          "duration": "45 min",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}
