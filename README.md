@@ -10,8 +10,6 @@ Repositorio oficial de contenidos educativos y catálogo maestro de cursos para 
 Content_EduXP_git/
 ├── README.md                      # Documentación principal del repositorio
 ├── courses.json                   # Registro maestro del catálogo de cursos
-├── CURSO_SPEC.md                  # Especificación técnica del estándar EduXP Spec v1.0
-├── GUIA_CREACION_CURSOS.md        # Guía paso a paso para creadores de cursos
 └── courses/                       # Contenido individual de los cursos
     ├── nodejs-esencial/           # Curso: Node.js Fundamentos
     │   ├── course.json            # Manifiesto y temario del curso
@@ -72,18 +70,6 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
   4. [`04-componentes-ui-y-formularios.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/04-componentes-ui-y-formularios.md)
   5. [`05-estado-global-con-usecontext.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/05-estado-global-con-usecontext.md)
   6. [`06-autenticacion-y-integracion-fullstack.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/06-autenticacion-y-integracion-fullstack.md)
-
----
-
-## Especificaciones Técnicas y Documentación
-
-Para obtener más detalles sobre el estándar de estructuración e integración con EduXP, puedes consultar las siguientes guías del repositorio:
-
-* **Especificación Técnica (EduXP Spec v1.0):** [`CURSO_SPEC.md`](file:///home/randolh/Documents/Content_EduXP_git/CURSO_SPEC.md)
-  * Esquemas JSON de `courses.json` y `course.json`.
-  * Reglas para metadatos, lecciones en Markdown e integración frontend.
-* **Guía para Creadores de Cursos:** [`GUIA_CREACION_CURSOS.md`](file:///home/randolh/Documents/Content_EduXP_git/GUIA_CREACION_CURSOS.md)
-  * Instrucciones paso a paso para añadir nuevas lecciones y cursos al catálogo.
 
 ---
 
