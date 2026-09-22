@@ -78,38 +78,41 @@
     {
       "id": "react-esencial",
       "slug": "react-esencial",
-      "title": "React Esencial Paso a Paso con Vite",
-      "description": "Aprende desarrollo frontend moderno con React desde cero. Incluye preparación completa del entorno (Node.js, NPM, NPX) y lecciones atómicas por concepto.",
+      "title": "React Esencial y Avanzado Paso a Paso con Vite",
+      "description": "Aprende desarrollo frontend profesional con React desde cero hasta nivel avanzado. Incluye Hooks fundamentales y avanzados, consumo de APIs, React Router, Context API, optimización y un Proyecto Final Integrador E-Commerce.",
       "category": "frontend",
-      "level": "Principiante",
-      "duration": "5 Horas",
+      "level": "Principiante a Avanzado",
+      "duration": "12 Horas",
       "icon": "fa-brands fa-react",
       "badgeColor": "cyan",
-      "totalLessons": 9,
-      "tags": ["React", "Vite", "JavaScript", "JSX", "Hooks", "Componentes", "Frontend"],
+      "totalLessons": 21,
+      "tags": ["React", "Vite", "JavaScript", "JSX", "Hooks", "Context API", "React Router", "Custom Hooks", "Frontend"],
       "requirements": [
-        "HTML5, CSS3 y JavaScript básico (variables, funciones flecha)",
-        "No se requiere experiencia previa con Node.js o React"
+        "HTML5, CSS3 y JavaScript moderno (variables, funciones flecha, destructuring, promesas)",
+        "No se requiere experiencia previa con React"
       ],
       "objectives": [
-        "Instalar Node.js, NPM y comprender el uso del comando NPX.",
         "Crear aplicaciones React ultrarrápidas configuradas con Vite.",
-        "Comprender la sintaxis declarativa de JSX para crear interfaces.",
-        "Construir componentes funcionales modulares y transmitir datos con Props.",
-        "Manejar la reactividad con el Hook useState y eventos."
+        "Comprender la sintaxis declarativa de JSX, Componentes y Props.",
+        "Dominar los Hooks fundamentales y avanzados: useState, useEffect, useRef, useReducer, useMemo, useCallback.",
+        "Consumir APIs REST asíncronas manejando estados de carga y errores.",
+        "Implementar formularios controlados con validación.",
+        "Construir aplicaciones multi-página con React Router v6 y administrar el estado global con Context API.",
+        "Desarrollar una aplicación E-Commerce interactiva como Proyecto Final."
       ],
       "project": {
-        "title": "Aplicación de Lista de Tareas Interactiva (Todo App)",
-        "description": "Desarrollarás una aplicación interactiva que permite agregar, listar y marcar elementos como completados en tiempo real.",
+        "title": "Dashboard E-Commerce de Productos (EduXP Store App)",
+        "description": "Desarrollarás una aplicación completa de tienda online que consume una API pública, maneja catálogo con filtros, carrito de compras global persistente en localStorage, navegación con rutas dinámicas y formulario de checkout.",
         "deliverables": [
-          "Instalación de entorno verificada con node, npm y npx",
-          "Componentes de UI modulares (Formulario, Lista, Item)",
-          "Manejo de estado local con el Hook useState"
+          "Catálogo dinámico consumiendo API REST con estados de loading y error",
+          "Carrito de compras global con Context API y persistencia en localStorage",
+          "Navegación multi-página con React Router v6 y vista detallada por producto",
+          "Optimización con Custom Hooks e interfaz interactiva responsiva"
         ]
       },
       "targetAudience": [
-        "Desarrolladores Web que desean aprender la librería frontend más demandada del mercado desde cero.",
-        "Estudiantes que necesitan configurar su entorno de desarrollo antes de construir aplicaciones."
+        "Desarrolladores Web que buscan dominar React desde cero hasta nivel profesional.",
+        "Desarrolladores Frontend que desean dominar Hooks avanzados, React Router y gestión de estado global."
       ]
     },
     {

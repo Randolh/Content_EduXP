@@ -1,37 +1,43 @@
 {
   "id": "react-esencial",
   "slug": "react-esencial",
-  "title": "React Esencial Paso a Paso con Vite",
-  "description": "Aprende desarrollo frontend moderno con React desde cero. Incluye preparación completa del entorno (Node.js, NPM, NPX) y lecciones atómicas por concepto.",
+  "title": "React Esencial y Avanzado Paso a Paso con Vite",
+  "description": "Aprende desarrollo frontend profesional con React desde cero hasta nivel avanzado. Incluye Hooks fundamentales y avanzados, consumo de APIs, React Router, Context API, optimización y un Proyecto Final Integrador E-Commerce.",
   "category": "frontend",
-  "level": "Principiante",
-  "duration": "5 Horas",
+  "level": "Principiante a Avanzado",
+  "duration": "12 Horas",
   "icon": "fa-brands fa-react",
   "badgeColor": "cyan",
   "author": "EduXP Community Team",
   "requirements": [
-    "HTML5, CSS3 y JavaScript básico (variables, funciones flecha)",
-    "No se requiere experiencia previa con Node.js o React"
+    "HTML5, CSS3 y JavaScript moderno (variables, funciones flecha, destructuring, promesas)",
+    "No se requiere experiencia previa con React"
   ],
   "objectives": [
-    "Instalar Node.js, NPM y comprender el uso del comando NPX.",
     "Crear aplicaciones React ultrarrápidas configuradas con Vite.",
-    "Comprender la sintaxis declarativa de JSX para crear interfaces.",
-    "Construir componentes funcionales modulares y transmitir datos con Props.",
-    "Manejar la reactividad con el Hook useState y eventos."
+    "Comprender la sintaxis declarativa de JSX, Componentes y Props.",
+    "Dominar los Hooks fundamentales: useState, useEffect y useRef.",
+    "Consumir APIs REST asíncronas manejando estados de carga y errores.",
+    "Implementar formularios controlados con validación.",
+    "Gestionar estados complejos con useReducer y crear Custom Hooks reutilizables.",
+    "Optimizar el rendimiento de la app con useMemo, useCallback y React.lazy.",
+    "Construir aplicaciones multi-página con React Router v6.",
+    "Administrar el estado global de la aplicación con Context API.",
+    "Desarrollar una aplicación E-Commerce interactiva como Proyecto Final."
   ],
   "project": {
-    "title": "Aplicación de Lista de Tareas Interactiva (Todo App)",
-    "description": "Desarrollarás una aplicación interactiva que permite agregar, listar y marcar elementos como completados en tiempo real.",
+    "title": "Dashboard E-Commerce de Productos (EduXP Store App)",
+    "description": "Desarrollarás una aplicación completa de tienda online que consume una API pública, maneja catálogo con filtros, carrito de compras global persistente en localStorage, navegación con rutas dinámicas y formulario de checkout.",
     "deliverables": [
-      "Instalación de entorno verificada con node, npm y npx",
-      "Componentes de UI modulares (Formulario, Lista, Item)",
-      "Manejo de estado local con el Hook useState"
+      "Catálogo dinámico consumiendo API REST con estados de loading y error",
+      "Carrito de compras global con Context API y persistencia en localStorage",
+      "Navegación multi-página con React Router v6 y vista detallada por producto",
+      "Optimización con Custom Hooks e interfaz interactiva responsiva"
     ]
   },
   "targetAudience": [
-    "Desarrolladores Web que desean aprender la librería frontend más demandada del mercado desde cero.",
-    "Estudiantes que necesitan configurar su entorno de desarrollo antes de construir aplicaciones."
+    "Desarrolladores Web que buscan dominar React desde cero hasta nivel profesional.",
+    "Desarrolladores Frontend que desean dominar Hooks avanzados, React Router y gestión de estado global."
   ],
   "modules": [
     {
@@ -77,7 +83,7 @@
     },
     {
       "id": "modulo-2-props-y-hooks",
-      "title": "Módulo 2: Props, Estado y Hooks",
+      "title": "Módulo 2: Props, Estado y Hooks Básicos",
       "lessons": [
         {
           "id": "06-propiedades-props",
@@ -106,6 +112,120 @@
           "file": "lessons/09-efectos-con-useeffect.md",
           "duration": "30 min",
           "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "modulo-3-listas-y-apis",
+      "title": "Módulo 3: Renderizado Condicional, Listas y APIs",
+      "lessons": [
+        {
+          "id": "10-renderizado-condicional",
+          "title": "10. Renderizado Condicional: Ternarios y Operador &&",
+          "file": "lessons/10-renderizado-condicional.md",
+          "duration": "25 min",
+          "xp": 40
+        },
+        {
+          "id": "11-listas-y-llaves-keys",
+          "title": "11. Renderizado de Listas y la importancia de la Prop key",
+          "file": "lessons/11-listas-y-llaves-keys.md",
+          "duration": "25 min",
+          "xp": 40
+        },
+        {
+          "id": "12-consumo-de-apis-fetch-async",
+          "title": "12. Consumo de APIs REST con fetch y async/await",
+          "file": "lessons/12-consumo-de-apis-fetch-async.md",
+          "duration": "35 min",
+          "xp": 55
+        },
+        {
+          "id": "13-formularios-controlados",
+          "title": "13. Formularios Controlados y Validaciones",
+          "file": "lessons/13-formularios-controlados.md",
+          "duration": "30 min",
+          "xp": 45
+        }
+      ]
+    },
+    {
+      "id": "modulo-4-hooks-avanzados",
+      "title": "Módulo 4: Hooks Avanzados y Custom Hooks",
+      "lessons": [
+        {
+          "id": "14-useref-y-dom",
+          "title": "14. Manipulación del DOM y Referencias Mutables con useRef",
+          "file": "lessons/14-useref-y-dom.md",
+          "duration": "25 min",
+          "xp": 45
+        },
+        {
+          "id": "15-usereducer-estado-complejo",
+          "title": "15. Manejo de Estado Complejo con useReducer",
+          "file": "lessons/15-usereducer-estado-complejo.md",
+          "duration": "35 min",
+          "xp": 55
+        },
+        {
+          "id": "16-custom-hooks-reutilizacion",
+          "title": "16. Creación de Custom Hooks Reutilizables",
+          "file": "lessons/16-custom-hooks-reutilizacion.md",
+          "duration": "35 min",
+          "xp": 60
+        },
+        {
+          "id": "17-optimizacion-usememo-usecallback",
+          "title": "17. Optimización de Rendimiento con useMemo y useCallback",
+          "file": "lessons/17-optimizacion-usememo-usecallback.md",
+          "duration": "35 min",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "modulo-5-enrutamiento",
+      "title": "Módulo 5: Enrutamiento y Navegación SPA",
+      "lessons": [
+        {
+          "id": "18-react-router-navegacion",
+          "title": "18. Navegación Multi-página con React Router v6",
+          "file": "lessons/18-react-router-navegacion.md",
+          "duration": "40 min",
+          "xp": 65
+        }
+      ]
+    },
+    {
+      "id": "modulo-6-estado-global",
+      "title": "Módulo 6: Estado Global y Arquitectura Avanzada",
+      "lessons": [
+        {
+          "id": "19-context-api-estado-global",
+          "title": "19. Gestión de Estado Global con Context API",
+          "file": "lessons/19-context-api-estado-global.md",
+          "duration": "40 min",
+          "xp": 70
+        },
+        {
+          "id": "20-optimizacion-lazy-loading",
+          "title": "20. Carga bajo demanda con React.lazy y Suspense",
+          "file": "lessons/20-optimizacion-lazy-loading.md",
+          "duration": "30 min",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "modulo-7-proyecto-final",
+      "title": "Módulo 7: Proyecto Integrador Final",
+      "lessons": [
+        {
+          "id": "21-proyecto-final-dashboard-ecommerce",
+          "title": "21. Proyecto Final Integrador: EduXP Store App",
+          "file": "lessons/21-proyecto-final-dashboard-ecommerce.md",
+          "duration": "60 min",
+          "xp": 100
         }
       ]
     }
