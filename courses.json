@@ -123,14 +123,14 @@
       "id": "git-github-esencial",
       "slug": "git-github-esencial",
       "title": "Git y GitHub: Paso a Paso para Principiantes",
-      "description": "Aprende control de versiones con Git y GitHub desde cero. Lecciones cortas focalizadas en un único concepto a la vez: comandos, commits, ramas y GitHub.",
+      "description": "Aprende control de versiones con Git y GitHub desde cero. Lecciones cortas focalizadas en comandos, commits, ramas, sincronización con GitHub y técnicas avanzadas de restauración (restore, reset, revert).",
       "category": "tools",
       "level": "Principiante",
-      "duration": "4 Horas",
+      "duration": "5 Horas",
       "icon": "fa-brands fa-git-alt",
       "badgeColor": "orange",
-      "totalLessons": 8,
-      "tags": ["Git", "GitHub", "DevOps", "Terminal", "Commits", "Ramas"],
+      "totalLessons": 11,
+      "tags": ["Git", "GitHub", "DevOps", "Terminal", "Commits", "Ramas", "Restore", "Reset", "Revert"],
       "requirements": [
         "Manejo básico de la terminal de comandos (bash, zsh o PowerShell)",
         "No requiere experiencia previa con Git"
@@ -139,20 +139,63 @@
         "Comprender el concepto de control de versiones y los 3 estados de Git.",
         "Instalar Git, configurar tu identidad y realizar tu primer commit.",
         "Navegar por el historial de cambios y trabajar con ramas independientes.",
-        "Subir tu código a GitHub para respaldarlo y compartirlo."
+        "Subir tu código a GitHub para respaldarlo y compartirlo.",
+        "Deshacer cambios y restaurar archivos del entorno de trabajo con git restore.",
+        "Mover la línea de tiempo y punteros con git reset (--soft, --mixed, --hard).",
+        "Revertir commits de forma segura en entornos remotos compartidos con git revert."
       ],
       "project": {
-        "title": "Creación y Publicación de tu Primer Repositorio en GitHub",
-        "description": "Construirás un proyecto desde cero en tu computadora, gestionarás sus cambios en el historial local y lo subirás a tu cuenta de GitHub.",
+        "title": "Creación, Publicación y Gestión de Restauración en GitHub",
+        "description": "Construirás un proyecto desde cero en tu computadora, gestionarás sus cambios en el historial local, aplicarás técnicas de recuperación/restauración de archivos y lo subirás a tu cuenta de GitHub.",
         "deliverables": [
           "Repositorio Git configurado con commits limpios",
           "Uso de ramas para separar funcionalidades",
+          "Uso práctico de git restore, git reset y git revert para corregir errores",
           "Proyecto publicado en GitHub mediante git push"
         ]
       },
       "targetAudience": [
         "Estudiantes y desarrolladores que inician en el desarrollo de software.",
-        "Cualquier persona que necesite guardar y respaldar versiones de sus archivos."
+        "Cualquier persona que necesite guardar, respaldar y recuperar versiones de sus archivos."
+      ]
+    },
+    {
+      "id": "bash-terminal-esencial",
+      "slug": "bash-terminal-esencial",
+      "title": "Terminal y Bash: Comandos de Consola y Scripts Paso a Paso",
+      "description": "Aprende a dominar la línea de comandos de Linux y macOS desde cero. Navegación de archivos, permisos, tuberías, redirecciones, variables de entorno y automatización con scripts en Bash.",
+      "category": "tools",
+      "level": "Principiante",
+      "duration": "5 Horas",
+      "icon": "fa-solid fa-terminal",
+      "badgeColor": "mint",
+      "totalLessons": 9,
+      "tags": ["Bash", "Terminal", "Linux", "CLI", "Shell", "Scripting", "DevOps"],
+      "requirements": [
+        "No se requiere experiencia previa en programación o terminal",
+        "Acceso a una consola Linux, macOS o WSL / Git Bash en Windows"
+      ],
+      "objectives": [
+        "Comprender el concepto de Shell, Terminal y sintaxis de comandos Bash.",
+        "Navegar ágilmente por el sistema de archivos (pwd, cd, ls).",
+        "Crear, copiar, mover, renombrar y eliminar archivos y carpetas.",
+        "Visualizar y filtrar contenidos de texto (cat, less, head, tail, grep, find).",
+        "Gestionar permisos de acceso y ejecutables con chmod y chown.",
+        "Redireccionar entrada/salida de datos y conectar comandos con tuberías (|).",
+        "Escribir scripts automatizados en Bash (.sh) utilizando variables y alias."
+      ],
+      "project": {
+        "title": "Script de Organización y Limpieza Automática en Bash",
+        "description": "Construirás un script Bash ejecutable (.sh) que escanea una carpeta, clasifica archivos por extensión, elimina datos temporales obsoletos y genera un reporte de ejecución.",
+        "deliverables": [
+          "Script ejecutable .sh con shebang #!/bin/bash y permisos chmod +x",
+          "Uso de variables, estructuras condicionales y comandos de sistema (mkdir, mv, rm)",
+          "Redirección de salidas y reportes impresos en consola"
+        ]
+      },
+      "targetAudience": [
+        "Estudiantes y desarrolladores que desean perder el miedo a la consola de comandos.",
+        "Programadores Frontend y Backend que buscan automatizar tareas repetitivas en su flujo de trabajo."
       ]
     },
     {

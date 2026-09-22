@@ -1,0 +1,115 @@
+{
+  "id": "bash-terminal-esencial",
+  "slug": "bash-terminal-esencial",
+  "title": "Terminal y Bash: Comandos de Consola y Scripts Paso a Paso",
+  "description": "Aprende a dominar la línea de comandos de Linux y macOS desde cero. Navegación de archivos, permisos, tuberías, redirecciones, variables de entorno y automatización con scripts en Bash.",
+  "category": "tools",
+  "level": "Principiante",
+  "duration": "5 Horas",
+  "icon": "fa-solid fa-terminal",
+  "badgeColor": "mint",
+  "author": "EduXP Community Team",
+  "requirements": [
+    "No se requiere experiencia previa en programación o terminal",
+    "Acceso a una consola Linux, macOS o WSL / Git Bash en Windows"
+  ],
+  "objectives": [
+    "Comprender el concepto de Shell, Terminal y sintaxis de comandos Bash.",
+    "Navegar ágilmente por el sistema de archivos (pwd, cd, ls).",
+    "Crear, copiar, mover, renombrar y eliminar archivos y carpetas.",
+    "Visualizar y filtrar contenidos de texto (cat, less, head, tail, grep, find).",
+    "Gestionar permisos de acceso y ejecutables con chmod y chown.",
+    "Redireccionar entrada/salida de datos y conectar comandos con tuberías (|).",
+    "Escribir scripts automatizados en Bash (.sh) utilizando variables y alias."
+  ],
+  "project": {
+    "title": "Script de Organización y Limpieza Automática en Bash",
+    "description": "Construirás un script Bash ejecutable (.sh) que escanea una carpeta, clasifica archivos por extensión, elimina datos temporales obsoletos y genera un reporte de ejecución.",
+    "deliverables": [
+      "Script ejecutable .sh con shebang #!/bin/bash y permisos chmod +x",
+      "Uso de variables, estructuras condicionales y comandos de sistema (mkdir, mv, rm)",
+      "Redirección de salidas y reportes impresos en consola"
+    ]
+  },
+  "targetAudience": [
+    "Estudiantes y desarrolladores que desean perder el miedo a la consola de comandos.",
+    "Programadores Frontend y Backend que buscan automatizar tareas repetitivas en su flujo de trabajo."
+  ],
+  "modules": [
+    {
+      "id": "modulo-1-fundamentos-y-archivos",
+      "title": "Módulo 1: Fundamentos, Navegación y Archivos",
+      "lessons": [
+        {
+          "id": "01-introduccion-a-bash-y-terminal",
+          "title": "1. ¿Qué es la Terminal, la Shell y Bash?",
+          "file": "lessons/01-introduccion-a-bash-y-terminal.md",
+          "duration": "15 min",
+          "xp": 25
+        },
+        {
+          "id": "02-navegacion-del-sistema-de-archivos",
+          "title": "2. Navegación del Sistema de Archivos (pwd, ls, cd)",
+          "file": "lessons/02-navegacion-del-sistema-de-archivos.md",
+          "duration": "20 min",
+          "xp": 30
+        },
+        {
+          "id": "03-gestion-de-archivos-y-directorios",
+          "title": "3. Crear, Copiar, Mover y Eliminar (mkdir, cp, mv, rm)",
+          "file": "lessons/03-gestion-de-archivos-y-directorios.md",
+          "duration": "25 min",
+          "xp": 35
+        },
+        {
+          "id": "04-visualizacion-y-lectura-de-archivos",
+          "title": "4. Lectura e Inspección de Archivos (cat, head, tail, nano)",
+          "file": "lessons/04-visualizacion-y-lectura-de-archivos.md",
+          "duration": "20 min",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-permisos-flujos-y-scripts",
+      "title": "Módulo 2: Permisos, Tuberías y Scripts en Bash",
+      "lessons": [
+        {
+          "id": "05-permisos-de-archivos-y-usuarios",
+          "title": "5. Permisos de Archivos y Usuarios (chmod, chown, sudo)",
+          "file": "lessons/05-permisos-de-archivos-y-usuarios.md",
+          "duration": "25 min",
+          "xp": 40
+        },
+        {
+          "id": "06-busqueda-y-filtrado-grep-find",
+          "title": "6. Búsqueda y Filtrado de Texto (grep, find, wildcard)",
+          "file": "lessons/06-busqueda-y-filtrado-grep-find.md",
+          "duration": "25 min",
+          "xp": 40
+        },
+        {
+          "id": "07-redireccion-y-tuberias-pipes",
+          "title": "7. Redirección de Entrada/Salida y Tuberías (|)",
+          "file": "lessons/07-redireccion-y-tuberias-pipes.md",
+          "duration": "25 min",
+          "xp": 40
+        },
+        {
+          "id": "08-variables-y-primer-script-bash",
+          "title": "8. Variables de Entorno y tu primer Script Bash (.sh)",
+          "file": "lessons/08-variables-y-primer-script-bash.md",
+          "duration": "30 min",
+          "xp": 50
+        },
+        {
+          "id": "09-proyecto-final-script-automatizacion",
+          "title": "9. Proyecto Final Integrador: Script de Automatización Bash",
+          "file": "lessons/09-proyecto-final-script-automatizacion.md",
+          "duration": "45 min",
+          "xp": 80
+        }
+      ]
+    }
+  ]
+}

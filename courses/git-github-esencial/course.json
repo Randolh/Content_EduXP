@@ -2,10 +2,10 @@
   "id": "git-github-esencial",
   "slug": "git-github-esencial",
   "title": "Git y GitHub: Paso a Paso para Principiantes",
-  "description": "Aprende control de versiones con Git y GitHub desde cero. Lecciones cortas focalizadas en un único concepto a la vez: comandos, commits, ramas y GitHub.",
+  "description": "Aprende control de versiones con Git y GitHub desde cero. Lecciones cortas focalizadas en comandos, commits, ramas, sincronización con GitHub y técnicas avanzadas de restauración (restore, reset, revert).",
   "category": "tools",
   "level": "Principiante",
-  "duration": "4 Horas",
+  "duration": "5 Horas",
   "icon": "fa-brands fa-git-alt",
   "badgeColor": "orange",
   "author": "EduXP Community Team",
@@ -17,20 +17,24 @@
     "Comprender el concepto de control de versiones y los 3 estados de Git.",
     "Instalar Git, configurar tu identidad y realizar tu primer commit.",
     "Navegar por el historial de cambios y trabajar con ramas independientes.",
-    "Subir tu código a GitHub para respaldarlo y compartirlo."
+    "Subir tu código a GitHub para respaldarlo y compartirlo.",
+    "Deshacer cambios y restaurar archivos del entorno de trabajo con git restore.",
+    "Mover la línea de tiempo y punteros con git reset (--soft, --mixed, --hard).",
+    "Revertir commits de forma segura en entornos remotos compartidos con git revert."
   ],
   "project": {
-    "title": "Creación y Publicación de tu Primer Repositorio en GitHub",
-    "description": "Construirás un proyecto desde cero en tu computadora, gestionarás sus cambios en el historial local y lo subirás a tu cuenta de GitHub.",
+    "title": "Creación, Publicación y Gestión de Restauración en GitHub",
+    "description": "Construirás un proyecto desde cero en tu computadora, gestionarás sus cambios en el historial local, aplicarás técnicas de recuperación/restauración de archivos y lo subirás a tu cuenta de GitHub.",
     "deliverables": [
       "Repositorio Git configurado con commits limpios",
       "Uso de ramas para separar funcionalidades",
+      "Uso práctico de git restore, git reset y git revert para corregir errores",
       "Proyecto publicado en GitHub mediante git push"
     ]
   },
   "targetAudience": [
     "Estudiantes y desarrolladores que inician en el desarrollo de software.",
-    "Cualquier persona que necesite guardar y respaldar versiones de sus archivos."
+    "Cualquier persona que necesite guardar, respaldar y recuperar versiones de sus archivos."
   ],
   "modules": [
     {
@@ -98,6 +102,33 @@
           "file": "lessons/08-introduccion-a-github.md",
           "duration": "30 min",
           "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "modulo-3-restauracion-y-deshacer",
+      "title": "Módulo 3: Restauración y Deshacer Cambios",
+      "lessons": [
+        {
+          "id": "09-restaurar-archivos-git-restore",
+          "title": "9. Deshacer cambios locales con git restore",
+          "file": "lessons/09-restaurar-archivos-git-restore.md",
+          "duration": "25 min",
+          "xp": 40
+        },
+        {
+          "id": "10-mover-el-historial-git-reset",
+          "title": "10. Mover el historial con git reset (--soft, --mixed, --hard)",
+          "file": "lessons/10-mover-el-historial-git-reset.md",
+          "duration": "30 min",
+          "xp": 50
+        },
+        {
+          "id": "11-deshacer-commits-seguros-git-revert",
+          "title": "11. Revertir commits de forma segura con git revert",
+          "file": "lessons/11-deshacer-commits-seguros-git-revert.md",
+          "duration": "25 min",
+          "xp": 45
         }
       ]
     }
