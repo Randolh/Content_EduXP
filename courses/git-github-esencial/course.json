@@ -1,8 +1,8 @@
 {
   "id": "git-github-esencial",
   "slug": "git-github-esencial",
-  "title": "Git y GitHub: Control de Versiones y Trabajo Colaborativo",
-  "description": "Aprende control de versiones desde cero con Git y colaboración en GitHub. Domina repositorios, commits, ramas, pull requests, fusiones y resolución de conflictos.",
+  "title": "Git y GitHub: Paso a Paso para Principiantes",
+  "description": "Aprende control de versiones con Git y GitHub desde cero. Lecciones cortas focalizadas en un único concepto a la vez: comandos, commits, ramas y GitHub.",
   "category": "tools",
   "level": "Principiante",
   "duration": "4 Horas",
@@ -11,65 +11,93 @@
   "author": "EduXP Community Team",
   "requirements": [
     "Manejo básico de la terminal de comandos (bash, zsh o PowerShell)",
-    "Navegación básica en el sistema de archivos"
+    "No requiere experiencia previa con Git"
   ],
   "objectives": [
-    "Comprender los 3 estados de Git (Working Directory, Staging Area, Local Repository) y la anatomía de un commit.",
-    "Administrar ramas de desarrollo (branches), realizar fusiones (merges) y resolver conflictos de código.",
-    "Conectar repositorios locales con GitHub mediante remotos (origin, push, fetch, pull).",
-    "Colaborar en proyectos de código mediante Forks, Pull Requests, revisiones de código e Issues."
+    "Comprender el concepto de control de versiones y los 3 estados de Git.",
+    "Instalar Git, configurar tu identidad y realizar tu primer commit.",
+    "Navegar por el historial de cambios y trabajar con ramas independientes.",
+    "Subir tu código a GitHub para respaldarlo y compartirlo."
   ],
   "project": {
-    "title": "Publicación Colaborativa y Flujo de Trabajo Git Flow en GitHub",
-    "description": "Inicializarás un proyecto local con control de versiones, crearás ramas para nuevas funcionalidades, lo vincularás a un repositorio remoto en GitHub y realizarás un Pull Request con resolución de conflictos.",
+    "title": "Creación y Publicación de tu Primer Repositorio en GitHub",
+    "description": "Construirás un proyecto desde cero en tu computadora, gestionarás sus cambios en el historial local y lo subirás a tu cuenta de GitHub.",
     "deliverables": [
-      "Historial de commits estructurado siguiendo convenciones (Conventional Commits)",
-      "Gestión de ramas independientes (main, feature/nueva-vista)",
-      "Pull Request creado y fusionado en GitHub con documentación integrada"
+      "Repositorio Git configurado con commits limpios",
+      "Uso de ramas para separar funcionalidades",
+      "Proyecto publicado en GitHub mediante git push"
     ]
   },
   "targetAudience": [
-    "Estudiantes y desarrolladores que inician en el desarrollo de software y necesitan llevar control de sus proyectos.",
-    "Equipos que buscan adoptar un flujo de trabajo colaborativo estandarizado con Git y GitHub."
+    "Estudiantes y desarrolladores que inician en el desarrollo de software.",
+    "Cualquier persona que necesite guardar y respaldar versiones de sus archivos."
   ],
   "modules": [
     {
-      "id": "modulo-1-fundamentos-git",
-      "title": "Módulo 1: Fundamentos de Git y Repositorio Local",
+      "id": "modulo-1-fundamentos-locales",
+      "title": "Módulo 1: Fundamentos y Trabajo Local",
       "lessons": [
         {
-          "id": "01-introduccion-a-git-y-configuracion",
-          "title": "1. Introducción a Git, Configuración Global y Estados del Repositorio",
-          "file": "lessons/01-introduccion-a-git-y-configuracion.md",
-          "duration": "45 min",
-          "xp": 50
+          "id": "01-que-es-git",
+          "title": "1. ¿Qué es el Control de Versiones y por qué usar Git?",
+          "file": "lessons/01-que-es-git.md",
+          "duration": "15 min",
+          "xp": 25
         },
         {
-          "id": "02-commits-historial-y-ramas",
-          "title": "2. Commits, Historial (git log), Ramas y Fusiones Básicas",
-          "file": "lessons/02-commits-historial-y-ramas.md",
-          "duration": "50 min",
-          "xp": 75
+          "id": "02-instalacion-y-configuracion",
+          "title": "2. Instalación de Git y Configuración Inicial (git config)",
+          "file": "lessons/02-instalacion-y-configuracion.md",
+          "duration": "20 min",
+          "xp": 30
+        },
+        {
+          "id": "03-primer-repositorio-y-commits",
+          "title": "3. Tu Primer Repositorio (git init, add y commit)",
+          "file": "lessons/03-primer-repositorio-y-commits.md",
+          "duration": "25 min",
+          "xp": 35
+        },
+        {
+          "id": "04-estado-y-diferencias",
+          "title": "4. Consultar el Estado y Cambios (git status)",
+          "file": "lessons/04-estado-y-diferencias.md",
+          "duration": "20 min",
+          "xp": 30
         }
       ]
     },
     {
-      "id": "modulo-2-colaboracion-github",
-      "title": "Módulo 2: Colaboración en GitHub y Flujos de Trabajo",
+      "id": "modulo-2-ramas-y-github",
+      "title": "Módulo 2: Historial, Ramas y Conexión con GitHub",
       "lessons": [
         {
-          "id": "03-remotos-github-push-pull",
-          "title": "3. Conexión con GitHub, Remotos (origin), Push y Pull",
-          "file": "lessons/03-remotos-github-push-pull.md",
-          "duration": "50 min",
-          "xp": 75
+          "id": "05-historial-de-cambios",
+          "title": "5. Inspeccionar el Historial (git log)",
+          "file": "lessons/05-historial-de-cambios.md",
+          "duration": "20 min",
+          "xp": 30
         },
         {
-          "id": "04-pull-requests-conflictos-y-colaboracion",
-          "title": "4. Pull Requests, Resolución de Conflictos y Buenas Prácticas",
-          "file": "lessons/04-pull-requests-conflictos-y-colaboracion.md",
-          "duration": "55 min",
-          "xp": 100
+          "id": "06-trabajar-con-ramas",
+          "title": "6. Trabajar con Ramas (git branch y git switch)",
+          "file": "lessons/06-trabajar-con-ramas.md",
+          "duration": "25 min",
+          "xp": 40
+        },
+        {
+          "id": "07-fusionar-ramas",
+          "title": "7. Unir Ramas de Desarrollo (git merge)",
+          "file": "lessons/07-fusionar-ramas.md",
+          "duration": "25 min",
+          "xp": 40
+        },
+        {
+          "id": "08-introduccion-a-github",
+          "title": "8. Conectar tu Repositorio con GitHub (git push)",
+          "file": "lessons/08-introduccion-a-github.md",
+          "duration": "30 min",
+          "xp": 50
         }
       ]
     }

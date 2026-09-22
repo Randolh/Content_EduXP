@@ -5,184 +5,181 @@
     {
       "id": "nodejs-esencial",
       "slug": "nodejs-esencial",
-      "title": "Node.js Fundamentos: JavaScript en el Servidor",
-      "description": "Aprende a ejecutar JavaScript fuera del navegador. Domina el Event Loop, el sistema de módulos ES6, NPM, el sistema de archivos y scripts CLI.",
+      "title": "Node.js Fundamentos Paso a Paso",
+      "description": "Aprende a ejecutar JavaScript en el servidor de forma gradual. Lecciones cortas donde cada concepto se enseña de manera aislada y práctica.",
       "category": "backend",
       "level": "Principiante",
       "duration": "3 Horas",
       "icon": "fa-brands fa-node-js",
       "badgeColor": "mint",
-      "totalLessons": 4,
+      "totalLessons": 7,
       "tags": ["Node.js", "JavaScript", "Backend", "NPM", "Event Loop", "CLI"],
       "requirements": [
-        "Fundamentos de JavaScript (ES6+)",
-        "Manejo básico de la terminal de comandos"
+        "Conocimientos básicos de JavaScript (variables y funciones)",
+        "Manejo elemental de la terminal"
       ],
       "objectives": [
-        "Comprender la arquitectura no bloqueante y el Event Loop de Node.js.",
-        "Gestionar paquetes y dependencias con NPM y ES Modules.",
-        "Manipular archivos y rutas del sistema operativo de forma asíncrona con fs y path.",
-        "Crear utilidades de línea de comandos (CLI) con variables de entorno."
+        "Instalar Node.js y ejecutar scripts JavaScript desde la consola.",
+        "Comprender el modelo de ejecución asíncrono y el Event Loop.",
+        "Gestionar paquetes y dependencias utilizando NPM y ES Modules.",
+        "Leer y escribir archivos del sistema operativo con fs/promises."
       ],
       "project": {
-        "title": "Analizador de Archivos y Generador de Reportes CLI",
-        "description": "Construirás un script ejecutable por consola capaz de escanear directorios, leer archivos de forma asíncrona y generar reportes analíticos en formato JSON.",
+        "title": "Script CLI de Procesamiento de Archivos de Texto",
+        "description": "Construirás una herramienta de consola sencilla que lee un archivo local, analiza su contenido y guarda un resumen procesado.",
         "deliverables": [
-          "Script ejecutable con procesamiento de argumentos de consola (process.argv)",
-          "Manipulación de sistema de archivos usando fs/promises y path",
-          "Manejo de variables de entorno y scripts configurados en package.json"
+          "Script en Node.js con importación de módulos ES Modules",
+          "Lectura y escritura asíncrona usando fs/promises",
+          "Uso de variables de entorno para configuración"
         ]
       },
       "targetAudience": [
-        "Desarrolladores JavaScript que quieren iniciar en el desarrollo de servidores.",
-        "Estudiantes que buscan dominar herramientas CLI y automatización con Node.js."
+        "Desarrolladores JavaScript que dan sus primeros pasos en el desarrollo de servidores backend.",
+        "Estudiantes que buscan entender cómo ejecutar código fuera del navegador."
       ]
     },
     {
       "id": "express-api-rest",
       "slug": "express-api-rest",
-      "title": "Creación de APIs REST con Express y Bases de Datos",
-      "description": "Domina Express.js creando servicios web profesionales con arquitectura modular en capas, validación con Zod, base de datos y seguridad JWT.",
+      "title": "APIs REST con Express Paso a Paso",
+      "description": "Domina la creación de servicios web backend con Express.js. Diseñado para principiantes con lecciones cortas de un único concepto práctico.",
       "category": "api",
-      "level": "Intermedio",
-      "duration": "5 Horas",
+      "level": "Principiante",
+      "duration": "4 Horas",
       "icon": "fa-solid fa-server",
       "badgeColor": "orange",
-      "totalLessons": 5,
-      "tags": ["Express", "API REST", "Node.js", "Zod", "JWT", "Bcrypt", "MySQL", "SQLite"],
+      "totalLessons": 8,
+      "tags": ["Express", "API REST", "Node.js", "Middlewares", "JSON", "Backend"],
       "requirements": [
-        "Fundamentos de Node.js y ES Modules",
-        "JavaScript asíncrono (Promises y async/await)"
+        "Fundamentos de Node.js y JavaScript moderno",
+        "Concepto básico de peticiones web"
       ],
       "objectives": [
-        "Construir servidores HTTP robustos con Express y middlewares personalizados.",
-        "Implementar una arquitectura limpia modular en 4 capas (Routes, Controller, Service, Model).",
-        "Validar peticiones HTTP de forma estricta con esquemas Zod.",
-        "Conectar la API con bases de datos relacionales usando Connection Pools y sentencias SQL.",
-        "Implementar un sistema completo de autenticación JWT con contraseñas encriptadas y roles (RBAC)."
+        "Crear un servidor HTTP en Node.js usando el framework Express.",
+        "Probar peticiones GET, POST, PUT y DELETE usando clientes HTTP.",
+        "Capturar parámetros de URL (params) y cuerpos de peticiones JSON (body).",
+        "Comprender el funcionamiento secuencial de los Middlewares."
       ],
       "project": {
-        "title": "API RESTful Profesional de Gestión y Autenticación de Usuarios",
-        "description": "Construirás una API segura de producción con endpoints de registro, login, cookies seguras, hashing con bcryptjs, JWT y control de roles.",
+        "title": "API REST de Gestión de Tareas y Notas",
+        "description": "Construirás una API funcional para listar, crear y consultar elementos utilizando rutas HTTP y formato JSON.",
         "deliverables": [
-          "Arquitectura modular separada en capas limpias (Routes, Controllers, Services, Models)",
-          "Middleware centralizado de validación con Zod y manejo global de errores",
-          "Endpoints autenticados con JWT en cookies httpOnly y permisos por rol (Admin/User)"
+          "Servidor Express configurado con middleware express.json()",
+          "Endpoints para GET y POST probados con Thunder Client",
+          "Manejo de parámetros de ruta dinámicos"
         ]
       },
       "targetAudience": [
-        "Desarrolladores Backend que desean estructurar APIs mantenibles y seguras.",
-        "Programadores Fullstack que necesitan conectar clientes web con backends robustos."
+        "Desarrolladores que aprendieron Node.js y desean construir sus primeras APIs.",
+        "Estudiantes de programación que quieren conectar interfaces web con un backend real."
       ]
     },
     {
       "id": "react-esencial",
       "slug": "react-esencial",
-      "title": "React Esencial: Desarrollo Frontend Moderno con Vite",
-      "description": "Aprende React 18+ desde cero con Vite. Domina JSX, componentes, Hooks (useState, useEffect), consumo de APIs, estado global con Context e integración Fullstack.",
+      "title": "React Esencial Paso a Paso con Vite",
+      "description": "Aprende desarrollo frontend moderno con React desde cero. Lecciones breves focalizadas en un único concepto: componentes, JSX, props y hooks.",
       "category": "frontend",
-      "level": "Principiante - Intermedio",
-      "duration": "6 Horas",
+      "level": "Principiante",
+      "duration": "5 Horas",
       "icon": "fa-brands fa-react",
       "badgeColor": "cyan",
-      "totalLessons": 6,
-      "tags": ["React", "Vite", "JavaScript", "JSX", "Hooks", "Context API", "Frontend"],
+      "totalLessons": 8,
+      "tags": ["React", "Vite", "JavaScript", "JSX", "Hooks", "Componentes", "Frontend"],
       "requirements": [
-        "HTML5 y CSS3 intermedio",
-        "JavaScript moderno (ES6+, Arrow Functions, Destructuring, Promises)"
+        "HTML5, CSS3 y JavaScript básico (variables, funciones flecha)",
+        "No se requiere experiencia previa en frameworks frontend"
       ],
       "objectives": [
-        "Crear aplicaciones web reactivas y rápidas configuradas con Vite.",
-        "Construir componentes funcionales modulares y dominar el flujo de datos con Props.",
-        "Gestionar el estado local con useState y efectos secundarios de red con useEffect.",
-        "Diseñar componentes de UI interactivos (Modales, Drawers) y formularios controlados.",
-        "Manejar el estado global de la aplicación utilizando React Context (Auth y Carrito).",
-        "Integrar React con un backend Express mediante proxy de desarrollo y consumo de APIs."
+        "Crear aplicaciones React ultrarrápidas configuradas con Vite.",
+        "Comprender la sintaxis declarativa de JSX para crear interfaces.",
+        "Construir componentes funcionales modulares y transmitir datos con Props.",
+        "Manejar la reactividad con el Hook useState y eventos."
       ],
       "project": {
-        "title": "Aplicación Web Fullstack e-Commerce con Carrito y Autenticación",
-        "description": "Crearás una SPA (Single Page Application) completa con catálogo de productos, carrito de compras reactivo con Context API, login de usuarios y consumo de API REST.",
+        "title": "Aplicación de Lista de Tareas Interactiva (Todo App)",
+        "description": "Desarrollarás una aplicación interactiva que permite agregar, listar y marcar elementos como completados en tiempo real.",
         "deliverables": [
-          "Componentes de UI modulares y reutilizables",
-          "Consumo de API REST asíncrona con manejo de carga y errores",
-          "Estado global con CartContext y AuthContext con persistencia en localStorage"
+          "Componentes de UI modulares (Formulario, Lista, Item)",
+          "Manejo de estado local con el Hook useState",
+          "Eventos onChange y onSubmit controlados"
         ]
       },
       "targetAudience": [
-        "Desarrolladores Frontend que quieren aprender React con la pila de herramientas moderna.",
-        "Estudiantes Fullstack que buscan conectar sus conocimientos backend con interfaces interactivas."
+        "Desarrolladores Web que desean aprender la librería frontend más demandada del mercado.",
+        "Estudiantes que quieren construir interfaces interactivas de usuario."
       ]
     },
     {
       "id": "git-github-esencial",
       "slug": "git-github-esencial",
-      "title": "Git y GitHub: Control de Versiones y Trabajo Colaborativo",
-      "description": "Aprende control de versiones desde cero con Git y colaboración en GitHub. Domina repositorios, commits, ramas, pull requests, fusiones y resolución de conflictos.",
+      "title": "Git y GitHub: Paso a Paso para Principiantes",
+      "description": "Aprende control de versiones con Git y GitHub desde cero. Lecciones cortas focalizadas en un único concepto a la vez: comandos, commits, ramas y GitHub.",
       "category": "tools",
       "level": "Principiante",
       "duration": "4 Horas",
       "icon": "fa-brands fa-git-alt",
       "badgeColor": "orange",
-      "totalLessons": 4,
-      "tags": ["Git", "GitHub", "DevOps", "Terminal", "Flujos Git", "Pull Requests"],
+      "totalLessons": 8,
+      "tags": ["Git", "GitHub", "DevOps", "Terminal", "Commits", "Ramas"],
       "requirements": [
         "Manejo básico de la terminal de comandos (bash, zsh o PowerShell)",
-        "Navegación básica en el sistema de archivos"
+        "No requiere experiencia previa con Git"
       ],
       "objectives": [
-        "Comprender los 3 estados de Git (Working Directory, Staging Area, Local Repository) y la anatomía de un commit.",
-        "Administrar ramas de desarrollo (branches), realizar fusiones (merges) y resolver conflictos de código.",
-        "Conectar repositorios locales con GitHub mediante remotos (origin, push, fetch, pull).",
-        "Colaborar en proyectos de código mediante Forks, Pull Requests, revisiones de código e Issues."
+        "Comprender el concepto de control de versiones y los 3 estados de Git.",
+        "Instalar Git, configurar tu identidad y realizar tu primer commit.",
+        "Navegar por el historial de cambios y trabajar con ramas independientes.",
+        "Subir tu código a GitHub para respaldarlo y compartirlo."
       ],
       "project": {
-        "title": "Publicación Colaborativa y Flujo de Trabajo Git Flow en GitHub",
-        "description": "Inicializarás un proyecto local con control de versiones, crearás ramas para nuevas funcionalidades, lo vincularás a un repositorio remoto en GitHub y realizarás un Pull Request con resolución de conflictos.",
+        "title": "Creación y Publicación de tu Primer Repositorio en GitHub",
+        "description": "Construirás un proyecto desde cero en tu computadora, gestionarás sus cambios en el historial local y lo subirás a tu cuenta de GitHub.",
         "deliverables": [
-          "Historial de commits estructurado siguiendo convenciones (Conventional Commits)",
-          "Gestión de ramas independientes (main, feature/nueva-vista)",
-          "Pull Request creado y fusionado en GitHub con documentación integrada"
+          "Repositorio Git configurado con commits limpios",
+          "Uso de ramas para separar funcionalidades",
+          "Proyecto publicado en GitHub mediante git push"
         ]
       },
       "targetAudience": [
-        "Estudiantes y desarrolladores que inician en el desarrollo de software y necesitan llevar control de sus proyectos.",
-        "Equipos que buscan adoptar un flujo de trabajo colaborativo estandarizado con Git y GitHub."
+        "Estudiantes y desarrolladores que inician en el desarrollo de software.",
+        "Cualquier persona que necesite guardar y respaldar versiones de sus archivos."
       ]
     },
     {
       "id": "markdown-esencial",
       "slug": "markdown-esencial",
-      "title": "Markdown Esencial: Documentación Técnica Profesional",
-      "description": "Domina la sintaxis de Markdown para redactar documentación técnica imponente, archivos README, notas en GitHub, especificaciones API y bloques interactivos.",
+      "title": "Markdown Esencial: Documentación Paso a Paso",
+      "description": "Aprende Markdown desde cero de forma gradual. Cada lección abarca un único concepto práctico: textos, listas, enlaces, imágenes, tablas y documentación técnica.",
       "category": "tools",
       "level": "Principiante",
-      "duration": "2 Horas",
+      "duration": "3 Horas",
       "icon": "fa-brands fa-markdown",
       "badgeColor": "cyan",
-      "totalLessons": 3,
-      "tags": ["Markdown", "Documentación", "GitHub", "README", "Sintaxis", "Técnica"],
+      "totalLessons": 8,
+      "tags": ["Markdown", "Documentación", "GitHub", "README", "Sintaxis"],
       "requirements": [
-        "Cualquier editor de texto plano (VS Code, Sublime Text, Vim) o navegador web",
-        "No requiere conocimientos previos de programación"
+        "Un editor de texto (como VS Code) o cualquier bloc de notas",
+        "No se requiere experiencia previa en programación"
       ],
       "objectives": [
-        "Dominar la sintaxis completa de Markdown (encabezados, listas, enlaces, tablas y formato de texto).",
-        "Dar formato profesional a bloques de código con resaltado de sintaxis y diagramas Mermaid.",
-        "Estructurar archivos README.md efectivos para proyectos de software open source.",
-        "Utilizar extensiones de GitHub Flavored Markdown (GFM) como callouts, listas de tareas y tablas."
+        "Aprender la sintaxis básica de Markdown un concepto a la vez.",
+        "Aplicar formato de texto (negritas, cursivas, listas y tablas).",
+        "Insertar recursos multimedia (imágenes, enlaces y bloques de código).",
+        "Escribir archivos README.md claros para presentar proyectos."
       ],
       "project": {
-        "title": "Redacción de un README.md Profesional para Repositorio Open Source",
-        "description": "Diseñarás la documentación completa de un proyecto de software utilizando GitHub Flavored Markdown (GFM), incluyendo insignias, tablas comparativas, bloques de código, listas de tareas y llamadas de atención (callouts).",
+        "title": "Redacción de un Documento de Presentación y README en Markdown",
+        "description": "Escribirás un archivo README completo paso a paso utilizando un único concepto en cada sección.",
         "deliverables": [
-          "Archivo README.md completo con jerarquía semántica limpia",
-          "Bloques de código con resaltado de lenguaje y tablas de configuración",
-          "Alertas/callouts estilo GitHub y secciones expandibles HTML"
+          "Documento con encabezados y formato de texto estructurado",
+          "Lista de tecnologías y tabla de configuración",
+          "Bloques de código con sintaxis resaltada y enlaces útiles"
         ]
       },
       "targetAudience": [
-        "Desarrolladores de software, redactores técnicos y administradores de proyectos que necesitan documentar código.",
-        "Estudiantes que desean presentar repositorios de código atractivos e impactantes en GitHub."
+        "Principiantes que quieren aprender a documentar proyectos sin complicaciones.",
+        "Estudiantes y redactores técnicos que inician en el desarrollo de software."
       ]
     }
   ]

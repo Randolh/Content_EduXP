@@ -1,97 +1,103 @@
 {
   "id": "react-esencial",
   "slug": "react-esencial",
-  "title": "React Esencial: Desarrollo Frontend Moderno con Vite",
-  "description": "Aprende React 18+ desde cero con Vite. Domina JSX, componentes, Hooks (useState, useEffect), consumo de APIs, estado global con Context e integración Fullstack.",
+  "title": "React Esencial Paso a Paso con Vite",
+  "description": "Aprende desarrollo frontend moderno con React desde cero. Lecciones breves focalizadas en un único concepto: componentes, JSX, props y hooks.",
   "category": "frontend",
-  "level": "Principiante - Intermedio",
-  "duration": "6 Horas",
+  "level": "Principiante",
+  "duration": "5 Horas",
   "icon": "fa-brands fa-react",
   "badgeColor": "cyan",
   "author": "EduXP Community Team",
   "requirements": [
-    "HTML5 y CSS3 intermedio",
-    "JavaScript moderno (ES6+, Arrow Functions, Destructuring, Promises)"
+    "HTML5, CSS3 y JavaScript básico (variables, funciones flecha)",
+    "No se requiere experiencia previa en frameworks frontend"
   ],
   "objectives": [
-    "Crear aplicaciones web reactivas y rápidas configuradas con Vite.",
-    "Construir componentes funcionales modulares y dominar el flujo de datos con Props.",
-    "Gestionar el estado local con useState y efectos secundarios de red con useEffect.",
-    "Diseñar componentes de UI interactivos (Modales, Drawers) y formularios controlados.",
-    "Manejar el estado global de la aplicación utilizando React Context (Auth y Carrito).",
-    "Integrar React con un backend Express mediante proxy de desarrollo y consumo de APIs."
+    "Crear aplicaciones React ultrarrápidas configuradas con Vite.",
+    "Comprender la sintaxis declarativa de JSX para crear interfaces.",
+    "Construir componentes funcionales modulares y transmitir datos con Props.",
+    "Manejar la reactividad con el Hook useState y eventos."
   ],
   "project": {
-    "title": "Aplicación Web Fullstack e-Commerce con Carrito y Autenticación",
-    "description": "Crearás una SPA (Single Page Application) completa con catálogo de productos, carrito de compras reactivo con Context API, login de usuarios y consumo de API REST.",
+    "title": "Aplicación de Lista de Tareas Interactiva (Todo App)",
+    "description": "Desarrollarás una aplicación interactiva que permite agregar, listar y marcar elementos como completados en tiempo real.",
     "deliverables": [
-      "Componentes de UI modulares y reutilizables",
-      "Consumo de API REST asíncrona con manejo de carga y errores",
-      "Estado global con CartContext y AuthContext con persistencia en localStorage"
+      "Componentes de UI modulares (Formulario, Lista, Item)",
+      "Manejo de estado local con el Hook useState",
+      "Eventos onChange y onSubmit controlados"
     ]
   },
   "targetAudience": [
-    "Desarrolladores Frontend que quieren aprender React con la pila de herramientas moderna.",
-    "Estudiantes Fullstack que buscan conectar sus conocimientos backend con interfaces interactivas."
+    "Desarrolladores Web que desean aprender la librería frontend más demandada del mercado.",
+    "Estudiantes que quieren construir interfaces interactivas de usuario."
   ],
   "modules": [
     {
       "id": "modulo-1-fundamentos-react",
-      "title": "Módulo 1: Fundamentos de React y Vite",
+      "title": "Módulo 1: Componentes y JSX",
       "lessons": [
         {
-          "id": "01-introduccion-react-vite-y-jsx",
-          "title": "1. Introducción a React, Setup con Vite y Sintaxis JSX",
-          "file": "lessons/01-introduccion-react-vite-y-jsx.md",
-          "duration": "45 min",
+          "id": "01-que-es-react",
+          "title": "1. ¿Qué es React y el enfoque basado en Componentes?",
+          "file": "lessons/01-que-es-react.md",
+          "duration": "15 min",
+          "xp": 25
+        },
+        {
+          "id": "02-crear-proyecto-vite",
+          "title": "2. Crear tu primera app React con Vite",
+          "file": "lessons/02-crear-proyecto-vite.md",
+          "duration": "20 min",
+          "xp": 30
+        },
+        {
+          "id": "03-sintaxis-jsx",
+          "title": "3. Introducción a JSX: Mezclando HTML y JavaScript",
+          "file": "lessons/03-sintaxis-jsx.md",
+          "duration": "20 min",
+          "xp": 30
+        },
+        {
+          "id": "04-primer-componente",
+          "title": "4. Tu primer Componente Funcional",
+          "file": "lessons/04-primer-componente.md",
+          "duration": "20 min",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-props-y-hooks",
+      "title": "Módulo 2: Props, Estado y Hooks",
+      "lessons": [
+        {
+          "id": "05-propiedades-props",
+          "title": "5. Pasar información entre componentes con Props",
+          "file": "lessons/05-propiedades-props.md",
+          "duration": "20 min",
+          "xp": 35
+        },
+        {
+          "id": "06-estado-con-usestate",
+          "title": "6. Manejo de Estado Local con el Hook useState",
+          "file": "lessons/06-estado-con-usestate.md",
+          "duration": "25 min",
+          "xp": 40
+        },
+        {
+          "id": "07-eventos-en-react",
+          "title": "7. Eventos y Formularios Básicos (onClick y onChange)",
+          "file": "lessons/07-eventos-en-react.md",
+          "duration": "25 min",
+          "xp": 40
+        },
+        {
+          "id": "08-efectos-con-useeffect",
+          "title": "8. Introducción a Efectos Secundarios con useEffect",
+          "file": "lessons/08-efectos-con-useeffect.md",
+          "duration": "30 min",
           "xp": 50
-        },
-        {
-          "id": "02-componentes-props-y-usestate",
-          "title": "2. Componentes Funcionales, Props y Estado Reactivo con useState",
-          "file": "lessons/02-componentes-props-y-usestate.md",
-          "duration": "55 min",
-          "xp": 75
-        }
-      ]
-    },
-    {
-      "id": "modulo-2-efectos-y-ui",
-      "title": "Módulo 2: Efectos Secundarios, Consumo de APIs y Componentes UI",
-      "lessons": [
-        {
-          "id": "03-useeffect-y-consumo-de-apis-rest",
-          "title": "3. Efectos Secundarios con useEffect y Consumo de APIs REST (fetch)",
-          "file": "lessons/03-useeffect-y-consumo-de-apis-rest.md",
-          "duration": "60 min",
-          "xp": 75
-        },
-        {
-          "id": "04-componentes-ui-y-formularios",
-          "title": "4. Formularios Controlados, Modales y Componentes de UI",
-          "file": "lessons/04-componentes-ui-y-formularios.md",
-          "duration": "60 min",
-          "xp": 75
-        }
-      ]
-    },
-    {
-      "id": "modulo-3-estado-global-e-integracion",
-      "title": "Módulo 3: Estado Global con Context API e Integración Fullstack",
-      "lessons": [
-        {
-          "id": "05-estado-global-con-usecontext",
-          "title": "5. Estado Global con Context API (CartContext y Estado Compartido)",
-          "file": "lessons/05-estado-global-con-usecontext.md",
-          "duration": "70 min",
-          "xp": 100
-        },
-        {
-          "id": "06-autenticacion-y-integracion-fullstack",
-          "title": "6. Autenticación Global (AuthProvider), Vite Proxy e Integración Fullstack",
-          "file": "lessons/06-autenticacion-y-integracion-fullstack.md",
-          "duration": "70 min",
-          "xp": 150
         }
       ]
     }

@@ -1,89 +1,103 @@
 {
   "id": "express-api-rest",
   "slug": "express-api-rest",
-  "title": "Creación de APIs REST con Express y Bases de Datos",
-  "description": "Domina Express.js creando servicios web profesionales con arquitectura modular en capas, validación con Zod, base de datos y seguridad JWT.",
+  "title": "APIs REST con Express Paso a Paso",
+  "description": "Domina la creación de servicios web backend con Express.js. Diseñado para principiantes con lecciones cortas de un único concepto práctico.",
   "category": "api",
-  "level": "Intermedio",
-  "duration": "5 Horas",
+  "level": "Principiante",
+  "duration": "4 Horas",
   "icon": "fa-solid fa-server",
   "badgeColor": "orange",
   "author": "EduXP Community Team",
   "requirements": [
-    "Fundamentos de Node.js y ES Modules",
-    "JavaScript asíncrono (Promises y async/await)"
+    "Fundamentos de Node.js y JavaScript moderno",
+    "Concepto básico de peticiones web"
   ],
   "objectives": [
-    "Construir servidores HTTP robustos con Express y middlewares personalizados.",
-    "Implementar una arquitectura limpia modular en 4 capas (Routes, Controller, Service, Model).",
-    "Validar peticiones HTTP de forma estricta con esquemas Zod.",
-    "Conectar la API con bases de datos relacionales usando Connection Pools y sentencias SQL.",
-    "Implementar un sistema completo de autenticación JWT con contraseñas encriptadas y roles (RBAC)."
+    "Crear un servidor HTTP en Node.js usando el framework Express.",
+    "Probar peticiones GET, POST, PUT y DELETE usando clientes HTTP.",
+    "Capturar parámetros de URL (params) y cuerpos de peticiones JSON (body).",
+    "Comprender el funcionamiento secuencial de los Middlewares."
   ],
   "project": {
-    "title": "API RESTful Profesional de Gestión y Autenticación de Usuarios",
-    "description": "Construirás una API segura de producción con endpoints de registro, login, cookies seguras, hashing con bcryptjs, JWT y control de roles.",
+    "title": "API REST de Gestión de Tareas y Notas",
+    "description": "Construirás una API funcional para listar, crear y consultar elementos utilizando rutas HTTP y formato JSON.",
     "deliverables": [
-      "Arquitectura modular separada en capas limpias (Routes, Controllers, Services, Models)",
-      "Middleware centralizado de validación con Zod y manejo global de errores",
-      "Endpoints autenticados con JWT en cookies httpOnly y permisos por rol (Admin/User)"
+      "Servidor Express configurado con middleware express.json()",
+      "Endpoints para GET y POST probados con Thunder Client",
+      "Manejo de parámetros de ruta dinámicos"
     ]
   },
   "targetAudience": [
-    "Desarrolladores Backend que desean estructurar APIs mantenibles y seguras.",
-    "Programadores Fullstack que necesitan conectar clientes web con backends robustos."
+    "Desarrolladores que aprendieron Node.js y desean construir sus primeras APIs.",
+    "Estudiantes de programación que quieren conectar interfaces web con un backend real."
   ],
   "modules": [
     {
-      "id": "modulo-1-express-core",
-      "title": "Módulo 1: Servidor HTTP y Middlewares en Express",
+      "id": "modulo-1-fundamentos-express",
+      "title": "Módulo 1: Servidor HTTP y Métodos",
       "lessons": [
         {
-          "id": "01-fundamentos-express-y-middlewares",
-          "title": "1. Express Core: Servidores, Rutas HTTP y Middlewares",
-          "file": "lessons/01-fundamentos-express-y-middlewares.md",
-          "duration": "50 min",
+          "id": "01-que-es-express",
+          "title": "1. ¿Qué es Express.js y para qué sirve?",
+          "file": "lessons/01-que-es-express.md",
+          "duration": "15 min",
+          "xp": 25
+        },
+        {
+          "id": "02-servidor-basico",
+          "title": "2. Instalación de Express y tu primer Servidor HTTP",
+          "file": "lessons/02-servidor-basico.md",
+          "duration": "20 min",
+          "xp": 30
+        },
+        {
+          "id": "03-clientes-http-pruebas",
+          "title": "3. Probando tu servidor con Clientes HTTP (Thunder Client)",
+          "file": "lessons/03-clientes-http-pruebas.md",
+          "duration": "20 min",
+          "xp": 30
+        },
+        {
+          "id": "04-metodos-http",
+          "title": "4. Entendiendo los Métodos HTTP (GET, POST, PUT, DELETE)",
+          "file": "lessons/04-metodos-http.md",
+          "duration": "20 min",
+          "xp": 30
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-parametros-y-middlewares",
+      "title": "Módulo 2: Parámetros, JSON y Middlewares",
+      "lessons": [
+        {
+          "id": "05-parametros-de-ruta",
+          "title": "5. Capturar datos desde la URL (req.params)",
+          "file": "lessons/05-parametros-de-ruta.md",
+          "duration": "20 min",
+          "xp": 35
+        },
+        {
+          "id": "06-procesar-datos-json",
+          "title": "6. Recibir datos en formato JSON (req.body)",
+          "file": "lessons/06-procesar-datos-json.md",
+          "duration": "25 min",
+          "xp": 40
+        },
+        {
+          "id": "07-que-es-un-middleware",
+          "title": "7. ¿Qué es un Middleware en Express?",
+          "file": "lessons/07-que-es-un-middleware.md",
+          "duration": "25 min",
+          "xp": 40
+        },
+        {
+          "id": "08-rutas-y-controladores",
+          "title": "8. Organizar tu API en Rutas y Controladores",
+          "file": "lessons/08-rutas-y-controladores.md",
+          "duration": "30 min",
           "xp": 50
-        }
-      ]
-    },
-    {
-      "id": "modulo-2-arquitectura-y-validacion",
-      "title": "Módulo 2: Arquitectura Modular y Validación de Datos",
-      "lessons": [
-        {
-          "id": "02-arquitectura-modular-en-capas",
-          "title": "2. Arquitectura Limpia Modular: Routes, Controller, Service y Model",
-          "file": "lessons/02-arquitectura-modular-en-capas.md",
-          "duration": "60 min",
-          "xp": 75
-        },
-        {
-          "id": "03-validacion-de-datos-con-zod",
-          "title": "3. Validación Schematizada de Payloads con Zod y Error Handler",
-          "file": "lessons/03-validacion-de-datos-con-zod.md",
-          "duration": "50 min",
-          "xp": 75
-        }
-      ]
-    },
-    {
-      "id": "modulo-3-persistencia-y-seguridad",
-      "title": "Módulo 3: Bases de Datos y Seguridad Avanzada con JWT",
-      "lessons": [
-        {
-          "id": "04-persistencia-con-bases-de-datos",
-          "title": "4. Persistencia en Base de Datos Relacional (Connection Pool y SQL)",
-          "file": "lessons/04-persistencia-con-bases-de-datos.md",
-          "duration": "65 min",
-          "xp": 100
-        },
-        {
-          "id": "05-autenticacion-jwt-bcrypt-y-rbac",
-          "title": "5. Autenticación con JWT, Cookies httpOnly, Bcrypt y Roles (RBAC)",
-          "file": "lessons/05-autenticacion-jwt-bcrypt-y-rbac.md",
-          "duration": "75 min",
-          "xp": 150
         }
       ]
     }

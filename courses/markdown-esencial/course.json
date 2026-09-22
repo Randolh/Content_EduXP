@@ -1,68 +1,103 @@
 {
   "id": "markdown-esencial",
   "slug": "markdown-esencial",
-  "title": "Markdown Esencial: Documentación Técnica Profesional",
-  "description": "Domina la sintaxis de Markdown para redactar documentación técnica imponente, archivos README, notas en GitHub, especificaciones API y bloques interactivos.",
+  "title": "Markdown Esencial: Documentación Paso a Paso",
+  "description": "Aprende Markdown desde cero de forma gradual. Cada lección abarca un único concepto práctico: textos, listas, enlaces, imágenes, tablas y documentación técnica.",
   "category": "tools",
   "level": "Principiante",
-  "duration": "2 Horas",
+  "duration": "3 Horas",
   "icon": "fa-brands fa-markdown",
   "badgeColor": "cyan",
   "author": "EduXP Community Team",
   "requirements": [
-    "Cualquier editor de texto plano (VS Code, Sublime Text, Vim) o navegador web",
-    "No requiere conocimientos previos de programación"
+    "Un editor de texto (como VS Code) o cualquier bloc de notas",
+    "No se requiere experiencia previa en programación"
   ],
   "objectives": [
-    "Dominar la sintaxis completa de Markdown (encabezados, listas, enlaces, tablas y formato de texto).",
-    "Dar formato profesional a bloques de código con resaltado de sintaxis y diagramas Mermaid.",
-    "Estructurar archivos README.md efectivos para proyectos de software open source.",
-    "Utilizar extensiones de GitHub Flavored Markdown (GFM) como callouts, listas de tareas y tablas."
+    "Aprender la sintaxis básica de Markdown un concepto a la vez.",
+    "Aplicar formato de texto (negritas, cursivas, listas y tablas).",
+    "Insertar recursos multimedia (imágenes, enlaces y bloques de código).",
+    "Escribir archivos README.md claros para presentar proyectos."
   ],
   "project": {
-    "title": "Redacción de un README.md Profesional para Repositorio Open Source",
-    "description": "Diseñarás la documentación completa de un proyecto de software utilizando GitHub Flavored Markdown (GFM), incluyendo insignias, tablas comparativas, bloques de código, listas de tareas y llamadas de atención (callouts).",
+    "title": "Redacción de un Documento de Presentación y README en Markdown",
+    "description": "Escribirás un archivo README completo paso a paso utilizando un único concepto en cada sección.",
     "deliverables": [
-      "Archivo README.md completo con jerarquía semántica limpia",
-      "Bloques de código con resaltado de lenguaje y tablas de configuración",
-      "Alertas/callouts estilo GitHub y secciones expandibles HTML"
+      "Documento con encabezados y formato de texto estructurado",
+      "Lista de tecnologías y tabla de configuración",
+      "Bloques de código con sintaxis resaltada y enlaces útiles"
     ]
   },
   "targetAudience": [
-    "Desarrolladores de software, redactores técnicos y administradores de proyectos que necesitan documentar código.",
-    "Estudiantes que desean presentar repositorios de código atractivos e impactantes en GitHub."
+    "Principiantes que quieren aprender a documentar proyectos sin complicaciones.",
+    "Estudiantes y redactores técnicos que inician en el desarrollo de software."
   ],
   "modules": [
     {
       "id": "modulo-1-sintaxis-basica",
-      "title": "Módulo 1: Sintaxis Básica y Formato de Documentos",
+      "title": "Módulo 1: Fundamentos y Formato de Texto",
       "lessons": [
         {
-          "id": "01-sintaxis-basica-y-formato",
-          "title": "1. Sintaxis Básica de Markdown: Encabezados, Listas, Enlaces e Imágenes",
-          "file": "lessons/01-sintaxis-basica-y-formato.md",
-          "duration": "35 min",
-          "xp": 50
+          "id": "01-introduccion-y-editores",
+          "title": "1. ¿Qué es Markdown y cómo configurar tu editor?",
+          "file": "lessons/01-introduccion-y-editores.md",
+          "duration": "15 min",
+          "xp": 25
         },
         {
-          "id": "02-bloques-de-codigo-tablas-y-mermaid",
-          "title": "2. Bloques de Código, Tablas y Diagramas con Mermaid",
-          "file": "lessons/02-bloques-de-codigo-tablas-y-mermaid.md",
-          "duration": "40 min",
-          "xp": 75
+          "id": "02-encabezados-y-titulos",
+          "title": "2. Encabezados y Jerarquía de Títulos",
+          "file": "lessons/02-encabezados-y-titulos.md",
+          "duration": "15 min",
+          "xp": 25
+        },
+        {
+          "id": "03-formato-de-texto-negrita-cursiva",
+          "title": "3. Estilos de Texto: Negrita, Cursiva y Tachado",
+          "file": "lessons/03-formato-de-texto-negrita-cursiva.md",
+          "duration": "15 min",
+          "xp": 25
+        },
+        {
+          "id": "04-listas-ordenadas-y-no-ordenadas",
+          "title": "4. Listas Ordenadas y No Ordenadas",
+          "file": "lessons/04-listas-ordenadas-y-no-ordenadas.md",
+          "duration": "20 min",
+          "xp": 30
         }
       ]
     },
     {
-      "id": "modulo-2-gfm-y-readmes",
-      "title": "Módulo 2: GitHub Flavored Markdown y READMEs Profesionales",
+      "id": "modulo-2-recursos-y-elementos",
+      "title": "Módulo 2: Multimedia, Código y Estructuras Avanzadas",
       "lessons": [
         {
-          "id": "03-github-flavored-markdown-y-readmes",
-          "title": "3. GitHub Flavored Markdown (GFM) y Estructura de READMEs Profesionales",
-          "file": "lessons/03-github-flavored-markdown-y-readmes.md",
-          "duration": "45 min",
-          "xp": 100
+          "id": "05-enlaces-e-imagenes",
+          "title": "5. Insertar Enlaces e Imágenes",
+          "file": "lessons/05-enlaces-e-imagenes.md",
+          "duration": "20 min",
+          "xp": 30
+        },
+        {
+          "id": "06-bloques-de-codigo",
+          "title": "6. Bloques de Código y Resaltado de Sintaxis",
+          "file": "lessons/06-bloques-de-codigo.md",
+          "duration": "20 min",
+          "xp": 30
+        },
+        {
+          "id": "07-tablas-y-alineacion",
+          "title": "7. Creación de Tablas y Alineación de Columnas",
+          "file": "lessons/07-tablas-y-alineacion.md",
+          "duration": "20 min",
+          "xp": 35
+        },
+        {
+          "id": "08-readmes-profesionales",
+          "title": "8. Estructura de un Archivo README.md Profesional",
+          "file": "lessons/08-readmes-profesionales.md",
+          "duration": "25 min",
+          "xp": 50
         }
       ]
     }

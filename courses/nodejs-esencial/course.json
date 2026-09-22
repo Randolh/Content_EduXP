@@ -1,8 +1,8 @@
 {
   "id": "nodejs-esencial",
   "slug": "nodejs-esencial",
-  "title": "Node.js Fundamentos: JavaScript en el Servidor",
-  "description": "Aprende a ejecutar JavaScript fuera del navegador. Domina el Event Loop, el sistema de módulos ES6, NPM, el sistema de archivos y scripts CLI.",
+  "title": "Node.js Fundamentos Paso a Paso",
+  "description": "Aprende a ejecutar JavaScript en el servidor de forma gradual. Lecciones cortas donde cada concepto se enseña de manera aislada y práctica.",
   "category": "backend",
   "level": "Principiante",
   "duration": "3 Horas",
@@ -10,66 +10,87 @@
   "badgeColor": "mint",
   "author": "EduXP Community Team",
   "requirements": [
-    "Fundamentos de JavaScript (ES6+, funciones flecha, promesas)",
-    "Manejo básico de la terminal de comandos (bash/zsh)"
+    "Conocimientos básicos de JavaScript (variables y funciones)",
+    "Manejo elemental de la terminal"
   ],
   "objectives": [
-    "Comprender la arquitectura no bloqueante y el Event Loop de Node.js.",
-    "Gestionar paquetes y dependencias con NPM y ES Modules.",
-    "Manipular archivos y rutas del sistema operativo de forma asíncrona con fs y path.",
-    "Crear utilidades de línea de comandos (CLI) con variables de entorno."
+    "Instalar Node.js y ejecutar scripts JavaScript desde la consola.",
+    "Comprender el modelo de ejecución asíncrono y el Event Loop.",
+    "Gestionar paquetes y dependencias utilizando NPM y ES Modules.",
+    "Leer y escribir archivos del sistema operativo con fs/promises."
   ],
   "project": {
-    "title": "Analizador de Archivos y Generador de Reportes CLI",
-    "description": "Construirás un script ejecutable por consola capaz de escanear directorios, leer archivos de forma asíncrona y generar reportes analíticos en formato JSON.",
+    "title": "Script CLI de Procesamiento de Archivos de Texto",
+    "description": "Construirás una herramienta de consola sencilla que lee un archivo local, analiza su contenido y guarda un resumen procesado.",
     "deliverables": [
-      "Script ejecutable con procesamiento de argumentos de consola (process.argv)",
-      "Manipulación de sistema de archivos usando fs/promises y path",
-      "Manejo de variables de entorno y scripts configurados en package.json"
+      "Script en Node.js con importación de módulos ES Modules",
+      "Lectura y escritura asíncrona usando fs/promises",
+      "Uso de variables de entorno para configuración"
     ]
   },
   "targetAudience": [
-    "Desarrolladores JavaScript que quieren iniciar en el desarrollo de servidores.",
-    "Estudiantes que buscan dominar herramientas CLI y automatización con Node.js."
+    "Desarrolladores JavaScript que dan sus primeros pasos en el desarrollo de servidores backend.",
+    "Estudiantes que buscan entender cómo ejecutar código fuera del navegador."
   ],
   "modules": [
     {
-      "id": "modulo-1-fundamentos",
-      "title": "Módulo 1: Fundamentos y Motor de Ejecución",
+      "id": "modulo-1-fundamentos-node",
+      "title": "Módulo 1: Entorno de Ejecución y Asincronía",
       "lessons": [
         {
-          "id": "01-introduccion-y-event-loop",
-          "title": "1. Introducción a Node.js y la Arquitectura No Bloqueante",
-          "file": "lessons/01-introduccion-y-event-loop.md",
-          "duration": "40 min",
-          "xp": 50
+          "id": "01-que-es-nodejs",
+          "title": "1. ¿Qué es Node.js y para qué se utiliza?",
+          "file": "lessons/01-que-es-nodejs.md",
+          "duration": "15 min",
+          "xp": 25
         },
         {
-          "id": "02-modulos-es6-y-npm",
-          "title": "2. ES Modules, package.json y Ecosistema NPM",
-          "file": "lessons/02-modulos-es6-y-npm.md",
-          "duration": "45 min",
-          "xp": 50
+          "id": "02-instalacion-y-primer-script",
+          "title": "2. Instalación de Node.js y tu Primer Script (console.log)",
+          "file": "lessons/02-instalacion-y-primer-script.md",
+          "duration": "20 min",
+          "xp": 30
+        },
+        {
+          "id": "03-event-loop-y-asincronia",
+          "title": "3. Entendiendo la Ejecución Asíncrona (Event Loop)",
+          "file": "lessons/03-event-loop-y-asincronia.md",
+          "duration": "25 min",
+          "xp": 35
+        },
+        {
+          "id": "04-modulos-en-nodejs",
+          "title": "4. Módulos en Node.js (import y export)",
+          "file": "lessons/04-modulos-en-nodejs.md",
+          "duration": "20 min",
+          "xp": 30
         }
       ]
     },
     {
-      "id": "modulo-2-operaciones-y-cli",
-      "title": "Módulo 2: Operaciones I/O y Herramientas CLI",
+      "id": "modulo-2-paquetes-y-archivos",
+      "title": "Módulo 2: Paquetes y Manejo de Archivos",
       "lessons": [
         {
-          "id": "03-sistema-de-archivos-fs-path",
-          "title": "3. Manejo del Sistema de Archivos con fs/promises y path",
-          "file": "lessons/03-sistema-de-archivos-fs-path.md",
-          "duration": "50 min",
-          "xp": 75
+          "id": "05-npm-y-package-json",
+          "title": "5. El Gestor de Paquetes NPM y package.json",
+          "file": "lessons/05-npm-y-package-json.md",
+          "duration": "20 min",
+          "xp": 30
         },
         {
-          "id": "04-variables-entorno-y-cli",
-          "title": "4. Variables de Entorno, dotenv y Scripts de Consola CLI",
-          "file": "lessons/04-variables-entorno-y-cli.md",
-          "duration": "45 min",
-          "xp": 100
+          "id": "06-sistema-de-archivos-fs",
+          "title": "6. Lectura y Escritura de Archivos (fs/promises)",
+          "file": "lessons/06-sistema-de-archivos-fs.md",
+          "duration": "25 min",
+          "xp": 40
+        },
+        {
+          "id": "07-variables-entorno-dotenv",
+          "title": "7. Variables de Entorno y Configuración (dotenv)",
+          "file": "lessons/07-variables-entorno-dotenv.md",
+          "duration": "25 min",
+          "xp": 40
         }
       ]
     }
