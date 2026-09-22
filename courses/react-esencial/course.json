@@ -39,6 +39,26 @@
     "Desarrolladores Web que buscan dominar React desde cero hasta nivel profesional.",
     "Desarrolladores Frontend que desean dominar Hooks avanzados, React Router y gestión de estado global."
   ],
+  "videos": [
+    {
+      "title": "CURSO REACT.JS - Aprende desde cero",
+      "url": "https://www.youtube.com/watch?v=7iobxzd_2wY",
+      "channel": "midudev",
+      "duration": "1h 37m"
+    },
+    {
+      "title": "Curso de Reactjs desde Cero para principiantes",
+      "url": "https://www.youtube.com/watch?v=rLoWMU4L_qE",
+      "channel": "Fazt Code",
+      "duration": "4h 45m"
+    },
+    {
+      "title": "Aprendiendo Javascript y React desde cero",
+      "url": "https://www.youtube.com/watch?v=YLvT1ELnaX4",
+      "channel": "midudev",
+      "duration": "2h 15m"
+    }
+  ],
   "modules": [
     {
       "id": "modulo-1-entorno-y-fundamentos",
