@@ -41,38 +41,42 @@
     {
       "id": "express-api-rest",
       "slug": "express-api-rest",
-      "title": "APIs REST con Express Paso a Paso",
-      "description": "Domina la creación de servicios web backend con Express.js. Incluye preparación del entorno backend (Node.js, NPM, clientes HTTP) y lecciones atómicas.",
+      "title": "APIs REST con Express Esencial y Avanzado",
+      "description": "Domina la creación de servicios web backend profesionales con Express.js. Incluye arquitectura MVC, CRUD completo, validaciones con Zod, manejo global de errores, autenticación JWT, seguridad en producción y un Proyecto Final Integrador API REST E-Commerce.",
       "category": "api",
-      "level": "Principiante",
-      "duration": "4 Horas",
+      "level": "Principiante a Avanzado",
+      "duration": "10 Horas",
       "icon": "fa-solid fa-server",
       "badgeColor": "orange",
-      "totalLessons": 9,
-      "tags": ["Express", "API REST", "Node.js", "Middlewares", "JSON", "Backend"],
+      "totalLessons": 20,
+      "tags": ["Express", "API REST", "Node.js", "JWT", "Middlewares", "Seguridad", "Zod", "Backend"],
       "requirements": [
-        "Fundamentos de Node.js y JavaScript moderno",
-        "Concepto básico de peticiones web"
+        "Fundamentos de Node.js y JavaScript moderno (async/await, promesas, ES Modules)",
+        "Conceptos básicos de peticiones web HTTP"
       ],
       "objectives": [
-        "Preparar el entorno backend configurando Node.js, NPM y herramientas de prueba HTTP.",
-        "Crear un servidor HTTP en Node.js usando el framework Express.",
-        "Probar peticiones GET, POST, PUT y DELETE usando clientes HTTP.",
-        "Capturar parámetros de URL (params) y cuerpos de peticiones JSON (body).",
-        "Comprender el funcionamiento secuencial de los Middlewares."
+        "Preparar el entorno backend configurando Node.js, NPM y clientes de pruebas HTTP.",
+        "Crear un servidor HTTP funcional en Node.js usando Express.js.",
+        "Implementar operaciones CRUD con respuestas HTTP semánticas y códigos de estado adecuados.",
+        "Capturar parámetros de URL, querystrings y validar cuerpos de peticiones con Zod.",
+        "Construir middlewares personalizados para autenticación, autorización por roles y manejo global de errores.",
+        "Implementar seguridad en credenciales con bcryptjs y autenticación con JSON Web Tokens (JWT).",
+        "Aplicar mejores prácticas de seguridad en APIs con Helmet, CORS, Rate Limiting y dotenv.",
+        "Desarrollar una API REST profesional para un sistema E-Commerce como Proyecto Final."
       ],
       "project": {
-        "title": "API REST de Gestión de Tareas y Notas",
-        "description": "Construirás una API funcional para listar, crear y consultar elementos utilizando rutas HTTP y formato JSON.",
+        "title": "API REST Profesional E-Commerce & Autenticación (EduXP Store Backend API)",
+        "description": "Construirás una API REST completa para un sistema de e-commerce con autenticación de usuarios por JWT, catálogo de productos con búsqueda y paginación, carrito/pedidos y protección de rutas administrativas por roles.",
         "deliverables": [
-          "Entorno de pruebas configurado con Thunder Client o Postman",
-          "Servidor Express configurado con middleware express.json()",
-          "Endpoints para GET y POST probados y funcionando"
+          "Endpoints de autenticación (/api/auth/register, /api/auth/login) con contraseñas encriptadas",
+          "CRUD de productos con validación Zod y rutas protegidas para administradores",
+          "Middleware global de manejo de errores y middleware requireAuth con JWT",
+          "Configuración de seguridad con Helmet, CORS y variables de entorno"
         ]
       },
       "targetAudience": [
-        "Desarrolladores que aprendieron Node.js y desean construir sus primeras APIs desde cero.",
-        "Estudiantes de programación que quieren conectar interfaces web con un backend real."
+        "Desarrolladores que aprendieron Node.js y desean dominar la creación de APIs REST profesionales.",
+        "Estudiantes y desarrolladores Frontend que buscan adquirir habilidades Fullstack Backend en Node.js."
       ]
     },
     {

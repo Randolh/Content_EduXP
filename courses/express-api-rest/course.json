@@ -1,37 +1,42 @@
 {
   "id": "express-api-rest",
   "slug": "express-api-rest",
-  "title": "APIs REST con Express Paso a Paso",
-  "description": "Domina la creación de servicios web backend con Express.js. Incluye preparación del entorno backend (Node.js, NPM, clientes HTTP) y lecciones atómicas.",
+  "title": "APIs REST con Express Esencial y Avanzado",
+  "description": "Domina la creación de servicios web backend profesionales con Express.js. Incluye arquitectura MVC, CRUD completo, validaciones con Zod, manejo global de errores, autenticación JWT, seguridad en producción y un Proyecto Final Integrador API REST E-Commerce.",
   "category": "api",
-  "level": "Principiante",
-  "duration": "4 Horas",
+  "level": "Principiante a Avanzado",
+  "duration": "10 Horas",
   "icon": "fa-solid fa-server",
   "badgeColor": "orange",
   "author": "EduXP Community Team",
   "requirements": [
-    "Fundamentos de Node.js y JavaScript moderno",
-    "Concepto básico de peticiones web"
+    "Fundamentos de Node.js y JavaScript moderno (async/await, promesas, ES Modules)",
+    "Conceptos básicos de peticiones web HTTP"
   ],
   "objectives": [
-    "Preparar el entorno backend configurando Node.js, NPM y herramientas de prueba HTTP.",
-    "Crear un servidor HTTP en Node.js usando el framework Express.",
-    "Probar peticiones GET, POST, PUT y DELETE usando clientes HTTP.",
-    "Capturar parámetros de URL (params) y cuerpos de peticiones JSON (body).",
-    "Comprender el funcionamiento secuencial de los Middlewares."
+    "Preparar el entorno backend configurando Node.js, NPM y clientes de pruebas HTTP.",
+    "Crear un servidor HTTP funcional en Node.js usando Express.js.",
+    "Implementar operaciones CRUD con respuestas HTTP semánticas y códigos de estado adecuados.",
+    "Capturar parámetros de URL, querystrings y validar cuerpos de peticiones con Zod.",
+    "Construir middlewares personalizados para autenticación, autorización por roles y manejo global de errores.",
+    "Implementar seguridad en credenciales con bcryptjs y autenticación con JSON Web Tokens (JWT).",
+    "Aplicar mejores prácticas de seguridad en APIs con Helmet, CORS, Rate Limiting y dotenv.",
+    "Implementar paginación, filtrado y búsqueda en endpoints de consulta.",
+    "Desarrollar una API REST profesional para un sistema E-Commerce como Proyecto Final."
   ],
   "project": {
-    "title": "API REST de Gestión de Tareas y Notas",
-    "description": "Construirás una API funcional para listar, crear y consultar elementos utilizando rutas HTTP y formato JSON.",
+    "title": "API REST Profesional E-Commerce & Autenticación (EduXP Store Backend API)",
+    "description": "Construirás una API REST completa para un sistema de e-commerce con autenticación de usuarios por JWT, catálogo de productos con búsqueda y paginación, carrito/pedidos y protección de rutas administrativas por roles.",
     "deliverables": [
-      "Entorno de pruebas configurado con Thunder Client o Postman",
-      "Servidor Express configurado con middleware express.json()",
-      "Endpoints para GET y POST probados y funcionando"
+      "Endpoints de autenticación (/api/auth/register, /api/auth/login) con contraseñas encriptadas",
+      "CRUD de productos con validación Zod y rutas protegidas para administradores",
+      "Middleware global de manejo de errores y middleware requireAuth con JWT",
+      "Configuración de seguridad con Helmet, CORS y variables de entorno"
     ]
   },
   "targetAudience": [
-    "Desarrolladores que aprendieron Node.js y desean construir sus primeras APIs desde cero.",
-    "Estudiantes de programación que quieren conectar interfaces web con un backend real."
+    "Desarrolladores que aprendieron Node.js y desean dominar la creación de APIs REST profesionales.",
+    "Estudiantes y desarrolladores Frontend que buscan adquirir habilidades Fullstack Backend en Node.js."
   ],
   "modules": [
     {
@@ -106,6 +111,107 @@
           "file": "lessons/09-rutas-y-controladores.md",
           "duration": "30 min",
           "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "modulo-3-crud-validaciones-errores",
+      "title": "Módulo 3: CRUD Completo, Validaciones y Errores",
+      "lessons": [
+        {
+          "id": "10-crud-completo-status-codes",
+          "title": "10. CRUD Completo y Respuestas Semánticas (Status Codes)",
+          "file": "lessons/10-crud-completo-status-codes.md",
+          "duration": "30 min",
+          "xp": 50
+        },
+        {
+          "id": "11-validaciones-de-datos-zod",
+          "title": "11. Validación Estricta de Datos con Zod",
+          "file": "lessons/11-validaciones-de-datos-zod.md",
+          "duration": "30 min",
+          "xp": 50
+        },
+        {
+          "id": "12-manejo-global-de-errores",
+          "title": "12. Manejo Global de Errores y Excepciones Asíncronas",
+          "file": "lessons/12-manejo-global-de-errores.md",
+          "duration": "30 min",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "modulo-4-autenticacion-jwt-seguridad",
+      "title": "Módulo 4: Autenticación, JWT y Seguridad",
+      "lessons": [
+        {
+          "id": "13-encriptacion-passwords-bcrypt",
+          "title": "13. Seguridad de Credenciales con Hashing (bcryptjs)",
+          "file": "lessons/13-encriptacion-passwords-bcrypt.md",
+          "duration": "30 min",
+          "xp": 55
+        },
+        {
+          "id": "14-autenticacion-jwt",
+          "title": "14. Autenticación Basada en Tokens con JSON Web Tokens (JWT)",
+          "file": "lessons/14-autenticacion-jwt.md",
+          "duration": "35 min",
+          "xp": 60
+        },
+        {
+          "id": "15-middlewares-autenticacion-roles",
+          "title": "15. Protección de Rutas y Control de Acceso por Roles (RBAC)",
+          "file": "lessons/15-middlewares-autenticacion-roles.md",
+          "duration": "35 min",
+          "xp": 60
+        },
+        {
+          "id": "16-seguridad-cors-helmet-rate-limit",
+          "title": "16. Seguridad y Buenas Prácticas (CORS, Helmet, Rate Limit)",
+          "file": "lessons/16-seguridad-cors-helmet-rate-limit.md",
+          "duration": "30 min",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "modulo-5-persistencia-y-consultas",
+      "title": "Módulo 5: Persistencia de Datos y Consultas Avanzadas",
+      "lessons": [
+        {
+          "id": "17-variables-entorno-conexion-db",
+          "title": "17. Variables de Entorno y Conexión a Base de Datos (dotenv)",
+          "file": "lessons/17-variables-entorno-conexion-db.md",
+          "duration": "30 min",
+          "xp": 50
+        },
+        {
+          "id": "18-modelado-de-datos-schemas",
+          "title": "18. Modelado de Datos y Relaciones Backend",
+          "file": "lessons/18-modelado-de-datos-schemas.md",
+          "duration": "35 min",
+          "xp": 55
+        },
+        {
+          "id": "19-paginacion-filtrado-busqueda",
+          "title": "19. Paginación, Filtrado y Búsqueda por Parámetros (req.query)",
+          "file": "lessons/19-paginacion-filtrado-busqueda.md",
+          "duration": "30 min",
+          "xp": 50
+        }
+      ]
+    },
+    {
+      "id": "modulo-6-proyecto-final",
+      "title": "Módulo 6: Proyecto Integrador Final",
+      "lessons": [
+        {
+          "id": "20-proyecto-final-api-ecommerce",
+          "title": "20. Proyecto Final Integrador: EduXP Store API",
+          "file": "lessons/20-proyecto-final-api-ecommerce.md",
+          "duration": "60 min",
+          "xp": 100
         }
       ]
     }
