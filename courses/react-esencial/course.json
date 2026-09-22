@@ -2,7 +2,7 @@
   "id": "react-esencial",
   "slug": "react-esencial",
   "title": "React Esencial Paso a Paso con Vite",
-  "description": "Aprende desarrollo frontend moderno con React desde cero. Lecciones breves focalizadas en un único concepto: componentes, JSX, props y hooks.",
+  "description": "Aprende desarrollo frontend moderno con React desde cero. Incluye preparación completa del entorno (Node.js, NPM, NPX) y lecciones atómicas por concepto.",
   "category": "frontend",
   "level": "Principiante",
   "duration": "5 Horas",
@@ -11,9 +11,10 @@
   "author": "EduXP Community Team",
   "requirements": [
     "HTML5, CSS3 y JavaScript básico (variables, funciones flecha)",
-    "No se requiere experiencia previa en frameworks frontend"
+    "No se requiere experiencia previa con Node.js o React"
   ],
   "objectives": [
+    "Instalar Node.js, NPM y comprender el uso del comando NPX.",
     "Crear aplicaciones React ultrarrápidas configuradas con Vite.",
     "Comprender la sintaxis declarativa de JSX para crear interfaces.",
     "Construir componentes funcionales modulares y transmitir datos con Props.",
@@ -23,19 +24,19 @@
     "title": "Aplicación de Lista de Tareas Interactiva (Todo App)",
     "description": "Desarrollarás una aplicación interactiva que permite agregar, listar y marcar elementos como completados en tiempo real.",
     "deliverables": [
+      "Instalación de entorno verificada con node, npm y npx",
       "Componentes de UI modulares (Formulario, Lista, Item)",
-      "Manejo de estado local con el Hook useState",
-      "Eventos onChange y onSubmit controlados"
+      "Manejo de estado local con el Hook useState"
     ]
   },
   "targetAudience": [
-    "Desarrolladores Web que desean aprender la librería frontend más demandada del mercado.",
-    "Estudiantes que quieren construir interfaces interactivas de usuario."
+    "Desarrolladores Web que desean aprender la librería frontend más demandada del mercado desde cero.",
+    "Estudiantes que necesitan configurar su entorno de desarrollo antes de construir aplicaciones."
   ],
   "modules": [
     {
-      "id": "modulo-1-fundamentos-react",
-      "title": "Módulo 1: Componentes y JSX",
+      "id": "modulo-1-entorno-y-fundamentos",
+      "title": "Módulo 1: Entorno de Desarrollo y Componentes",
       "lessons": [
         {
           "id": "01-que-es-react",
@@ -45,23 +46,30 @@
           "xp": 25
         },
         {
-          "id": "02-crear-proyecto-vite",
-          "title": "2. Crear tu primera app React con Vite",
-          "file": "lessons/02-crear-proyecto-vite.md",
+          "id": "02-preparacion-del-entorno-node-npx",
+          "title": "2. Preparación del Entorno: Instalación de Node.js, NPM y NPX",
+          "file": "lessons/02-preparacion-del-entorno-node-npx.md",
           "duration": "20 min",
           "xp": 30
         },
         {
-          "id": "03-sintaxis-jsx",
-          "title": "3. Introducción a JSX: Mezclando HTML y JavaScript",
-          "file": "lessons/03-sintaxis-jsx.md",
+          "id": "03-crear-proyecto-vite",
+          "title": "3. Crear tu primera app React con Vite (npx create-vite)",
+          "file": "lessons/03-crear-proyecto-vite.md",
           "duration": "20 min",
           "xp": 30
         },
         {
-          "id": "04-primer-componente",
-          "title": "4. Tu primer Componente Funcional",
-          "file": "lessons/04-primer-componente.md",
+          "id": "04-sintaxis-jsx",
+          "title": "4. Introducción a JSX: Mezclando HTML y JavaScript",
+          "file": "lessons/04-sintaxis-jsx.md",
+          "duration": "20 min",
+          "xp": 30
+        },
+        {
+          "id": "05-primer-componente",
+          "title": "5. Tu primer Componente Funcional",
+          "file": "lessons/05-primer-componente.md",
           "duration": "20 min",
           "xp": 30
         }
@@ -72,30 +80,30 @@
       "title": "Módulo 2: Props, Estado y Hooks",
       "lessons": [
         {
-          "id": "05-propiedades-props",
-          "title": "5. Pasar información entre componentes con Props",
-          "file": "lessons/05-propiedades-props.md",
+          "id": "06-propiedades-props",
+          "title": "6. Pasar información entre componentes con Props",
+          "file": "lessons/06-propiedades-props.md",
           "duration": "20 min",
           "xp": 35
         },
         {
-          "id": "06-estado-con-usestate",
-          "title": "6. Manejo de Estado Local con el Hook useState",
-          "file": "lessons/06-estado-con-usestate.md",
+          "id": "07-estado-con-usestate",
+          "title": "7. Manejo de Estado Local con el Hook useState",
+          "file": "lessons/07-estado-con-usestate.md",
           "duration": "25 min",
           "xp": 40
         },
         {
-          "id": "07-eventos-en-react",
-          "title": "7. Eventos y Formularios Básicos (onClick y onChange)",
-          "file": "lessons/07-eventos-en-react.md",
+          "id": "08-eventos-en-react",
+          "title": "8. Eventos y Formularios Básicos (onClick y onChange)",
+          "file": "lessons/08-eventos-en-react.md",
           "duration": "25 min",
           "xp": 40
         },
         {
-          "id": "08-efectos-con-useeffect",
-          "title": "8. Introducción a Efectos Secundarios con useEffect",
-          "file": "lessons/08-efectos-con-useeffect.md",
+          "id": "09-efectos-con-useeffect",
+          "title": "9. Introducción a Efectos Secundarios con useEffect",
+          "file": "lessons/09-efectos-con-useeffect.md",
           "duration": "30 min",
           "xp": 50
         }

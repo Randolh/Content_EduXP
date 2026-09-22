@@ -6,7 +6,7 @@
       "id": "nodejs-esencial",
       "slug": "nodejs-esencial",
       "title": "Node.js Fundamentos Paso a Paso",
-      "description": "Aprende a ejecutar JavaScript en el servidor de forma gradual. Lecciones cortas donde cada concepto se enseña de manera aislada y práctica.",
+      "description": "Aprende a ejecutar JavaScript en el servidor de forma gradual. Lecciones cortas donde cada concepto e instalación se enseña de manera aislada.",
       "category": "backend",
       "level": "Principiante",
       "duration": "3 Horas",
@@ -42,19 +42,20 @@
       "id": "express-api-rest",
       "slug": "express-api-rest",
       "title": "APIs REST con Express Paso a Paso",
-      "description": "Domina la creación de servicios web backend con Express.js. Diseñado para principiantes con lecciones cortas de un único concepto práctico.",
+      "description": "Domina la creación de servicios web backend con Express.js. Incluye preparación del entorno backend (Node.js, NPM, clientes HTTP) y lecciones atómicas.",
       "category": "api",
       "level": "Principiante",
       "duration": "4 Horas",
       "icon": "fa-solid fa-server",
       "badgeColor": "orange",
-      "totalLessons": 8,
+      "totalLessons": 9,
       "tags": ["Express", "API REST", "Node.js", "Middlewares", "JSON", "Backend"],
       "requirements": [
         "Fundamentos de Node.js y JavaScript moderno",
         "Concepto básico de peticiones web"
       ],
       "objectives": [
+        "Preparar el entorno backend configurando Node.js, NPM y herramientas de prueba HTTP.",
         "Crear un servidor HTTP en Node.js usando el framework Express.",
         "Probar peticiones GET, POST, PUT y DELETE usando clientes HTTP.",
         "Capturar parámetros de URL (params) y cuerpos de peticiones JSON (body).",
@@ -64,13 +65,13 @@
         "title": "API REST de Gestión de Tareas y Notas",
         "description": "Construirás una API funcional para listar, crear y consultar elementos utilizando rutas HTTP y formato JSON.",
         "deliverables": [
+          "Entorno de pruebas configurado con Thunder Client o Postman",
           "Servidor Express configurado con middleware express.json()",
-          "Endpoints para GET y POST probados con Thunder Client",
-          "Manejo de parámetros de ruta dinámicos"
+          "Endpoints para GET y POST probados y funcionando"
         ]
       },
       "targetAudience": [
-        "Desarrolladores que aprendieron Node.js y desean construir sus primeras APIs.",
+        "Desarrolladores que aprendieron Node.js y desean construir sus primeras APIs desde cero.",
         "Estudiantes de programación que quieren conectar interfaces web con un backend real."
       ]
     },
@@ -78,19 +79,20 @@
       "id": "react-esencial",
       "slug": "react-esencial",
       "title": "React Esencial Paso a Paso con Vite",
-      "description": "Aprende desarrollo frontend moderno con React desde cero. Lecciones breves focalizadas en un único concepto: componentes, JSX, props y hooks.",
+      "description": "Aprende desarrollo frontend moderno con React desde cero. Incluye preparación completa del entorno (Node.js, NPM, NPX) y lecciones atómicas por concepto.",
       "category": "frontend",
       "level": "Principiante",
       "duration": "5 Horas",
       "icon": "fa-brands fa-react",
       "badgeColor": "cyan",
-      "totalLessons": 8,
+      "totalLessons": 9,
       "tags": ["React", "Vite", "JavaScript", "JSX", "Hooks", "Componentes", "Frontend"],
       "requirements": [
         "HTML5, CSS3 y JavaScript básico (variables, funciones flecha)",
-        "No se requiere experiencia previa en frameworks frontend"
+        "No se requiere experiencia previa con Node.js o React"
       ],
       "objectives": [
+        "Instalar Node.js, NPM y comprender el uso del comando NPX.",
         "Crear aplicaciones React ultrarrápidas configuradas con Vite.",
         "Comprender la sintaxis declarativa de JSX para crear interfaces.",
         "Construir componentes funcionales modulares y transmitir datos con Props.",
@@ -100,14 +102,14 @@
         "title": "Aplicación de Lista de Tareas Interactiva (Todo App)",
         "description": "Desarrollarás una aplicación interactiva que permite agregar, listar y marcar elementos como completados en tiempo real.",
         "deliverables": [
+          "Instalación de entorno verificada con node, npm y npx",
           "Componentes de UI modulares (Formulario, Lista, Item)",
-          "Manejo de estado local con el Hook useState",
-          "Eventos onChange y onSubmit controlados"
+          "Manejo de estado local con el Hook useState"
         ]
       },
       "targetAudience": [
-        "Desarrolladores Web que desean aprender la librería frontend más demandada del mercado.",
-        "Estudiantes que quieren construir interfaces interactivas de usuario."
+        "Desarrolladores Web que desean aprender la librería frontend más demandada del mercado desde cero.",
+        "Estudiantes que necesitan configurar su entorno de desarrollo antes de construir aplicaciones."
       ]
     },
     {

@@ -1,6 +1,6 @@
 # EduXP Content Repository
 
-Repositorio oficial de contenidos educativos y catálogo maestro de cursos para la plataforma **EduXP**. Este repositorio contiene las lecciones en Markdown diseñadas con una metodología paso a paso para principiantes (un concepto práctico por lección), la configuración estructurada de cada curso y el índice principal consumido dinámicamente por la plataforma web.
+Repositorio oficial de contenidos educativos y catálogo maestro de cursos para la plataforma **EduXP**. Este repositorio contiene las lecciones en Markdown diseñadas con una metodología paso a paso para principiantes (incluyendo la preparación completa del entorno de herramientas como Node.js, NPM, NPX, Git y VS Code), la configuración estructurada de cada curso y el índice principal consumido dinámicamente por la plataforma web.
 
 ---
 
@@ -14,10 +14,10 @@ Content_EduXP_git/
     ├── nodejs-esencial/           # Curso: Node.js Fundamentos Paso a Paso (7 lecciones)
     │   ├── course.json            # Manifiesto y temario del curso
     │   └── lessons/               # Lecciones en formato Markdown (.md)
-    ├── express-api-rest/          # Curso: APIs REST con Express Paso a Paso (8 lecciones)
+    ├── express-api-rest/          # Curso: APIs REST con Express Paso a Paso (9 lecciones)
     │   ├── course.json
     │   └── lessons/
-    ├── react-esencial/            # Curso: React Esencial Paso a Paso con Vite (8 lecciones)
+    ├── react-esencial/            # Curso: React Esencial Paso a Paso con Vite (9 lecciones)
     │   ├── course.json
     │   └── lessons/
     ├── git-github-esencial/       # Curso: Git y GitHub Paso a Paso (8 lecciones)
@@ -51,33 +51,35 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ### 2. APIs REST con Express Paso a Paso
 * **ID / Slug:** `express-api-rest`
-* **Categoría:** `api` | **Nivel:** `Principiante` | **Duración:** `4 Horas` | **Lecciones:** `8`
+* **Categoría:** `api` | **Nivel:** `Principiante` | **Duración:** `4 Horas` | **Lecciones:** `9`
 * **Directorio:** [`courses/express-api-rest`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest)
 * **Lecciones:**
   1. [`01-que-es-express.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/01-que-es-express.md)
-  2. [`02-servidor-basico.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/02-servidor-basico.md)
-  3. [`03-clientes-http-pruebas.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/03-clientes-http-pruebas.md)
-  4. [`04-metodos-http.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/04-metodos-http.md)
-  5. [`05-parametros-de-ruta.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/05-parametros-de-ruta.md)
-  6. [`06-procesar-datos-json.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/06-procesar-datos-json.md)
-  7. [`07-que-es-un-middleware.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/07-que-es-un-middleware.md)
-  8. [`08-rutas-y-controladores.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/08-rutas-y-controladores.md)
+  2. [`02-preparacion-entorno-backend.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/02-preparacion-entorno-backend.md)
+  3. [`03-servidor-basico.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/03-servidor-basico.md)
+  4. [`04-clientes-http-pruebas.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/04-clientes-http-pruebas.md)
+  5. [`05-metodos-http.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/05-metodos-http.md)
+  6. [`06-parametros-de-ruta.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/06-parametros-de-ruta.md)
+  7. [`07-procesar-datos-json.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/07-procesar-datos-json.md)
+  8. [`08-que-es-un-middleware.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/08-que-es-un-middleware.md)
+  9. [`09-rutas-y-controladores.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest/lessons/09-rutas-y-controladores.md)
 
 ---
 
 ### 3. React Esencial Paso a Paso con Vite
 * **ID / Slug:** `react-esencial`
-* **Categoría:** `frontend` | **Nivel:** `Principiante` | **Duración:** `5 Horas` | **Lecciones:** `8`
+* **Categoría:** `frontend` | **Nivel:** `Principiante` | **Duración:** `5 Horas` | **Lecciones:** `9`
 * **Directorio:** [`courses/react-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial)
 * **Lecciones:**
   1. [`01-que-es-react.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/01-que-es-react.md)
-  2. [`02-crear-proyecto-vite.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/02-crear-proyecto-vite.md)
-  3. [`03-sintaxis-jsx.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/03-sintaxis-jsx.md)
-  4. [`04-primer-componente.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/04-primer-componente.md)
-  5. [`05-propiedades-props.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/05-propiedades-props.md)
-  6. [`06-estado-con-usestate.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/06-estado-con-usestate.md)
-  7. [`07-eventos-en-react.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/07-eventos-en-react.md)
-  8. [`08-efectos-con-useeffect.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/08-efectos-con-useeffect.md)
+  2. [`02-preparacion-del-entorno-node-npx.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/02-preparacion-del-entorno-node-npx.md)
+  3. [`03-crear-proyecto-vite.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/03-crear-proyecto-vite.md)
+  4. [`04-sintaxis-jsx.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/04-sintaxis-jsx.md)
+  5. [`05-primer-componente.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/05-primer-componente.md)
+  6. [`06-propiedades-props.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/06-propiedades-props.md)
+  7. [`07-estado-con-usestate.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/07-estado-con-usestate.md)
+  8. [`08-eventos-en-react.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/08-eventos-en-react.md)
+  9. [`09-efectos-con-useeffect.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/09-efectos-con-useeffect.md)
 
 ---
 
@@ -117,5 +119,5 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 1. **Crear el directorio del curso:** Crea una nueva carpeta en `courses/<slug-del-curso>/`.
 2. **Definir el manifiesto:** Crea `courses/<slug-del-curso>/course.json` especificando el título, descripción, autor y la lista de lecciones.
-3. **Escribir las lecciones:** Añade los archivos Markdown dentro de `courses/<slug-del-curso>/lessons/` siguiendo la regla de un solo concepto práctico por lección.
+3. **Escribir las lecciones:** Añade los archivos Markdown dentro de `courses/<slug-del-curso>/lessons/` incluyendo la lección inicial de preparación del entorno.
 4. **Actualizar el registro maestro:** Añade los metadatos del nuevo curso a [`courses.json`](file:///home/randolh/Documents/Content_EduXP_git/courses.json).
