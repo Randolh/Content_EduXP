@@ -17,7 +17,13 @@ Content_EduXP_git/
     ├── express-api-rest/          # Curso: Creación de APIs REST con Express
     │   ├── course.json
     │   └── lessons/
-    └── react-esencial/            # Curso: React Esencial con Vite
+    ├── react-esencial/            # Curso: React Esencial con Vite
+    │   ├── course.json
+    │   └── lessons/
+    ├── git-github-esencial/       # Curso: Git y GitHub
+    │   ├── course.json
+    │   └── lessons/
+    └── markdown-esencial/         # Curso: Markdown Esencial
         ├── course.json
         └── lessons/
 ```
@@ -70,6 +76,33 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
   4. [`04-componentes-ui-y-formularios.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/04-componentes-ui-y-formularios.md)
   5. [`05-estado-global-con-usecontext.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/05-estado-global-con-usecontext.md)
   6. [`06-autenticacion-y-integracion-fullstack.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial/lessons/06-autenticacion-y-integracion-fullstack.md)
+
+---
+
+### 4. Git y GitHub: Control de Versiones y Trabajo Colaborativo
+* **ID / Slug:** `git-github-esencial`
+* **Categoría:** `tools` | **Nivel:** `Principiante` | **Duración:** `4 Horas` | **Lecciones:** `4`
+* **Tecnologías:** `Git`, `GitHub`, `DevOps`, `Terminal`, `Flujos Git`, `Pull Requests`
+* **Proyecto Integrador:** Publicación Colaborativa y Flujo de Trabajo Git Flow en GitHub
+* **Directorio:** [`courses/git-github-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/git-github-esencial)
+* **Lecciones:**
+  1. [`01-introduccion-a-git-y-configuracion.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/git-github-esencial/lessons/01-introduccion-a-git-y-configuracion.md)
+  2. [`02-commits-historial-y-ramas.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/git-github-esencial/lessons/02-commits-historial-y-ramas.md)
+  3. [`03-remotos-github-push-pull.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/git-github-esencial/lessons/03-remotos-github-push-pull.md)
+  4. [`04-pull-requests-conflictos-y-colaboracion.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/git-github-esencial/lessons/04-pull-requests-conflictos-y-colaboracion.md)
+
+---
+
+### 5. Markdown Esencial: Documentación Técnica Profesional
+* **ID / Slug:** `markdown-esencial`
+* **Categoría:** `tools` | **Nivel:** `Principiante` | **Duración:** `2 Horas` | **Lecciones:** `3`
+* **Tecnologías:** `Markdown`, `Documentación`, `GitHub`, `README`, `Sintaxis`, `Técnica`
+* **Proyecto Integrador:** Redacción de un README.md Profesional para Repositorio Open Source
+* **Directorio:** [`courses/markdown-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/markdown-esencial)
+* **Lecciones:**
+  1. [`01-sintaxis-basica-y-formato.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/markdown-esencial/lessons/01-sintaxis-basica-y-formato.md)
+  2. [`02-bloques-de-codigo-tablas-y-mermaid.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/markdown-esencial/lessons/02-bloques-de-codigo-tablas-y-mermaid.md)
+  3. [`03-github-flavored-markdown-y-readmes.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/markdown-esencial/lessons/03-github-flavored-markdown-y-readmes.md)
 
 ---
 

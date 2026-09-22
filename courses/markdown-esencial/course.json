@@ -1,0 +1,70 @@
+{
+  "id": "markdown-esencial",
+  "slug": "markdown-esencial",
+  "title": "Markdown Esencial: Documentación Técnica Profesional",
+  "description": "Domina la sintaxis de Markdown para redactar documentación técnica imponente, archivos README, notas en GitHub, especificaciones API y bloques interactivos.",
+  "category": "tools",
+  "level": "Principiante",
+  "duration": "2 Horas",
+  "icon": "fa-brands fa-markdown",
+  "badgeColor": "cyan",
+  "author": "EduXP Community Team",
+  "requirements": [
+    "Cualquier editor de texto plano (VS Code, Sublime Text, Vim) o navegador web",
+    "No requiere conocimientos previos de programación"
+  ],
+  "objectives": [
+    "Dominar la sintaxis completa de Markdown (encabezados, listas, enlaces, tablas y formato de texto).",
+    "Dar formato profesional a bloques de código con resaltado de sintaxis y diagramas Mermaid.",
+    "Estructurar archivos README.md efectivos para proyectos de software open source.",
+    "Utilizar extensiones de GitHub Flavored Markdown (GFM) como callouts, listas de tareas y tablas."
+  ],
+  "project": {
+    "title": "Redacción de un README.md Profesional para Repositorio Open Source",
+    "description": "Diseñarás la documentación completa de un proyecto de software utilizando GitHub Flavored Markdown (GFM), incluyendo insignias, tablas comparativas, bloques de código, listas de tareas y llamadas de atención (callouts).",
+    "deliverables": [
+      "Archivo README.md completo con jerarquía semántica limpia",
+      "Bloques de código con resaltado de lenguaje y tablas de configuración",
+      "Alertas/callouts estilo GitHub y secciones expandibles HTML"
+    ]
+  },
+  "targetAudience": [
+    "Desarrolladores de software, redactores técnicos y administradores de proyectos que necesitan documentar código.",
+    "Estudiantes que desean presentar repositorios de código atractivos e impactantes en GitHub."
+  ],
+  "modules": [
+    {
+      "id": "modulo-1-sintaxis-basica",
+      "title": "Módulo 1: Sintaxis Básica y Formato de Documentos",
+      "lessons": [
+        {
+          "id": "01-sintaxis-basica-y-formato",
+          "title": "1. Sintaxis Básica de Markdown: Encabezados, Listas, Enlaces e Imágenes",
+          "file": "lessons/01-sintaxis-basica-y-formato.md",
+          "duration": "35 min",
+          "xp": 50
+        },
+        {
+          "id": "02-bloques-de-codigo-tablas-y-mermaid",
+          "title": "2. Bloques de Código, Tablas y Diagramas con Mermaid",
+          "file": "lessons/02-bloques-de-codigo-tablas-y-mermaid.md",
+          "duration": "40 min",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-gfm-y-readmes",
+      "title": "Módulo 2: GitHub Flavored Markdown y READMEs Profesionales",
+      "lessons": [
+        {
+          "id": "03-github-flavored-markdown-y-readmes",
+          "title": "3. GitHub Flavored Markdown (GFM) y Estructura de READMEs Profesionales",
+          "file": "lessons/03-github-flavored-markdown-y-readmes.md",
+          "duration": "45 min",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

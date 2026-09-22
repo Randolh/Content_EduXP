@@ -112,6 +112,78 @@
         "Desarrolladores Frontend que quieren aprender React con la pila de herramientas moderna.",
         "Estudiantes Fullstack que buscan conectar sus conocimientos backend con interfaces interactivas."
       ]
+    },
+    {
+      "id": "git-github-esencial",
+      "slug": "git-github-esencial",
+      "title": "Git y GitHub: Control de Versiones y Trabajo Colaborativo",
+      "description": "Aprende control de versiones desde cero con Git y colaboración en GitHub. Domina repositorios, commits, ramas, pull requests, fusiones y resolución de conflictos.",
+      "category": "tools",
+      "level": "Principiante",
+      "duration": "4 Horas",
+      "icon": "fa-brands fa-git-alt",
+      "badgeColor": "orange",
+      "totalLessons": 4,
+      "tags": ["Git", "GitHub", "DevOps", "Terminal", "Flujos Git", "Pull Requests"],
+      "requirements": [
+        "Manejo básico de la terminal de comandos (bash, zsh o PowerShell)",
+        "Navegación básica en el sistema de archivos"
+      ],
+      "objectives": [
+        "Comprender los 3 estados de Git (Working Directory, Staging Area, Local Repository) y la anatomía de un commit.",
+        "Administrar ramas de desarrollo (branches), realizar fusiones (merges) y resolver conflictos de código.",
+        "Conectar repositorios locales con GitHub mediante remotos (origin, push, fetch, pull).",
+        "Colaborar en proyectos de código mediante Forks, Pull Requests, revisiones de código e Issues."
+      ],
+      "project": {
+        "title": "Publicación Colaborativa y Flujo de Trabajo Git Flow en GitHub",
+        "description": "Inicializarás un proyecto local con control de versiones, crearás ramas para nuevas funcionalidades, lo vincularás a un repositorio remoto en GitHub y realizarás un Pull Request con resolución de conflictos.",
+        "deliverables": [
+          "Historial de commits estructurado siguiendo convenciones (Conventional Commits)",
+          "Gestión de ramas independientes (main, feature/nueva-vista)",
+          "Pull Request creado y fusionado en GitHub con documentación integrada"
+        ]
+      },
+      "targetAudience": [
+        "Estudiantes y desarrolladores que inician en el desarrollo de software y necesitan llevar control de sus proyectos.",
+        "Equipos que buscan adoptar un flujo de trabajo colaborativo estandarizado con Git y GitHub."
+      ]
+    },
+    {
+      "id": "markdown-esencial",
+      "slug": "markdown-esencial",
+      "title": "Markdown Esencial: Documentación Técnica Profesional",
+      "description": "Domina la sintaxis de Markdown para redactar documentación técnica imponente, archivos README, notas en GitHub, especificaciones API y bloques interactivos.",
+      "category": "tools",
+      "level": "Principiante",
+      "duration": "2 Horas",
+      "icon": "fa-brands fa-markdown",
+      "badgeColor": "cyan",
+      "totalLessons": 3,
+      "tags": ["Markdown", "Documentación", "GitHub", "README", "Sintaxis", "Técnica"],
+      "requirements": [
+        "Cualquier editor de texto plano (VS Code, Sublime Text, Vim) o navegador web",
+        "No requiere conocimientos previos de programación"
+      ],
+      "objectives": [
+        "Dominar la sintaxis completa de Markdown (encabezados, listas, enlaces, tablas y formato de texto).",
+        "Dar formato profesional a bloques de código con resaltado de sintaxis y diagramas Mermaid.",
+        "Estructurar archivos README.md efectivos para proyectos de software open source.",
+        "Utilizar extensiones de GitHub Flavored Markdown (GFM) como callouts, listas de tareas y tablas."
+      ],
+      "project": {
+        "title": "Redacción de un README.md Profesional para Repositorio Open Source",
+        "description": "Diseñarás la documentación completa de un proyecto de software utilizando GitHub Flavored Markdown (GFM), incluyendo insignias, tablas comparativas, bloques de código, listas de tareas y llamadas de atención (callouts).",
+        "deliverables": [
+          "Archivo README.md completo con jerarquía semántica limpia",
+          "Bloques de código con resaltado de lenguaje y tablas de configuración",
+          "Alertas/callouts estilo GitHub y secciones expandibles HTML"
+        ]
+      },
+      "targetAudience": [
+        "Desarrolladores de software, redactores técnicos y administradores de proyectos que necesitan documentar código.",
+        "Estudiantes que desean presentar repositorios de código atractivos e impactantes en GitHub."
+      ]
     }
   ]
 }
