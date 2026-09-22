@@ -36,16 +36,10 @@
   ],
   "videos": [
     {
-      "title": "Curso de CSS desde cero paso a paso",
-      "url": "https://www.youtube.com/watch?v=OWKXEJN6ENc",
+      "title": "¡APRENDE CSS GRATIS! Curso de CSS desde cero para principiantes",
+      "url": "https://www.youtube.com/watch?v=hrxjBqZWsb0",
       "channel": "midudev",
       "duration": "2h 40m"
-    },
-    {
-      "title": "Curso CSS Completo Flexbox, Grid y Diseño Responsivo",
-      "url": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
-      "channel": "jonmircha",
-      "duration": "5h 10m"
     }
   ],
   "modules": [
