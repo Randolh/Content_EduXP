@@ -4,7 +4,29 @@ Bienvenido al curso de **Markdown Esencial**. Markdown es el lenguaje de marcado
 
 ---
 
-## 1. Encabezados y Formato de Texto
+## 1. Preparación del Entorno de Redacción y Herramientas
+
+Aunque puedes redactar Markdown en cualquier bloc de notas, utilizar un entorno optimizado mejora enormemente la productividad y la visualización en tiempo real.
+
+### A. Editores Recomendados
+
+1. **Visual Studio Code (Gratuito y Recomendado):**
+   * Editor estándar de la industria. Permite editar y visualizar Markdown simultáneamente en paneles divididos.
+   * **Atajo para Vista Previa en VS Code:** `Ctrl + Shift + V` (Windows/Linux) o `Cmd + Shift + V` (macOS).
+   * **Vista previa lado a lado:** `Ctrl + K V` o `Cmd + K V`.
+
+2. **Editores WYSIWYG Dedicados:**
+   * **Typora / MarkText / Obsidian:** Editores que renderizan la sintaxis visualmente a medida que escribes.
+
+### B. Extensiones Recomendadas para VS Code
+
+* **Markdown All in One:** Añade atajos de teclado (`Ctrl + B` para negrita, `Ctrl + I` para cursiva), tabla de contenidos automática y autocompletado.
+* **Markdown Preview Enhanced:** Proporciona un visor de vista previa avanzado con soporte para matematicas KaTeX, diagramas e integración exportable a PDF/HTML.
+* **markdownlint:** Valida las reglas de estilo y buenas prácticas de redacción semántica en tu documento.
+
+---
+
+## 2. Encabezados y Formato de Texto
 
 ### Encabezados (Headings)
 Los encabezados se crean utilizando el símbolo de almohadilla (`#`). La cantidad de `#` determina el nivel semántico del encabezado (de `<h1>` a `<h6>`).
@@ -29,7 +51,7 @@ Puedes aplicar estilos visuales a las palabras utilizando asteriscos (`*`) o gui
 
 ---
 
-## 2. Listas Ordenadas y No Ordenadas
+## 3. Listas Ordenadas y No Ordenadas
 
 ### Listas No Ordenadas (Viñetas)
 Utiliza asteriscos (`*`), guiones (`-`) o signos más (`+`):
@@ -52,7 +74,7 @@ Utiliza números seguidos de un punto:
 
 ---
 
-## 3. Enlaces e Imágenes
+## 4. Enlaces e Imágenes
 
 La sintaxis para enlaces e imágenes es muy similar. La clave está en los corchetes `[]` para el texto visible y los paréntesis `()` para la URL.
 
@@ -76,25 +98,26 @@ Ejemplo:
 ## Autoevaluación
 
 > [!QUIZ]
-> ¿Cuál es la sintaxis correcta para insertar una imagen con texto alternativo "Logo" en Markdown?
-> - [ ] `[Logo](https://ejemplo.com/logo.png)`
-> - [x] `![Logo](https://ejemplo.com/logo.png)`
-> - [ ] `<image src="https://ejemplo.com/logo.png" alt="Logo">`
+> ¿Cuál es el atajo de teclado en VS Code para abrir la vista previa de Markdown al lado de tu archivo de edición?
+> - [ ] `Ctrl + Alt + Del`
+> - [x] `Ctrl + K V` (o `Cmd + K V` en Mac)
+> - [ ] `F5`
 >
-> **Explicación**: La sintaxis `![alt](url)` incluye el signo `!` inicial que indica al renderizador que debe cargar e incrustar la imagen en lugar de crear un hipervínculo de texto.
+> **Explicación**: El comando de teclado `Ctrl + K V` abre un panel lateral adyacente que renderiza los cambios de Markdown en tiempo real mientras escribes.
 
 ---
 
 ## Ejercicio Práctico: Tu Primer Documento Markdown
 
-**Objetivo**: Crear un archivo de presentación personal estructurado en Markdown.
+**Objetivo**: Probar tu entorno de redacción y crear un archivo de presentación personal estructurado en Markdown.
 
 **Instrucciones**:
-1. Crea un archivo llamado `perfil.md`.
-2. Añade un título principal (H1) con tu nombre.
-3. Agrega una sección de biografía breve con texto en negrita y cursiva.
-4. Crea una lista no ordenada de tus tecnologías favoritas.
-5. Incluye un enlace a tu perfil de GitHub o sitio web.
+1. Abre tu editor de código (VS Code) y abre la vista previa en paralelo.
+2. Crea un archivo llamado `perfil.md`.
+3. Añade un título principal (H1) con tu nombre.
+4. Agrega una sección de biografía breve con texto en negrita y cursiva.
+5. Crea una lista no ordenada de tus tecnologías favoritas.
+6. Incluye un enlace a tu perfil de GitHub o sitio web.
 
 <details class="exercise-solution">
 <summary>Ver solución paso a paso</summary>

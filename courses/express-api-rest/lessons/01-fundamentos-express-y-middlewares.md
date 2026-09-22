@@ -1,12 +1,36 @@
 # Lección 1: Express Core: Servidores, Rutas HTTP y Middlewares
 
-**Express.js** es el framework web minimalista y flexible más utilizado en el ecosistema Node.js para crear APIs REST y aplicaciones de backend. En esta lección aprenderás a inicializar un servidor Express, manejar las peticiones HTTP y entender la piedra angular de Express: **los Middlewares**.
+**Express.js** es el framework web minimalista y flexible más utilizado en el ecosistema Node.js para crear APIs REST y aplicaciones de backend. En esta lección aprenderás a preparar tu entorno de desarrollo backend, inicializar un servidor Express, manejar las peticiones HTTP y entender la piedra angular de Express: **los Middlewares**.
 
 ---
 
-## 1. Setup e Instalación del Servidor Express
+## 1. Prerrequisitos y Preparación del Entorno
 
-Para iniciar un proyecto backend con Express usando **ES Modules**, configuramos el archivo `package.json`:
+Antes de comenzar a construir tu API REST, asegúrate de contar con el siguiente entorno configurado en tu equipo:
+
+### A. Herramientas de Desarrollo Requeridas
+
+1. **Node.js (v18.0 o superior) y NPM:**
+   * Verifica la instalación ejecutando en tu terminal:
+     ```bash
+     node -v
+     npm -v
+     ```
+2. **Editor de Código (Visual Studio Code):**
+   * Extensión recomendada: **Thunder Client** o **Rest Client** para probar tus peticiones HTTP directamente desde el editor sin salir de VS Code.
+
+### B. Clientes para Pruebas de APIs HTTP Recomendados
+
+Para interactuar con tus endpoints (`GET`, `POST`, `PUT`, `DELETE`), necesitarás un cliente de pruebas HTTP:
+* **Thunder Client (Extensión de VS Code - Recomendado):** Ligero e integrado directamente en tu editor.
+* **Postman / Insomnia:** Aplicaciones de escritorio completas para inspección de peticiones, entornos y headers.
+* **cURL (Consola / Terminal):** Herramienta CLI universal incluida en Linux, macOS y Git Bash.
+
+---
+
+## 2. Setup e Instalación del Servidor Express
+
+Para iniciar un proyecto backend con Express usando **ES Modules**, configuramos la estructura inicial del proyecto y el archivo `package.json`:
 
 ```bash
 mkdir mi-backend-express
@@ -31,7 +55,7 @@ npm install express dotenv cors
 
 ---
 
-## 2. Estructura del Servidor y Middlewares
+## 3. Estructura del Servidor y Middlewares
 
 Los **Middlewares** son funciones que se ejecutan en secuencia durante el ciclo de vida de una petición HTTP antes de llegar a la respuesta final. Tienen acceso a los objetos `req` (petición), `res` (respuesta) y a la función `next()` para pasar el control al siguiente middleware.
 
@@ -85,7 +109,7 @@ app.listen(PORT, () => {
 
 ---
 
-## 3. Extracción de Parámetros en Express
+## 4. Extracción de Parámetros en Express
 
 Express permite capturar datos del cliente a través de 3 vías principales:
 
@@ -114,7 +138,7 @@ app.post('/api/productos', (req, res) => {
 
 ---
 
-## 💡 Autoevaluación
+## Autoevaluación
 
 > [!QUIZ]
 > ¿Qué sucede si en un middleware personalizado olvidas llamar a la función `next()` y no envías una respuesta con `res.json()` o `res.send()`?
@@ -126,7 +150,7 @@ app.post('/api/productos', (req, res) => {
 
 ---
 
-## 🛠️ Ejercicio Práctico: Middleware Restringido por API Key
+## Ejercicio Práctico: Middleware Restringido por API Key
 
 **Objetivo**: Crear un middleware que proteja la ruta `/api/admin` exigiendo la cabecera HTTP `x-api-key`.
 
@@ -135,7 +159,7 @@ app.post('/api/productos', (req, res) => {
 2. De lo contrario, responde inmediatamente con estado HTTP 401 Unauthorized `{ error: 'Acceso denegado' }`.
 
 <details class="exercise-solution">
-<summary>💡 Ver solución paso a paso</summary>
+<summary>Ver solución paso a paso</summary>
 
 <div class="solution-content">
 
@@ -164,9 +188,9 @@ app.get('/api/admin', verificarApiKey, (req, res) => {
 
 ---
 
-## 📌 Resumen
+## Resumen
 
+- Para desarrollar APIs REST se requiere Node.js v18+ y un cliente HTTP como **Thunder Client** o **Postman**.
 - Express simplifica la creación de servidores HTTP en Node.js.
 - `express.json()` es indispensable para procesar solicitudes con payload JSON.
-- Los **Middlewares** procesan solicitudes secuencialmente; recuerda siempre invocar `next()`.
 - En la siguiente lección aprenderás a estructurar una API profesional con arquitectura en 4 capas (**Routes, Controller, Service, Model**).
