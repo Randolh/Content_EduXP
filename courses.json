@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-21",
+  "updatedAt": "2026-09-22",
   "courses": [
     {
       "id": "nodejs-esencial",
@@ -232,6 +232,81 @@
       "targetAudience": [
         "Principiantes que quieren aprender a documentar proyectos sin complicaciones.",
         "Estudiantes y redactores técnicos que inician en el desarrollo de software."
+      ]
+    },
+    {
+      "id": "html5-esencial",
+      "slug": "html5-esencial",
+      "title": "HTML5 Moderno y Semántico: De Cero a Estándar Web",
+      "description": "Aprende la estructura del desarrollo web moderno con HTML5. Domina etiquetas semánticas, formularios avanzados, elementos multimedia responsivos, accesibilidad (a11y), SEO técnico y APIs web recientes como <dialog> y popover.",
+      "category": "frontend",
+      "level": "Principiante",
+      "duration": "6 Horas",
+      "icon": "fa-brands fa-html5",
+      "badgeColor": "orange",
+      "totalLessons": 9,
+      "tags": ["HTML5", "Semántica", "Accesibilidad", "A11y", "Formularios", "SEO", "Frontend"],
+      "requirements": [
+        "No se requieren conocimientos previos de programación",
+        "Un navegador web moderno (Chrome, Firefox, Edge o Safari) y un editor de código"
+      ],
+      "objectives": [
+        "Comprender la estructura de un documento HTML5 según la especificación Living Standard.",
+        "Maquetar sitios web estructurados utilizando etiquetas de contenido semántico.",
+        "Insertar multimedia accesible y recursos optimizados con picture e imagenes responsivas.",
+        "Crear formularios interactivos con validación nativa y controles modernos.",
+        "Aplicar mejores prácticas de accesibilidad WAI-ARIA y optimización SEO en la estructura."
+      ],
+      "project": {
+        "title": "Plantilla Semántica Accesible para Portal Web / Blog de Tecnología",
+        "description": "Escribirás la maqueta HTML5 completa de un portal web de tecnología 100% semántico, accesible y estructurado con etiquetas modernas.",
+        "deliverables": [
+          "Estructura semántica limpia con header, nav, main, article, section, aside y footer",
+          "Formulario de contacto accesible con validación nativa HTML5",
+          "Uso de dialog interactivo y multimedia responsivo con picture"
+        ]
+      },
+      "targetAudience": [
+        "Principiantes que desean iniciar en el desarrollo web con las bases sólidas del estándar HTML5.",
+        "Desarrolladores web que buscan actualizar sus conocimientos a la semántica y accesibilidad moderna."
+      ]
+    },
+    {
+      "id": "css-esencial",
+      "slug": "css-esencial",
+      "title": "CSS Moderno Sin Frameworks: Flexbox, Grid y CSS Avanzado",
+      "description": "Domina la estilización web moderna con CSS puro sin depender de frameworks. Flexbox, CSS Grid 2D, Subgrid, Custom Properties, Nesting nativo, Container Queries, Cascade Layers y pseudo-clases avanzadas como :has().",
+      "category": "frontend",
+      "level": "Principiante a Avanzado",
+      "duration": "10 Horas",
+      "icon": "fa-brands fa-css3-alt",
+      "badgeColor": "cyan",
+      "totalLessons": 10,
+      "tags": ["CSS3", "Flexbox", "CSS Grid", "Subgrid", "Custom Properties", "Container Queries", "Nesting", "Responsive", "Frontend"],
+      "requirements": [
+        "Conocimientos fundamentales de HTML5 (estructura y etiquetas semánticas)",
+        "Editor de texto como VS Code y navegador web actualizado"
+      ],
+      "objectives": [
+        "Comprender el modelo de caja, cascada, especificidad y heredabilidad en CSS.",
+        "Dominar layouts responsivos unidimensionales con Flexbox y bidimensionales con CSS Grid y Subgrid.",
+        "Utilizar Custom Properties (variables CSS) y sintaxis de CSS Nesting nativo.",
+        "Implementar selectores modernos avanzados como :has(), :is() y :where().",
+        "Crear diseños adaptables con Media Queries, Container Queries (@container) y funciones matemáticas (clamp, min, max).",
+        "Estructurar código limpio y modular con Cascade Layers (@layer) y animaciones fluidas."
+      ],
+      "project": {
+        "title": "Dashboard / Landing Page Responsiva Moderna en CSS Puro",
+        "description": "Construirás la maquetación visual completa de una plataforma web interactiva con tema oscuro/claro con variables, layout con Grid/Flexbox y componentes con Container Queries.",
+        "deliverables": [
+          "Diseño responsivo fluido con Flexbox y CSS Grid sin frameworks",
+          "Sistema de variables CSS nativas (:root) con soporte de temas",
+          "Componentes modulados con CSS Nesting y pseudo-clases avanzadas como :has()"
+        ]
+      },
+      "targetAudience": [
+        "Estudiantes y desarrolladores frontend que desean escribir CSS limpio, moderno y profesional sin frameworks.",
+        "Desarrolladores que dependen de frameworks (Bootstrap, Tailwind) y quieren dominar el estándar nativo de CSS."
       ]
     }
   ]

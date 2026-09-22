@@ -1,0 +1,145 @@
+{
+  "id": "html5-esencial",
+  "slug": "html5-esencial",
+  "title": "HTML5 Moderno y Semántico: De Cero a Estándar Web",
+  "description": "Aprende la estructura del desarrollo web moderno con HTML5. Domina etiquetas semánticas, formularios avanzados, elementos multimedia responsivos, accesibilidad (a11y), SEO técnico y APIs web recientes como <dialog> y popover.",
+  "category": "frontend",
+  "level": "Principiante",
+  "duration": "6 Horas",
+  "icon": "fa-brands fa-html5",
+  "badgeColor": "orange",
+  "author": "Comunidad EduXP",
+  "requirements": [
+    "No se requieren conocimientos previos de programación.",
+    "Un navegador web moderno (Chrome, Firefox, Edge o Safari) y un editor de código como VS Code."
+  ],
+  "objectives": [
+    "Comprender la estructura de un documento HTML5 según la especificación Living Standard.",
+    "Maquetar sitios web estructurados utilizando etiquetas de contenido semántico.",
+    "Insertar multimedia accesible y recursos optimizados con picture e imágenes responsivas.",
+    "Crear formularios interactivos con validación nativa y controles modernos.",
+    "Aplicar mejores prácticas de accesibilidad WAI-ARIA y optimización SEO en la estructura."
+  ],
+  "project": {
+    "title": "Plantilla Semántica Accesible para Portal Web / Blog de Tecnología",
+    "description": "Escribirás la maqueta HTML5 completa de un portal web de tecnología 100% semántico, accesible y estructurado con etiquetas modernas.",
+    "deliverables": [
+      "Estructura semántica limpia con header, nav, main, article, section, aside y footer",
+      "Formulario de contacto accesible con validación nativa HTML5",
+      "Uso de dialog interactivo y multimedia responsivo con picture"
+    ]
+  },
+  "targetAudience": [
+    "Principiantes que desean iniciar en el desarrollo web con las bases sólidas del estándar HTML5.",
+    "Desarrolladores web que buscan actualizar sus conocimientos a la semántica y accesibilidad moderna."
+  ],
+  "videos": [
+    {
+      "title": "CURSO de HTML5 desde cero paso a paso",
+      "url": "https://www.youtube.com/watch?v=3nYLTiY5skU",
+      "channel": "midudev",
+      "duration": "2h 15m"
+    },
+    {
+      "title": "Curso Completo de HTML5 desde Cero",
+      "url": "https://www.youtube.com/watch?v=rbuYtrNUxg4",
+      "channel": "jonmircha",
+      "duration": "3h 45m"
+    }
+  ],
+  "modules": [
+    {
+      "id": "modulo-1-fundamentos",
+      "title": "Módulo 1: Fundamentos y Estructura Base",
+      "lessons": [
+        {
+          "id": "01-introduccion-y-documento-base",
+          "title": "1. ¿Qué es HTML5 y la Estructura Base de un Documento?",
+          "file": "lessons/01-introduccion-y-documento-base.md",
+          "duration": "15 min",
+          "xp": 50
+        },
+        {
+          "id": "02-estructura-del-texto-y-jerarquia",
+          "title": "2. Jerarquía de Texto, Listas y Formateo Semántico",
+          "file": "lessons/02-estructura-del-texto-y-jerarquia.md",
+          "duration": "20 min",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-semantica",
+      "title": "Módulo 2: HTML5 Semántico y Maquetación Modernas",
+      "lessons": [
+        {
+          "id": "03-etiquetas-semanticas-principales",
+          "title": "3. Etiquetas Semánticas de Estructura Principales",
+          "file": "lessons/03-etiquetas-semanticas-principales.md",
+          "duration": "25 min",
+          "xp": 75
+        },
+        {
+          "id": "04-agrupacion-y-contenido-estructurado",
+          "title": "4. Agrupación, Detalle y Nuevas APIs: <dialog> y Popover",
+          "file": "lessons/04-agrupacion-y-contenido-estructurado.md",
+          "duration": "25 min",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "modulo-3-multimedia-y-tablas",
+      "title": "Módulo 3: Multimedia, Enlaces y Tablas",
+      "lessons": [
+        {
+          "id": "05-enlaces-imagenes-y-media-responsiva",
+          "title": "5. Enlaces, Imágenes Responsivas (<picture>) y Multimedia",
+          "file": "lessons/05-enlaces-imagenes-y-media-responsiva.md",
+          "duration": "25 min",
+          "xp": 75
+        },
+        {
+          "id": "06-tablas-y-estructuras-de-datos",
+          "title": "6. Tablas Semánticas y Estructuras de Datos",
+          "file": "lessons/06-tablas-y-estructuras-de-datos.md",
+          "duration": "20 min",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "modulo-4-formularios-y-a11y",
+      "title": "Módulo 4: Formularios Avanzados y Accesibilidad",
+      "lessons": [
+        {
+          "id": "07-formularios-modernos-y-validaciones",
+          "title": "7. Formularios HTML5, Inputs Modernos y Validación Nativa",
+          "file": "lessons/07-formularios-modernos-y-validaciones.md",
+          "duration": "30 min",
+          "xp": 90
+        },
+        {
+          "id": "08-accesibilidad-wai-aria-y-seo",
+          "title": "8. Accesibilidad Web (WAI-ARIA) y SEO Semántico",
+          "file": "lessons/08-accesibilidad-wai-aria-y-seo.md",
+          "duration": "25 min",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "modulo-5-proyecto",
+      "title": "Módulo 5: Proyecto Integrador",
+      "lessons": [
+        {
+          "id": "09-proyecto-integrador-html5",
+          "title": "9. Proyecto Integrador: Maqueta Web Semántica Accesible",
+          "file": "lessons/09-proyecto-integrador-html5.md",
+          "duration": "40 min",
+          "xp": 150
+        }
+      ]
+    }
+  ]
+}

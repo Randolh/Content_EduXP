@@ -1,0 +1,153 @@
+{
+  "id": "css-esencial",
+  "slug": "css-esencial",
+  "title": "CSS Moderno Sin Frameworks: Flexbox, Grid y CSS Avanzado",
+  "description": "Domina la estilización web moderna con CSS puro sin depender de frameworks. Flexbox, CSS Grid 2D, Subgrid, Custom Properties, Nesting nativo, Container Queries, Cascade Layers y pseudo-clases avanzadas como :has().",
+  "category": "frontend",
+  "level": "Principiante a Avanzado",
+  "duration": "10 Horas",
+  "icon": "fa-brands fa-css3-alt",
+  "badgeColor": "cyan",
+  "author": "Comunidad EduXP",
+  "requirements": [
+    "Conocimientos fundamentales de HTML5 (estructura y etiquetas semánticas).",
+    "Un editor de texto como VS Code y un navegador web actualizado."
+  ],
+  "objectives": [
+    "Comprender el modelo de caja, cascada, especificidad y heredabilidad en CSS.",
+    "Dominar layouts responsivos unidimensionales con Flexbox y bidimensionales con CSS Grid y Subgrid.",
+    "Utilizar Custom Properties (variables CSS) y sintaxis de CSS Nesting nativo.",
+    "Implementar selectores modernos avanzados como :has(), :is() y :where().",
+    "Crear diseños adaptables con Media Queries, Container Queries (@container) y funciones matemáticas (clamp, min, max).",
+    "Estructurar código limpio y modular con Cascade Layers (@layer) y animaciones fluidas."
+  ],
+  "project": {
+    "title": "Dashboard / Landing Page Responsiva Moderna en CSS Puro",
+    "description": "Construirás la maquetación visual completa de una plataforma web interactiva con tema oscuro/claro con variables, layout con Grid/Flexbox y componentes con Container Queries.",
+    "deliverables": [
+      "Diseño responsivo fluido con Flexbox y CSS Grid sin frameworks",
+      "Sistema de variables CSS nativas (:root) con soporte de temas",
+      "Componentes modulados con CSS Nesting y pseudo-clases avanzadas como :has()"
+    ]
+  },
+  "targetAudience": [
+    "Estudiantes y desarrolladores frontend que desean escribir CSS limpio, moderno y profesional sin frameworks.",
+    "Desarrolladores que dependen de frameworks (Bootstrap, Tailwind) y quieren dominar el estándar nativo de CSS."
+  ],
+  "videos": [
+    {
+      "title": "Curso de CSS desde cero paso a paso",
+      "url": "https://www.youtube.com/watch?v=OWKXEJN6ENc",
+      "channel": "midudev",
+      "duration": "2h 40m"
+    },
+    {
+      "title": "Curso CSS Completo Flexbox, Grid y Diseño Responsivo",
+      "url": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+      "channel": "jonmircha",
+      "duration": "5h 10m"
+    }
+  ],
+  "modules": [
+    {
+      "id": "modulo-1-fundamentos",
+      "title": "Módulo 1: Fundamentos de CSS, Sintaxis y Modelo de Caja",
+      "lessons": [
+        {
+          "id": "01-introduccion-y-sintaxis-css",
+          "title": "1. Reglas, Selectores, Especificidad y Cascada",
+          "file": "lessons/01-introduccion-y-sintaxis-css.md",
+          "duration": "20 min",
+          "xp": 60
+        },
+        {
+          "id": "02-modelo-de-caja-y-box-sizing",
+          "title": "2. Modelo de Caja (Box Model) y la propiedad Display",
+          "file": "lessons/02-modelo-de-caja-y-box-sizing.md",
+          "duration": "20 min",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-layouts",
+      "title": "Módulo 2: Layouts Modernos (Flexbox & CSS Grid)",
+      "lessons": [
+        {
+          "id": "03-layout-con-flexbox",
+          "title": "3. Layouts Unidimensionales con Flexbox",
+          "file": "lessons/03-layout-con-flexbox.md",
+          "duration": "30 min",
+          "xp": 90
+        },
+        {
+          "id": "04-layout-con-css-grid-y-subgrid",
+          "title": "4. Layouts Bidimensionales con CSS Grid y Subgrid",
+          "file": "lessons/04-layout-con-css-grid-y-subgrid.md",
+          "duration": "30 min",
+          "xp": 90
+        }
+      ]
+    },
+    {
+      "id": "modulo-3-css-avanzado",
+      "title": "Módulo 3: CSS Moderno (Variables, Nesting y Pseudo-clases)",
+      "lessons": [
+        {
+          "id": "05-variables-css-y-nesting-nativo",
+          "title": "5. Custom Properties (Variables) y CSS Nesting Nativo",
+          "file": "lessons/05-variables-css-y-nesting-nativo.md",
+          "duration": "25 min",
+          "xp": 75
+        },
+        {
+          "id": "06-pseudoclases-y-pseudoelementos-modernos",
+          "title": "6. Pseudo-clases Modernas: :has(), :is() y :where()",
+          "file": "lessons/06-pseudoclases-y-pseudoelementos-modernos.md",
+          "duration": "25 min",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "modulo-4-responsive-y-animaciones",
+      "title": "Módulo 4: Responsive Design, Container Queries y Animaciones",
+      "lessons": [
+        {
+          "id": "07-diseno-responsivo-media-queries-y-container-queries",
+          "title": "7. Responsive Design, Funciones (clamp) y Container Queries",
+          "file": "lessons/07-diseno-responsivo-media-queries-y-container-queries.md",
+          "duration": "30 min",
+          "xp": 90
+        },
+        {
+          "id": "08-transiciones-transformaciones-y-animaciones",
+          "title": "8. Transiciones, Transformaciones 2D/3D y @keyframes",
+          "file": "lessons/08-transiciones-transformaciones-y-animaciones.md",
+          "duration": "25 min",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "modulo-5-arquitectura-y-proyecto",
+      "title": "Módulo 5: Arquitectura CSS y Proyecto Integrador",
+      "lessons": [
+        {
+          "id": "09-organizaciones-css-capas-layer-y-proyecto",
+          "title": "9. Cascade Layers (@layer) y Modern Reset CSS",
+          "file": "lessons/09-organizaciones-css-capas-layer-y-proyecto.md",
+          "duration": "20 min",
+          "xp": 60
+        },
+        {
+          "id": "10-proyecto-integrador-css",
+          "title": "10. Proyecto Integrador: Dashboard Responsivo en CSS Puro",
+          "file": "lessons/10-proyecto-integrador-css.md",
+          "duration": "45 min",
+          "xp": 160
+        }
+      ]
+    }
+  ]
+}
