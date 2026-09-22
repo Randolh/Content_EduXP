@@ -38,6 +38,26 @@
     "Desarrolladores que aprendieron Node.js y desean dominar la creación de APIs REST profesionales.",
     "Estudiantes y desarrolladores Frontend que buscan adquirir habilidades Fullstack Backend en Node.js."
   ],
+  "videos": [
+    {
+      "title": "Express Framework de Nodejs, Curso para principiantes",
+      "url": "https://www.youtube.com/watch?v=JmJ1WUoUIK4",
+      "channel": "Fazt Code",
+      "duration": "4h 00m"
+    },
+    {
+      "title": "Desarrollando una API con Express desde cero",
+      "url": "https://www.youtube.com/watch?v=YmZE1HXjpd4",
+      "channel": "midudev",
+      "duration": "1h 25m"
+    },
+    {
+      "title": "SOLUCIÓN de CORS y Desarrollo de API REST",
+      "url": "https://www.youtube.com/watch?v=-9d3KhCqOtU",
+      "channel": "midudev",
+      "duration": "45m"
+    }
+  ],
   "modules": [
     {
       "id": "modulo-1-fundamentos-express",
