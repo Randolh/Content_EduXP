@@ -129,7 +129,7 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ---
 
-### 7. Python Moderno
+### 7. Python
 * **ID / Slug:** `python-esencial`
 * **Categoria:** `backend` | **Nivel:** `Principiante a Intermedio` | **Duracion:** `10 Horas` | **Lecciones:** `7`
 * **Directorio:** [`courses/python-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/python-esencial)
@@ -144,7 +144,7 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ---
 
-### 8. JavaScript Moderno
+### 8. JavaScript
 * **ID / Slug:** `javascript-esencial`
 * **Categoria:** `frontend` | **Nivel:** `Principiante a Intermedio` | **Duracion:** `10 Horas` | **Lecciones:** `7`
 * **Directorio:** [`courses/javascript-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-esencial)

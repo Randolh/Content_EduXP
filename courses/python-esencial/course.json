@@ -1,7 +1,7 @@
 {
   "id": "python-esencial",
   "slug": "python-esencial",
-  "title": "Python Moderno",
+  "title": "Python",
   "description": "Domina el lenguaje de programacion mas versatil y demandado. Desde la sintaxis moderna (f-strings, pattern matching, type hints) hasta POO avanzada, manejo de archivos y entornos virtuales.",
   "category": "backend",
   "level": "Principiante a Intermedio",
