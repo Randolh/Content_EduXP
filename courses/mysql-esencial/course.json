@@ -1,0 +1,116 @@
+{
+  "id": "mysql-esencial",
+  "slug": "mysql-esencial",
+  "title": "MySQL 8.x y Bases de Datos Relacionales desde Cero",
+  "description": "Aprende el sistema de gestion de bases de datos relacionales mas utilizado del mundo. Disena modelos entidad-relacion, domina SQL (DDL, DML, DQL), uniones complejas con JOINs, agrupaciones y transacciones ACID.",
+  "category": "backend",
+  "level": "Principiante a Intermedio",
+  "duration": "10 Horas",
+  "icon": "fa-solid fa-database",
+  "badgeColor": "cyan",
+  "author": "Comunidad EduXP",
+  "requirements": [
+    "No se requiere experiencia previa en bases de datos o SQL.",
+    "Una computadora con capacidad de instalar MySQL Server 8.x y MySQL Workbench o usar Docker."
+  ],
+  "objectives": [
+    "Comprender el modelo relacional de bases de datos, claves primarias (PK) y claves foraneas (FK).",
+    "Instalar y configurar MySQL Server 8.x y utilizar clientes como MySQL Workbench y CLI.",
+    "Escribir comandos DDL (CREATE, ALTER, DROP) respetando las restricciones de integridad de datos.",
+    "Manipular datos con comandos DML (INSERT, UPDATE, DELETE, TRUNCATE).",
+    "Consultar informacion con DQL (SELECT, WHERE, LIKE, ORDER BY, LIMIT, HAVING).",
+    "Realizar uniones multitabla avanzadas utilizando INNER JOIN, LEFT JOIN, RIGHT JOIN y agrupaciones GROUP BY.",
+    "Implementar subconsultas, Vistas (CREATE VIEW) y gestionar transacciones ACID de forma segura (COMMIT/ROLLBACK)."
+  ],
+  "project": {
+    "title": "Diseno, Implementacion y Consultas de una Base de Datos E-Commerce",
+    "description": "Disenaras e implementaras el esquema relacional completo de una tienda online con clientes, productos, categorias y pedidos, ejecutando consultas analiticas de ventas con JOINs y GROUP BY.",
+    "deliverables": [
+      "Script DDL con creacion de base de datos, tablas y restricciones FK",
+      "Poblado de datos iniciales con INSERT de prueba",
+      "Consultas DQL complejas con INNER/LEFT JOIN y funciones de agregacion",
+      "Creacion de una vista analitica y prueba de transacciones ACID"
+    ]
+  },
+  "targetAudience": [
+    "Desarrolladores Backend que desean dominar bases de datos relacionales con MySQL 8.x.",
+    "Estudiantes de ciencias de la computacion e ingenieria de software."
+  ],
+  "videos": [
+    {
+      "title": "Curso COMPLETO de SQL y BASES DE DATOS Desde Cero para PRINCIPIANTES",
+      "url": "https://www.youtube.com/watch?v=OuJerKzV5T0",
+      "channel": "MoureDev by Brais Moure",
+      "duration": "6h 52m"
+    }
+  ],
+  "modules": [
+    {
+      "id": "modulo-1-fundamentos-y-ddl",
+      "title": "Modulo 1: Fundamentos Relacionales y DDL",
+      "lessons": [
+        {
+          "id": "01-introduccion-a-bases-de-datos-y-mysql-workbench",
+          "title": "1. Modelo Relacional, RDBMS, Instalacion de MySQL 8.x y Workbench",
+          "file": "lessons/01-introduccion-a-bases-de-datos-y-mysql-workbench.md",
+          "duration": "20 min",
+          "xp": 50
+        },
+        {
+          "id": "02-ddl-creacion-de-bases-de-datos-y-tablas",
+          "title": "2. DDL: CREATE DATABASE, Tipos de Datos y Restricciones (PK/FK)",
+          "file": "lessons/02-ddl-creacion-de-bases-de-datos-y-tablas.md",
+          "duration": "25 min",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-dml-y-consultas-dql",
+      "title": "Modulo 2: Manipulacion y Consultas de Datos",
+      "lessons": [
+        {
+          "id": "03-dml-insercion-actualizacion-y-eliminacion",
+          "title": "3. DML: INSERT INTO, UPDATE, DELETE y TRUNCATE",
+          "file": "lessons/03-dml-insercion-actualizacion-y-eliminacion.md",
+          "duration": "25 min",
+          "xp": 70
+        },
+        {
+          "id": "04-consultas-dql-filtrado-y-ordenamiento",
+          "title": "4. DQL: SELECT, WHERE, Operadores, LIKE, ORDER BY y LIMIT",
+          "file": "lessons/04-consultas-dql-filtrado-y-ordenamiento.md",
+          "duration": "30 min",
+          "xp": 80
+        },
+        {
+          "id": "05-funciones-de-agregacion-y-group-by",
+          "title": "5. Funciones de Agregacion (COUNT, SUM, AVG) y GROUP BY / HAVING",
+          "file": "lessons/05-funciones-de-agregacion-y-group-by.md",
+          "duration": "30 min",
+          "xp": 85
+        }
+      ]
+    },
+    {
+      "id": "modulo-3-joins-vistas-y-transacciones",
+      "title": "Modulo 3: Uniones, Vistas y Transacciones ACID",
+      "lessons": [
+        {
+          "id": "06-relaciones-y-joins-inner-left-right",
+          "title": "6. Uniones Multitabla: INNER JOIN, LEFT JOIN y RIGHT JOIN",
+          "file": "lessons/06-relaciones-y-joins-inner-left-right.md",
+          "duration": "35 min",
+          "xp": 90
+        },
+        {
+          "id": "07-subconsultas-vistas-y-transacciones-acid",
+          "title": "7. Subconsultas, Vistas (CREATE VIEW), Transacciones ACID y Proyecto Final",
+          "file": "lessons/07-subconsultas-vistas-y-transacciones-acid.md",
+          "duration": "40 min",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

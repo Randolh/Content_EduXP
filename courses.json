@@ -13,7 +13,14 @@
       "icon": "fa-brands fa-node-js",
       "badgeColor": "mint",
       "totalLessons": 7,
-      "tags": ["Node.js", "JavaScript", "Backend", "NPM", "Event Loop", "CLI"],
+      "tags": [
+        "Node.js",
+        "JavaScript",
+        "Backend",
+        "NPM",
+        "Event Loop",
+        "CLI"
+      ],
       "requirements": [
         "Conocimientos básicos de JavaScript (variables y funciones)",
         "Manejo elemental de la terminal"
@@ -49,7 +56,16 @@
       "icon": "fa-solid fa-server",
       "badgeColor": "orange",
       "totalLessons": 20,
-      "tags": ["Express", "API REST", "Node.js", "JWT", "Middlewares", "Seguridad", "Zod", "Backend"],
+      "tags": [
+        "Express",
+        "API REST",
+        "Node.js",
+        "JWT",
+        "Middlewares",
+        "Seguridad",
+        "Zod",
+        "Backend"
+      ],
       "requirements": [
         "Fundamentos de Node.js y JavaScript moderno (async/await, promesas, ES Modules)",
         "Conceptos básicos de peticiones web HTTP"
@@ -90,7 +106,17 @@
       "icon": "fa-brands fa-react",
       "badgeColor": "cyan",
       "totalLessons": 21,
-      "tags": ["React", "Vite", "JavaScript", "JSX", "Hooks", "Context API", "React Router", "Custom Hooks", "Frontend"],
+      "tags": [
+        "React",
+        "Vite",
+        "JavaScript",
+        "JSX",
+        "Hooks",
+        "Context API",
+        "React Router",
+        "Custom Hooks",
+        "Frontend"
+      ],
       "requirements": [
         "HTML5, CSS3 y JavaScript moderno (variables, funciones flecha, destructuring, promesas)",
         "No se requiere experiencia previa con React"
@@ -130,7 +156,17 @@
       "icon": "fa-brands fa-git-alt",
       "badgeColor": "orange",
       "totalLessons": 11,
-      "tags": ["Git", "GitHub", "DevOps", "Terminal", "Commits", "Ramas", "Restore", "Reset", "Revert"],
+      "tags": [
+        "Git",
+        "GitHub",
+        "DevOps",
+        "Terminal",
+        "Commits",
+        "Ramas",
+        "Restore",
+        "Reset",
+        "Revert"
+      ],
       "requirements": [
         "Manejo básico de la terminal de comandos (bash, zsh o PowerShell)",
         "No requiere experiencia previa con Git"
@@ -170,7 +206,15 @@
       "icon": "fa-solid fa-terminal",
       "badgeColor": "mint",
       "totalLessons": 9,
-      "tags": ["Bash", "Terminal", "Linux", "CLI", "Shell", "Scripting", "DevOps"],
+      "tags": [
+        "Bash",
+        "Terminal",
+        "Linux",
+        "CLI",
+        "Shell",
+        "Scripting",
+        "DevOps"
+      ],
       "requirements": [
         "No se requiere experiencia previa en programación o terminal",
         "Acceso a una consola Linux, macOS o WSL / Git Bash en Windows"
@@ -209,7 +253,13 @@
       "icon": "fa-brands fa-markdown",
       "badgeColor": "cyan",
       "totalLessons": 8,
-      "tags": ["Markdown", "Documentación", "GitHub", "README", "Sintaxis"],
+      "tags": [
+        "Markdown",
+        "Documentación",
+        "GitHub",
+        "README",
+        "Sintaxis"
+      ],
       "requirements": [
         "Un editor de texto (como VS Code) o cualquier bloc de notas",
         "No se requiere experiencia previa en programación"
@@ -245,7 +295,15 @@
       "icon": "fa-brands fa-html5",
       "badgeColor": "orange",
       "totalLessons": 9,
-      "tags": ["HTML5", "Semántica", "Accesibilidad", "A11y", "Formularios", "SEO", "Frontend"],
+      "tags": [
+        "HTML5",
+        "Semántica",
+        "Accesibilidad",
+        "A11y",
+        "Formularios",
+        "SEO",
+        "Frontend"
+      ],
       "requirements": [
         "No se requieren conocimientos previos de programación",
         "Un navegador web moderno (Chrome, Firefox, Edge o Safari) y un editor de código"
@@ -282,7 +340,17 @@
       "icon": "fa-brands fa-css3-alt",
       "badgeColor": "cyan",
       "totalLessons": 10,
-      "tags": ["CSS3", "Flexbox", "CSS Grid", "Subgrid", "Custom Properties", "Container Queries", "Nesting", "Responsive", "Frontend"],
+      "tags": [
+        "CSS3",
+        "Flexbox",
+        "CSS Grid",
+        "Subgrid",
+        "Custom Properties",
+        "Container Queries",
+        "Nesting",
+        "Responsive",
+        "Frontend"
+      ],
       "requirements": [
         "Conocimientos fundamentales de HTML5 (estructura y etiquetas semánticas)",
         "Editor de texto como VS Code y navegador web actualizado"
@@ -307,6 +375,251 @@
       "targetAudience": [
         "Estudiantes y desarrolladores frontend que desean escribir CSS limpio, moderno y profesional sin frameworks.",
         "Desarrolladores que dependen de frameworks (Bootstrap, Tailwind) y quieren dominar el estándar nativo de CSS."
+      ]
+    },
+    {
+      "id": "introduccion-programacion",
+      "slug": "introduccion-programacion",
+      "title": "Introduccion a la Programacion y Pensamiento Algoritmico",
+      "description": "Aprende los fundamentos de la programacion y el diseno de algoritmos desde cero. Domina variables, tipos de datos, estructuras condicionales, ciclos iterativos, funciones modulares y resolucion sistematica de problemas.",
+      "category": "tools",
+      "level": "Principiante",
+      "duration": "6 Horas",
+      "icon": "fa-solid fa-code",
+      "badgeColor": "mint",
+      "totalLessons": 6,
+      "tags": [
+        "Programacion",
+        "Logica",
+        "Algoritmos",
+        "Pseudocodigo",
+        "Diagramas de Flujo",
+        "Funciones",
+        "Principiantes"
+      ],
+      "requirements": [
+        "No se requiere experiencia previa en programacion ni conocimientos matematicos avanzados",
+        "Una computadora con editor de texto y conexion a internet"
+      ],
+      "objectives": [
+        "Desarrollar el pensamiento computacional para descomponer problemas complejos en pasos finitos.",
+        "Comprender el modelo de memoria, variables, constantes y clasificacion de tipos de datos.",
+        "Implementar toma de decisiones mediante estructuras condicionales simples, compuestas y anidadas.",
+        "Controlar la repeticion de instrucciones mediante bucles deterministas e indeterministas.",
+        "Modularizar soluciones mediante funciones con paso de parametros y retorno de valores.",
+        "Estructurar y recorrer colecciones de datos secuenciales para resolver problemas del mundo real."
+      ],
+      "project": {
+        "title": "Sistema Algoritmico de Gestion de Inventario y Ventas",
+        "description": "Disenaras la logica y el flujo estructurado de un sistema comercial utilizando pseudocodigo y diagramas, integrando validaciones, bucles de procesamiento y funciones modulares.",
+        "deliverables": [
+          "Especificacion formal del algoritmo en pseudocodigo estructurado",
+          "Definicion de variables, matrices/arreglos de datos y validaciones de entrada",
+          "Implementacion de funciones modulares con retorno de estado"
+        ]
+      },
+      "targetAudience": [
+        "Personas que inician en el desarrollo de software y desean construir bases logicas solidas.",
+        "Estudiantes de informatica o carreras afines que buscan reforzar su capacidad de abstraccion y analisis de algoritmos."
+      ]
+    },
+    {
+      "id": "python-esencial",
+      "slug": "python-esencial",
+      "title": "Python 3.12+ Moderno: De Cero a Desarrollo Profesional",
+      "description": "Domina el lenguaje de programacion mas versatil y demandado. Desde la sintaxis moderna (f-strings, pattern matching, type hints) hasta POO avanzada, manejo de archivos y entornos virtuales.",
+      "category": "backend",
+      "level": "Principiante a Intermedio",
+      "duration": "10 Horas",
+      "icon": "fa-brands fa-python",
+      "badgeColor": "cyan",
+      "totalLessons": 7,
+      "tags": [
+        "Python",
+        "Python 3.12",
+        "Backend",
+        "POO",
+        "Dataclasses",
+        "Type Hints",
+        "Pattern Matching",
+        "JSON",
+        "venv"
+      ],
+      "requirements": [
+        "No se requiere experiencia previa en programacion",
+        "Una computadora con Windows, macOS o Linux para instalar Python 3.12+"
+      ],
+      "objectives": [
+        "Configurar un entorno de desarrollo profesional con Python 3.12+, VS Code y venv.",
+        "Utilizar variables, tipos de datos nativos, mutabilidad y formateo avanzado con f-strings.",
+        "Implementar estructuras de control condicionales modernas como match/case (Structural Pattern Matching).",
+        "Dominar colecciones de datos (listas, tuplas, conjuntos, diccionarios) y comprensiones de listas (list comprehensions).",
+        "Definir funciones robustas anotadas con Type Hints, argumentos nombrados, *args y **kwargs.",
+        "Crear clases orientadas a objetos utilizando @dataclass, encapsulamiento y metodos especiales.",
+        "Gestionar el control de excepciones, manipulacion de archivos JSON y paquetes con pip."
+      ],
+      "project": {
+        "title": "Sistema CLI de Gestion de Inventario y Finanzas (PyManager CLI)",
+        "description": "Desarrollaras una aplicacion de consola modular en Python 3.12+ para gestionar productos, presupuestos y transacciones con persistencia en archivos JSON y validaciones con Type Hints.",
+        "deliverables": [
+          "Estructura modular con clases y @dataclass",
+          "Uso de match/case para la navegacion por menu",
+          "Persistencia de datos en archivos JSON usando la libreria estandar",
+          "Entorno virtual configurado con venv"
+        ]
+      },
+      "targetAudience": [
+        "Principiantes que desean aprender Python como su primer lenguaje de programacion.",
+        "Desarrolladores que buscan actualizarse a las caracteristicas modernas de Python 3.12+."
+      ]
+    },
+    {
+      "id": "javascript-esencial",
+      "slug": "javascript-esencial",
+      "title": "JavaScript Moderno ES2024+: Fundamentos y Motor de Ejecucion",
+      "description": "Aprende el lenguaje de la Web desde sus cimientos hasta el estandar ES2024+. Variables const/let, funciones flecha, arrays inmutables modernos, promesas, async/await, clases con campos privados y modulos ESM.",
+      "category": "frontend",
+      "level": "Principiante a Intermedio",
+      "duration": "10 Horas",
+      "icon": "fa-brands fa-js",
+      "badgeColor": "orange",
+      "totalLessons": 7,
+      "tags": [
+        "JavaScript",
+        "ES2024",
+        "ES6+",
+        "Frontend",
+        "Backend",
+        "Async/Await",
+        "Promesas",
+        "ESM",
+        "Array Methods"
+      ],
+      "requirements": [
+        "No se requiere experiencia previa en programacion",
+        "Un navegador web moderno (Chrome, Firefox o Edge) y Visual Studio Code instalado"
+      ],
+      "objectives": [
+        "Comprender la arquitectura del motor V8, la pila de llamadas (Call Stack) y el ambito lexico.",
+        "Utilizar const y let de forma profesional evitando los problemas de hoisting de var.",
+        "Dominar las comparaciones estrictas (===), el operador de fusion nula (??) y encadenamiento opcional (?.).",
+        "Escribir funciones declarativas, Arrow Functions y comprender clausuras lexicas (Closures).",
+        "Manipular colecciones mediante metodos inmutables funcionales (map, filter, reduce, toSorted).",
+        "Construir clases modernas con campos privados (#) y herencia orientada a objetos.",
+        "Controlar operaciones asincronas mediante Promesas, async/await y modulos ESM (import/export)."
+      ],
+      "project": {
+        "title": "Motor de Transformacion y Pipeline Asincrono de Datos en ESM",
+        "description": "Construiras un modulo de procesamiento de datos en JavaScript ES2024+ que consume una fuente asincrona, aplica canalizaciones inmutables con reduce y map, y exporta estadisticas con tipado y manejo de errores.",
+        "deliverables": [
+          "Pipeline asincrono con async/await y control de fallas try/catch",
+          "Procesamiento funcional de arreglos con metodos inmutables ES2023/ES2024",
+          "Estructura modular nativa con exportaciones nombradas y por defecto (ESM)"
+        ]
+      },
+      "targetAudience": [
+        "Desarrolladores que desean dominar JavaScript moderno con bases solidas y limpias sin depender de frameworks.",
+        "Estudiantes de frontend o backend que buscan actualizar sus conocimientos a ES2024+."
+      ]
+    },
+    {
+      "id": "javascript-dom-html-css",
+      "slug": "javascript-dom-html-css",
+      "title": "JavaScript DOM, Eventos y Aplicaciones Web Interactivas con HTML5 y CSS3",
+      "description": "Aprende a conectar JavaScript con HTML5 y CSS3 para crear interfaces dinamicas, responsivas e interactivas. Manipulacion del DOM, delegacion de eventos, formularios interactivos y localStorage.",
+      "category": "frontend",
+      "level": "Principiante a Intermedio",
+      "duration": "10 Horas",
+      "icon": "fa-solid fa-code",
+      "badgeColor": "purple",
+      "totalLessons": 7,
+      "tags": [
+        "DOM",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Eventos",
+        "Delegacion",
+        "LocalStorage",
+        "SPA",
+        "Frontend"
+      ],
+      "requirements": [
+        "Fundamentos basicos de HTML5, CSS3 y JavaScript moderno (variables, funciones, objetos)",
+        "Navegador web moderno con herramientas de desarrollador (DevTools)"
+      ],
+      "objectives": [
+        "Comprender la estructura en arbol del Document Object Model (DOM) y la API querySelector.",
+        "Modificar texto, contenido HTML, clases CSS (classList) y atributos (dataset) en tiempo real.",
+        "Crear y eliminar elementos del DOM de forma eficiente utilizando DocumentFragment.",
+        "Gestionar eventos de usuario (click, submit, input, keydown) y dominar el patron de Delegacion de Eventos.",
+        "Capturar datos de formularios, prevenir comportamientos por defecto y validar campos con JS.",
+        "Almacenar y recuperar datos de usuario de forma persistente utilizando localStorage y JSON.",
+        "Desarrollar una aplicacion SPA dinamica interactiva como Proyecto Integrador."
+      ],
+      "project": {
+        "title": "Aplicacion Web SPA Interactiva: Gestor de Tareas y Proyectos",
+        "description": "Construiras una aplicacion web completa 100% responsiva utilizando HTML5 semantico, CSS3 moderno y JS DOM puro con filtrado, renderizado dinamico, delegacion de eventos y persistencia en localStorage.",
+        "deliverables": [
+          "Maquetacion HTML5/CSS3 con temas visuales dinamicos",
+          "Manipulacion del DOM con DocumentFragment para alto rendimiento",
+          "Delegacion de eventos en contenedores dinamicos",
+          "Persistencia completa del estado en localStorage"
+        ]
+      },
+      "targetAudience": [
+        "Estudiantes de desarrollo web que quieren aprender a dar interactividad real a sus maquetas HTML/CSS.",
+        "Desarrolladores Frontend que desean dominar el DOM nativo antes de abordar frameworks como React o Vue."
+      ]
+    },
+    {
+      "id": "mysql-esencial",
+      "slug": "mysql-esencial",
+      "title": "MySQL 8.x y Bases de Datos Relacionales desde Cero",
+      "description": "Aprende el sistema de gestion de bases de datos relacionales mas utilizado del mundo. Disena modelos entidad-relacion, domina SQL (DDL, DML, DQL), uniones complejas con JOINs, agrupaciones y transacciones ACID.",
+      "category": "backend",
+      "level": "Principiante a Intermedio",
+      "duration": "10 Horas",
+      "icon": "fa-solid fa-database",
+      "badgeColor": "cyan",
+      "totalLessons": 7,
+      "tags": [
+        "MySQL",
+        "SQL",
+        "Bases de Datos",
+        "RDBMS",
+        "JOINs",
+        "GROUP BY",
+        "Transacciones",
+        "ACID",
+        "Backend"
+      ],
+      "requirements": [
+        "No se requiere experiencia previa en bases de datos o SQL",
+        "Una computadora con capacidad de instalar MySQL Server 8.x y MySQL Workbench o usar Docker"
+      ],
+      "objectives": [
+        "Comprender el modelo relacional de bases de datos, claves primarias (PK) y claves foraneas (FK).",
+        "Instalar y configurar MySQL Server 8.x y utilizar clientes como MySQL Workbench y CLI.",
+        "Escribir comandos DDL (CREATE, ALTER, DROP) respetando las restricciones de integridad de datos.",
+        "Manipular datos con comandos DML (INSERT, UPDATE, DELETE, TRUNCATE).",
+        "Consultar informacion con DQL (SELECT, WHERE, LIKE, ORDER BY, LIMIT, HAVING).",
+        "Realizar uniones multitabla avanzadas utilizando INNER JOIN, LEFT JOIN, RIGHT JOIN y agrupaciones GROUP BY.",
+        "Implementar subconsultas, Vistas (CREATE VIEW) y gestionar transacciones ACID de forma segura (COMMIT/ROLLBACK)."
+      ],
+      "project": {
+        "title": "Diseno, Implementacion y Consultas de una Base de Datos E-Commerce",
+        "description": "Disenaras e implementaras el esquema relacional completo de una tienda online con clientes, productos, categorias y pedidos, ejecutando consultas analiticas de ventas con JOINs y GROUP BY.",
+        "deliverables": [
+          "Script DDL con creacion de base de datos, tablas y restricciones FK",
+          "Poblado de datos iniciales con INSERT de prueba",
+          "Consultas DQL complejas con INNER/LEFT JOIN y funciones de agregacion",
+          "Creacion de una vista analitica y prueba de transacciones ACID"
+        ]
+      },
+      "targetAudience": [
+        "Desarrolladores Backend que desean dominar bases de datos relacionales con MySQL 8.x.",
+        "Estudiantes de ciencias de la computacion e ingenieria de software."
       ]
     }
   ]

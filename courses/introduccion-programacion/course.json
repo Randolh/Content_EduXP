@@ -1,0 +1,99 @@
+{
+  "id": "introduccion-programacion",
+  "slug": "introduccion-programacion",
+  "title": "Introduccion a la Programacion y Pensamiento Algoritmico",
+  "description": "Aprende los fundamentos de la programacion y el diseno de algoritmos desde cero. Domina variables, tipos de datos, estructuras condicionales, ciclos iterativos, funciones modulares y resolucion sistematica de problemas.",
+  "category": "tools",
+  "level": "Principiante",
+  "duration": "6 Horas",
+  "icon": "fa-solid fa-code",
+  "badgeColor": "mint",
+  "author": "Comunidad EduXP",
+  "requirements": [
+    "No se requiere experiencia previa en programacion ni conocimientos matematicos avanzados.",
+    "Una computadora con editor de texto y conexion a internet."
+  ],
+  "objectives": [
+    "Desarrollar el pensamiento computacional para descomponer problemas complejos en pasos finitos.",
+    "Comprender el modelo de memoria, variables, constantes y clasificacion de tipos de datos.",
+    "Implementar toma de decisiones mediante estructuras condicionales simples, compuestas y anidadas.",
+    "Controlar la repeticion de instrucciones mediante bucles deterministas e indeterministas.",
+    "Modularizar soluciones mediante funciones con paso de parametros y retorno de valores.",
+    "Estructurar y recorrer colecciones de datos secuenciales para resolver problemas del mundo real."
+  ],
+  "project": {
+    "title": "Sistema Algoritmico de Gestion de Inventario y Ventas",
+    "description": "Disenaras la logica y el flujo estructurado de un sistema comercial utilizando pseudocodigo y diagramas, integrando validaciones, bucles de procesamiento y funciones modulares.",
+    "deliverables": [
+      "Especificacion formal del algoritmo en pseudocodigo estructurado",
+      "Definicion de variables, matrices/arreglos de datos y validaciones de entrada",
+      "Implementacion de funciones modulares con retorno de estado"
+    ]
+  },
+  "targetAudience": [
+    "Personas que inician en el desarrollo de software y desean construir bases logicas solidas.",
+    "Estudiantes de informatica o carreras afines que buscan reforzar su capacidad de abstraccion y analisis de algoritmos."
+  ],
+  "modules": [
+    {
+      "id": "modulo-1-logica-y-datos",
+      "title": "Modulo 1: Pensamiento Algoritmico y Variables",
+      "lessons": [
+        {
+          "id": "01-fundamentos-algoritmos-y-pensamiento-logico",
+          "title": "1. Fundamentos de la Programacion, Algoritmos y Abstraccion",
+          "file": "lessons/01-fundamentos-algoritmos-y-pensamiento-logico.md",
+          "duration": "20 min",
+          "xp": 50
+        },
+        {
+          "id": "02-variables-tipos-de-datos-y-operadores",
+          "title": "2. Gestion de Memoria, Tipos de Datos y Operadores",
+          "file": "lessons/02-variables-tipos-de-datos-y-operadores.md",
+          "duration": "25 min",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-control-de-flujo",
+      "title": "Modulo 2: Estructuras de Control de Flujo",
+      "lessons": [
+        {
+          "id": "03-estructuras-de-control-condicionales",
+          "title": "3. Toma de Decisiones y Estructuras Condicionales",
+          "file": "lessons/03-estructuras-de-control-condicionales.md",
+          "duration": "25 min",
+          "xp": 75
+        },
+        {
+          "id": "04-estructuras-de-control-iterativas-bucles",
+          "title": "4. Estructuras de Repeticion y Control de Ciclos",
+          "file": "lessons/04-estructuras-de-control-iterativas-bucles.md",
+          "duration": "30 min",
+          "xp": 80
+        }
+      ]
+    },
+    {
+      "id": "modulo-3-modularizacion-y-datos",
+      "title": "Modulo 3: Modularizacion y Colecciones de Datos",
+      "lessons": [
+        {
+          "id": "05-funciones-y-modularizacion",
+          "title": "5. Funciones, Parametros, Retorno y Ambito de Variables",
+          "file": "lessons/05-funciones-y-modularizacion.md",
+          "duration": "30 min",
+          "xp": 85
+        },
+        {
+          "id": "06-estructuras-de-datos-basicas-y-proyecto",
+          "title": "6. Arreglos Indexados y Proyecto Integrador de Logica",
+          "file": "lessons/06-estructuras-de-datos-basicas-y-proyecto.md",
+          "duration": "35 min",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

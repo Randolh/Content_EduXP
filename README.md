@@ -115,6 +115,80 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ---
 
+### 6. Introduccion a la Programacion y Pensamiento Algoritmico
+* **ID / Slug:** `introduccion-programacion`
+* **Categoria:** `tools` | **Nivel:** `Principiante` | **Duracion:** `6 Horas` | **Lecciones:** `6`
+* **Directorio:** [`courses/introduccion-programacion`](file:///home/randolh/Documents/Content_EduXP_git/courses/introduccion-programacion)
+* **Lecciones:**
+  1. [`01-fundamentos-algoritmos-y-pensamiento-logico.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/introduccion-programacion/lessons/01-fundamentos-algoritmos-y-pensamiento-logico.md)
+  2. [`02-variables-tipos-de-datos-y-operadores.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/introduccion-programacion/lessons/02-variables-tipos-de-datos-y-operadores.md)
+  3. [`03-estructuras-de-control-condicionales.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/introduccion-programacion/lessons/03-estructuras-de-control-condicionales.md)
+  4. [`04-estructuras-de-control-iterativas-bucles.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/introduccion-programacion/lessons/04-estructuras-de-control-iterativas-bucles.md)
+  5. [`05-funciones-y-modularizacion.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/introduccion-programacion/lessons/05-funciones-y-modularizacion.md)
+  6. [`06-estructuras-de-datos-basicas-y-proyecto.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/introduccion-programacion/lessons/06-estructuras-de-datos-basicas-y-proyecto.md)
+
+---
+
+### 7. Python 3.12+ Moderno: De Cero a Desarrollo Profesional
+* **ID / Slug:** `python-esencial`
+* **Categoria:** `backend` | **Nivel:** `Principiante a Intermedio` | **Duracion:** `10 Horas` | **Lecciones:** `7`
+* **Directorio:** [`courses/python-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/python-esencial)
+* **Lecciones:**
+  1. [`01-instalacion-entorno-y-primer-script.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/python-esencial/lessons/01-instalacion-entorno-y-primer-script.md)
+  2. [`02-tipos-de-datos-operadores-y-f-strings.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/python-esencial/lessons/02-tipos-de-datos-operadores-y-f-strings.md)
+  3. [`03-estructuras-de-control-y-pattern-matching.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/python-esencial/lessons/03-estructuras-de-control-y-pattern-matching.md)
+  4. [`04-estructuras-de-datos-listas-tuplas-diccionarios.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/python-esencial/lessons/04-estructuras-de-datos-listas-tuplas-diccionarios.md)
+  5. [`05-funciones-argumentos-y-type-hints.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/python-esencial/lessons/05-funciones-argumentos-y-type-hints.md)
+  6. [`06-poo-clases-y-objetos-modernos.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/python-esencial/lessons/06-poo-clases-y-objetos-modernos.md)
+  7. [`07-manejo-de-archivos-excepciones-y-virtualenv.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/python-esencial/lessons/07-manejo-de-archivos-excepciones-y-virtualenv.md)
+
+---
+
+### 8. JavaScript Moderno ES2024+: Fundamentos y Motor de Ejecucion
+* **ID / Slug:** `javascript-esencial`
+* **Categoria:** `frontend` | **Nivel:** `Principiante a Intermedio` | **Duracion:** `10 Horas` | **Lecciones:** `7`
+* **Directorio:** [`courses/javascript-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-esencial)
+* **Lecciones:**
+  1. [`01-introduccion-entorno-y-variables.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-esencial/lessons/01-introduccion-entorno-y-variables.md)
+  2. [`02-operadores-coercion-y-estructuras-de-control.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-esencial/lessons/02-operadores-coercion-y-estructuras-de-control.md)
+  3. [`03-funciones-arrow-functions-y-closures.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-esencial/lessons/03-funciones-arrow-functions-y-closures.md)
+  4. [`04-arrays-metodos-modernos-y-desestructuracion.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-esencial/lessons/04-arrays-metodos-modernos-y-desestructuracion.md)
+  5. [`05-objetos-literales-prototipos-y-clases.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-esencial/lessons/05-objetos-literales-prototipos-y-clases.md)
+  6. [`06-asincronia-promesas-y-async-await.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-esencial/lessons/06-asincronia-promesas-y-async-await.md)
+  7. [`07-modulos-es6-y-herramientas-modernas.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-esencial/lessons/07-modulos-es6-y-herramientas-modernas.md)
+
+---
+
+### 9. JavaScript DOM, Eventos y Aplicaciones Web Interactivas
+* **ID / Slug:** `javascript-dom-html-css`
+* **Categoria:** `frontend` | **Nivel:** `Principiante a Intermedio` | **Duracion:** `10 Horas` | **Lecciones:** `7`
+* **Directorio:** [`courses/javascript-dom-html-css`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-dom-html-css)
+* **Lecciones:**
+  1. [`01-introduccion-al-dom-y-seleccion-de-elementos.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-dom-html-css/lessons/01-introduccion-al-dom-y-seleccion-de-elementos.md)
+  2. [`02-manipulacion-de-contenido-atributos-y-estilos.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-dom-html-css/lessons/02-manipulacion-de-contenido-atributos-y-estilos.md)
+  3. [`03-creacion-eliminacion-y-desplazamiento-de-nodos.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-dom-html-css/lessons/03-creacion-eliminacion-y-desplazamiento-de-nodos.md)
+  4. [`04-gestion-de-eventos-y-delegacion.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-dom-html-css/lessons/04-gestion-de-eventos-y-delegacion.md)
+  5. [`05-formularios-validacion-y-eventos-de-teclado.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-dom-html-css/lessons/05-formularios-validacion-y-eventos-de-teclado.md)
+  6. [`06-persistencia-localstorage-sessionstorage-y-json.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-dom-html-css/lessons/06-persistencia-localstorage-sessionstorage-y-json.md)
+  7. [`07-proyecto-integrador-aplicacion-web-interactiva.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-dom-html-css/lessons/07-proyecto-integrador-aplicacion-web-interactiva.md)
+
+---
+
+### 10. MySQL 8.x y Bases de Datos Relacionales desde Cero
+* **ID / Slug:** `mysql-esencial`
+* **Categoria:** `backend` | **Nivel:** `Principiante a Intermedio` | **Duracion:** `10 Horas` | **Lecciones:** `7`
+* **Directorio:** [`courses/mysql-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/mysql-esencial)
+* **Lecciones:**
+  1. [`01-introduccion-a-bases-de-datos-y-mysql-workbench.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/mysql-esencial/lessons/01-introduccion-a-bases-de-datos-y-mysql-workbench.md)
+  2. [`02-ddl-creacion-de-bases-de-datos-y-tablas.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/mysql-esencial/lessons/02-ddl-creacion-de-bases-de-datos-y-tablas.md)
+  3. [`03-dml-insercion-actualizacion-y-eliminacion.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/mysql-esencial/lessons/03-dml-insercion-actualizacion-y-eliminacion.md)
+  4. [`04-consultas-dql-filtrado-y-ordenamiento.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/mysql-esencial/lessons/04-consultas-dql-filtrado-y-ordenamiento.md)
+  5. [`05-funciones-de-agregacion-y-group-by.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/mysql-esencial/lessons/05-funciones-de-agregacion-y-group-by.md)
+  6. [`06-relaciones-y-joins-inner-left-right.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/mysql-esencial/lessons/06-relaciones-y-joins-inner-left-right.md)
+  7. [`07-subconsultas-vistas-y-transacciones-acid.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/mysql-esencial/lessons/07-subconsultas-vistas-y-transacciones-acid.md)
+
+---
+
 ## Cómo Añadir un Nuevo Curso
 
 1. **Crear el directorio del curso:** Crea una nueva carpeta en `courses/<slug-del-curso>/`.

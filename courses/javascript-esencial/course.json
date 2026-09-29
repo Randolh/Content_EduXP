@@ -1,0 +1,115 @@
+{
+  "id": "javascript-esencial",
+  "slug": "javascript-esencial",
+  "title": "JavaScript Moderno ES2024+: Fundamentos y Motor de Ejecucion",
+  "description": "Aprende el lenguaje de la Web desde sus cimientos hasta el estandar ES2024+. Variables const/let, funciones flecha, arrays inmutables modernos, promesas, async/await, clases con campos privados y modulos ESM.",
+  "category": "frontend",
+  "level": "Principiante a Intermedio",
+  "duration": "10 Horas",
+  "icon": "fa-brands fa-js",
+  "badgeColor": "orange",
+  "author": "Comunidad EduXP",
+  "requirements": [
+    "No se requiere experiencia previa en programacion.",
+    "Un navegador web moderno (Chrome, Firefox o Edge) y Visual Studio Code instalado."
+  ],
+  "objectives": [
+    "Comprender la arquitectura del motor V8, la pila de llamadas (Call Stack) y el ambito lexico.",
+    "Utilizar const y let de forma profesional evitando los problemas de hoisting de var.",
+    "Dominar las comparaciones estrictas (===), el operador de fusion nula (??) y encadenamiento opcional (?.).",
+    "Escribir funciones declarativas, Arrow Functions y comprender clausuras lexicas (Closures).",
+    "Manipular colecciones mediante metodos inmutables funcionales (map, filter, reduce, toSorted).",
+    "Construir clases modernas con campos privados (#) y herencia orientada a objetos.",
+    "Controlar operaciones asincronas mediante Promesas, async/await y modulos ESM (import/export)."
+  ],
+  "project": {
+    "title": "Motor de Transformacion y Pipeline Asincrono de Datos en ESM",
+    "description": "Construiras un modulo de procesamiento de datos en JavaScript ES2024+ que consume una fuente asincrona, aplica canalizaciones inmutables con reduce y map, y exporta estadisticas con tipado y manejo de errores.",
+    "deliverables": [
+      "Pipeline asincrono con async/await y control de fallas try/catch",
+      "Procesamiento funcional de arreglos con metodos inmutables ES2023/ES2024",
+      "Estructura modular nativa con exportaciones nombradas y por defecto (ESM)"
+    ]
+  },
+  "targetAudience": [
+    "Desarrolladores que desean dominar JavaScript moderno con bases solidas y limpias sin depender de frameworks.",
+    "Estudiantes de frontend o backend que buscan actualizar sus conocimientos a ES2024+."
+  ],
+  "videos": [
+    {
+      "title": "Introduccion a la programacion con JavaScript",
+      "url": "https://www.youtube.com/watch?v=Z34BF9PCfYg",
+      "channel": "midudev",
+      "duration": "1h 56m"
+    }
+  ],
+  "modules": [
+    {
+      "id": "modulo-1-fundamentos-js",
+      "title": "Modulo 1: Motor de Ejecucion y Variables Modernas",
+      "lessons": [
+        {
+          "id": "01-introduccion-entorno-y-variables",
+          "title": "1. Motor V8, Entorno de Ejecucion, let, const y Tipos Primitivos",
+          "file": "lessons/01-introduccion-entorno-y-variables.md",
+          "duration": "20 min",
+          "xp": 50
+        },
+        {
+          "id": "02-operadores-coercion-y-estructuras-de-control",
+          "title": "2. Operadores Estrictos, Coercion, Nullish Coalescing y Control de Flujo",
+          "file": "lessons/02-operadores-coercion-y-estructuras-de-control.md",
+          "duration": "25 min",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-funciones-y-arrays",
+      "title": "Modulo 2: Funciones, Closures y Arrays Funcionales",
+      "lessons": [
+        {
+          "id": "03-funciones-arrow-functions-y-closures",
+          "title": "3. Funciones, Arrow Functions, Parametros Rest y Closures",
+          "file": "lessons/03-funciones-arrow-functions-y-closures.md",
+          "duration": "30 min",
+          "xp": 75
+        },
+        {
+          "id": "04-arrays-metodos-modernos-y-desestructuracion",
+          "title": "4. Metodos Modernos de Arrays (map, filter, reduce) y Destructuring",
+          "file": "lessons/04-arrays-metodos-modernos-y-desestructuracion.md",
+          "duration": "35 min",
+          "xp": 85
+        }
+      ]
+    },
+    {
+      "id": "modulo-3-objetos-asincronia-y-modulos",
+      "title": "Modulo 3: Objetos, Asincronia ES2024+ y Modulos",
+      "lessons": [
+        {
+          "id": "05-objetos-literales-prototipos-y-clases",
+          "title": "5. Objetos Literales, Optional Chaining y Clases ES6+",
+          "file": "lessons/05-objetos-literales-prototipos-y-clases.md",
+          "duration": "30 min",
+          "xp": 80
+        },
+        {
+          "id": "06-asincronia-promesas-y-async-await",
+          "title": "6. Asincronia, Event Loop, Promesas y Async/Await",
+          "file": "lessons/06-asincronia-promesas-y-async-await.md",
+          "duration": "35 min",
+          "xp": 90
+        },
+        {
+          "id": "07-modulos-es6-y-herramientas-modernas",
+          "title": "7. Modulos ESM (import/export) y Proyecto Integrador",
+          "file": "lessons/07-modulos-es6-y-herramientas-modernas.md",
+          "duration": "40 min",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

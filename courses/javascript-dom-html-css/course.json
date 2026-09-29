@@ -1,0 +1,108 @@
+{
+  "id": "javascript-dom-html-css",
+  "slug": "javascript-dom-html-css",
+  "title": "JavaScript DOM, Eventos y Aplicaciones Web Interactivas con HTML5 y CSS3",
+  "description": "Aprende a conectar JavaScript con HTML5 y CSS3 para crear interfaces dinamicas, responsivas e interactivas. Manipulacion del DOM, delegacion de eventos, formularios interactivos y localStorage.",
+  "category": "frontend",
+  "level": "Principiante a Intermedio",
+  "duration": "10 Horas",
+  "icon": "fa-solid fa-code",
+  "badgeColor": "purple",
+  "author": "Comunidad EduXP",
+  "requirements": [
+    "Fundamentos basicos de HTML5, CSS3 y JavaScript moderno (variables, funciones, objetos).",
+    "Navegador web moderno con herramientas de desarrollador (DevTools)."
+  ],
+  "objectives": [
+    "Comprender la estructura en arbol del Document Object Model (DOM) y la API querySelector.",
+    "Modificar texto, contenido HTML, clases CSS (classList) y atributos (dataset) en tiempo real.",
+    "Crear y eliminar elementos del DOM de forma eficiente utilizando DocumentFragment.",
+    "Gestionar eventos de usuario (click, submit, input, keydown) y dominar el patron de Delegacion de Eventos.",
+    "Capturar datos de formularios, prevenir comportamientos por defecto y validar campos con JS.",
+    "Almacenar y recuperar datos de usuario de forma persistente utilizando localStorage y JSON.",
+    "Desarrollar una aplicacion SPA dinamica interactiva como Proyecto Integrador."
+  ],
+  "project": {
+    "title": "Aplicacion Web SPA Interactiva: Gestor de Tareas y Proyectos",
+    "description": "Construiras una aplicacion web completa 100% responsiva utilizando HTML5 semantico, CSS3 moderno y JS DOM puro con filtrado, renderizado dinamico, delegacion de eventos y persistencia en localStorage.",
+    "deliverables": [
+      "Maquetacion HTML5/CSS3 con temas visuales dinamicos",
+      "Manipulacion del DOM con DocumentFragment para alto rendimiento",
+      "Delegacion de eventos en contenedores dinamicos",
+      "Persistencia completa del estado en localStorage"
+    ]
+  },
+  "targetAudience": [
+    "Estudiantes de desarrollo web que quieren aprender a dar interactividad real a sus maquetas HTML/CSS.",
+    "Desarrolladores Frontend que desean dominar el DOM nativo antes de abordar frameworks como React o Vue."
+  ],
+  "modules": [
+    {
+      "id": "modulo-1-seleccion-y-manipulacion",
+      "title": "Modulo 1: Seleccion y Manipulacion del DOM",
+      "lessons": [
+        {
+          "id": "01-introduccion-al-dom-y-seleccion-de-elementos",
+          "title": "1. El Arbol del DOM, Nodos y Seleccion con querySelector",
+          "file": "lessons/01-introduccion-al-dom-y-seleccion-de-elementos.md",
+          "duration": "20 min",
+          "xp": 50
+        },
+        {
+          "id": "02-manipulacion-de-contenido-atributos-y-estilos",
+          "title": "2. Manipulacion de Texto, Atributos, classList y Estilos Dinamicos",
+          "file": "lessons/02-manipulacion-de-contenido-atributos-y-estilos.md",
+          "duration": "25 min",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-nodos-y-eventos",
+      "title": "Modulo 2: Creacion de Nodos y Gestion de Eventos",
+      "lessons": [
+        {
+          "id": "03-creacion-eliminacion-y-desplazamiento-de-nodos",
+          "title": "3. Creacion, Eliminacion de Nodos y Rendimiento con DocumentFragment",
+          "file": "lessons/03-creacion-eliminacion-y-desplazamiento-de-nodos.md",
+          "duration": "30 min",
+          "xp": 75
+        },
+        {
+          "id": "04-gestion-de-eventos-y-delegacion",
+          "title": "4. Escuchadores de Eventos (addEventListener) y Delegacion de Eventos",
+          "file": "lessons/04-gestion-de-eventos-y-delegacion.md",
+          "duration": "35 min",
+          "xp": 85
+        }
+      ]
+    },
+    {
+      "id": "modulo-3-formularios-y-persistencia",
+      "title": "Modulo 3: Formularios, LocalStorage y Proyecto Integrador",
+      "lessons": [
+        {
+          "id": "05-formularios-validacion-y-eventos-de-teclado",
+          "title": "5. Formularios, Evento Submit, Evento Input y Validacion en Vivo",
+          "file": "lessons/05-formularios-validacion-y-eventos-de-teclado.md",
+          "duration": "30 min",
+          "xp": 80
+        },
+        {
+          "id": "06-persistencia-localstorage-sessionstorage-y-json",
+          "title": "6. Persistencia Web: LocalStorage, SessionStorage y JSON",
+          "file": "lessons/06-persistencia-localstorage-sessionstorage-y-json.md",
+          "duration": "35 min",
+          "xp": 90
+        },
+        {
+          "id": "07-proyecto-integrador-aplicacion-web-interactiva",
+          "title": "7. Desarrollo de una Aplicacion SPA Completa y Proyecto Final",
+          "file": "lessons/07-proyecto-integrador-aplicacion-web-interactiva.md",
+          "duration": "40 min",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}

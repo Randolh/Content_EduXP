@@ -1,0 +1,122 @@
+{
+  "id": "python-esencial",
+  "slug": "python-esencial",
+  "title": "Python 3.12+ Moderno: De Cero a Desarrollo Profesional",
+  "description": "Domina el lenguaje de programacion mas versatil y demandado. Desde la sintaxis moderna (f-strings, pattern matching, type hints) hasta POO avanzada, manejo de archivos y entornos virtuales.",
+  "category": "backend",
+  "level": "Principiante a Intermedio",
+  "duration": "10 Horas",
+  "icon": "fa-brands fa-python",
+  "badgeColor": "cyan",
+  "author": "Comunidad EduXP",
+  "requirements": [
+    "No se requiere experiencia previa en programacion.",
+    "Una computadora con Windows, macOS o Linux para instalar Python 3.12+."
+  ],
+  "objectives": [
+    "Configurar un entorno de desarrollo profesional con Python 3.12+, VS Code y venv.",
+    "Utilizar variables, tipos de datos nativos, mutabilidad y formateo avanzado con f-strings.",
+    "Implementar estructuras de control condicionales modernas como match/case (Structural Pattern Matching).",
+    "Dominar colecciones de datos (listas, tuplas, conjuntos, diccionarios) y comprensiones de listas (list comprehensions).",
+    "Definir funciones robustas anotadas con Type Hints, argumentos nombrados, *args y **kwargs.",
+    "Crear clases orientadas a objetos utilizando @dataclass, encapsulamiento y metodos especiales.",
+    "Gestionar el control de excepciones, manipulacion de archivos JSON y paquetes con pip."
+  ],
+  "project": {
+    "title": "Sistema CLI de Gestion de Inventario y Finanzas (PyManager CLI)",
+    "description": "Desarrollaras una aplicacion de consola modular en Python 3.12+ para gestionar productos, presupuestos y transacciones con persistencia en archivos JSON y validaciones con Type Hints.",
+    "deliverables": [
+      "Estructura modular con clases y @dataclass",
+      "Uso de match/case para la navegacion por menu",
+      "Persistencia de datos en archivos JSON usando la libreria estandar",
+      "Entorno virtual configurado con venv"
+    ]
+  },
+  "targetAudience": [
+    "Principiantes que desean aprender Python como su primer lenguaje de programacion.",
+    "Desarrolladores que buscan actualizarse a las caracteristicas modernas de Python 3.12+."
+  ],
+  "videos": [
+    {
+      "title": "CURSO DE PYTHON DESDE CERO - Aprende el lenguaje con ejercicios",
+      "url": "https://www.youtube.com/watch?v=TkN2i-_4N4g",
+      "channel": "midudev",
+      "duration": "1h 40m"
+    },
+    {
+      "title": "Curso de Python desde cero (Completo)",
+      "url": "https://www.youtube.com/watch?v=Kp4Mvapo5kc",
+      "channel": "Soy Dalto",
+      "duration": "8h 20m"
+    }
+  ],
+  "modules": [
+    {
+      "id": "modulo-1-fundamentos-python",
+      "title": "Modulo 1: Fundamentos y Sintaxis Base",
+      "lessons": [
+        {
+          "id": "01-instalacion-entorno-y-primer-script",
+          "title": "1. Instalacion de Python 3.12+, Entorno en VS Code y Primer Script",
+          "file": "lessons/01-instalacion-entorno-y-primer-script.md",
+          "duration": "20 min",
+          "xp": 50
+        },
+        {
+          "id": "02-tipos-de-datos-operadores-y-f-strings",
+          "title": "2. Tipos de Datos, Modificadores, Operadores y f-strings",
+          "file": "lessons/02-tipos-de-datos-operadores-y-f-strings.md",
+          "duration": "25 min",
+          "xp": 60
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-control-y-colecciones",
+      "title": "Modulo 2: Control de Flujo y Colecciones de Datos",
+      "lessons": [
+        {
+          "id": "03-estructuras-de-control-y-pattern-matching",
+          "title": "3. Condicionales, Bucles y Structural Pattern Matching (match/case)",
+          "file": "lessons/03-estructuras-de-control-y-pattern-matching.md",
+          "duration": "30 min",
+          "xp": 75
+        },
+        {
+          "id": "04-estructuras-de-datos-listas-tuplas-diccionarios",
+          "title": "4. Listas, Tuplas, Diccionarios y Comprensiones (List Comprehensions)",
+          "file": "lessons/04-estructuras-de-datos-listas-tuplas-diccionarios.md",
+          "duration": "35 min",
+          "xp": 85
+        }
+      ]
+    },
+    {
+      "id": "modulo-3-poo-y-archivos",
+      "title": "Modulo 3: Funciones Avanzadas, POO y Persistencia",
+      "lessons": [
+        {
+          "id": "05-funciones-argumentos-y-type-hints",
+          "title": "5. Funciones con Type Hints, *args, **kwargs y Lambdas",
+          "file": "lessons/05-funciones-argumentos-y-type-hints.md",
+          "duration": "30 min",
+          "xp": 80
+        },
+        {
+          "id": "06-poo-clases-y-objetos-modernos",
+          "title": "6. Programacion Orientada a Objetos (POO) y Dataclasses",
+          "file": "lessons/06-poo-clases-y-objetos-modernos.md",
+          "duration": "35 min",
+          "xp": 90
+        },
+        {
+          "id": "07-manejo-de-archivos-excepciones-y-virtualenv",
+          "title": "7. Excepciones, Persistencia JSON, venv y Proyecto Integrador",
+          "file": "lessons/07-manejo-de-archivos-excepciones-y-virtualenv.md",
+          "duration": "40 min",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}
