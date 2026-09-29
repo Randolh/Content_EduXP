@@ -34,7 +34,7 @@ Content_EduXP_git/
 
 El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP_git/courses.json) define el catálogo visible en la plataforma. A continuación se detalla la oferta académica adaptada para principiantes en la carpeta [`courses/`](file:///home/randolh/Documents/Content_EduXP_git/courses):
 
-### 1. Node.js Fundamentos Paso a Paso
+### 1. Node.js Fundamentos
 * **ID / Slug:** `nodejs-esencial`
 * **Categoría:** `backend` | **Nivel:** `Principiante` | **Duración:** `3 Horas` | **Lecciones:** `7`
 * **Directorio:** [`courses/nodejs-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/nodejs-esencial)
@@ -49,7 +49,7 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ---
 
-### 2. APIs REST con Express Paso a Paso
+### 2. APIs REST con Express
 * **ID / Slug:** `express-api-rest`
 * **Categoría:** `api` | **Nivel:** `Principiante` | **Duración:** `4 Horas` | **Lecciones:** `9`
 * **Directorio:** [`courses/express-api-rest`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-api-rest)
@@ -66,7 +66,7 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ---
 
-### 3. React Esencial Paso a Paso con Vite
+### 3. React Esencial con Vite
 * **ID / Slug:** `react-esencial`
 * **Categoría:** `frontend` | **Nivel:** `Principiante` | **Duración:** `5 Horas` | **Lecciones:** `9`
 * **Directorio:** [`courses/react-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/react-esencial)
@@ -83,7 +83,7 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ---
 
-### 4. Git y GitHub: Paso a Paso para Principiantes
+### 4. Git y GitHub
 * **ID / Slug:** `git-github-esencial`
 * **Categoría:** `tools` | **Nivel:** `Principiante` | **Duración:** `4 Horas` | **Lecciones:** `8`
 * **Directorio:** [`courses/git-github-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/git-github-esencial)
@@ -99,7 +99,7 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ---
 
-### 5. Markdown Esencial: Documentación Paso a Paso
+### 5. Markdown Esencial
 * **ID / Slug:** `markdown-esencial`
 * **Categoría:** `tools` | **Nivel:** `Principiante` | **Duración:** `3 Horas` | **Lecciones:** `8`
 * **Directorio:** [`courses/markdown-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/markdown-esencial)
@@ -115,7 +115,7 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ---
 
-### 6. Introduccion a la Programacion y Pensamiento Algoritmico
+### 6. Introduccion a la Programacion
 * **ID / Slug:** `introduccion-programacion`
 * **Categoria:** `tools` | **Nivel:** `Principiante` | **Duracion:** `6 Horas` | **Lecciones:** `6`
 * **Directorio:** [`courses/introduccion-programacion`](file:///home/randolh/Documents/Content_EduXP_git/courses/introduccion-programacion)
@@ -129,7 +129,7 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ---
 
-### 7. Python 3.12+ Moderno: De Cero a Desarrollo Profesional
+### 7. Python Moderno
 * **ID / Slug:** `python-esencial`
 * **Categoria:** `backend` | **Nivel:** `Principiante a Intermedio` | **Duracion:** `10 Horas` | **Lecciones:** `7`
 * **Directorio:** [`courses/python-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/python-esencial)
@@ -144,7 +144,7 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ---
 
-### 8. JavaScript Moderno ES2024+: Fundamentos y Motor de Ejecucion
+### 8. JavaScript Moderno
 * **ID / Slug:** `javascript-esencial`
 * **Categoria:** `frontend` | **Nivel:** `Principiante a Intermedio` | **Duracion:** `10 Horas` | **Lecciones:** `7`
 * **Directorio:** [`courses/javascript-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-esencial)
@@ -159,7 +159,7 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ---
 
-### 9. JavaScript DOM, Eventos y Aplicaciones Web Interactivas
+### 9. JavaScript DOM con HTML y CSS
 * **ID / Slug:** `javascript-dom-html-css`
 * **Categoria:** `frontend` | **Nivel:** `Principiante a Intermedio` | **Duracion:** `10 Horas` | **Lecciones:** `7`
 * **Directorio:** [`courses/javascript-dom-html-css`](file:///home/randolh/Documents/Content_EduXP_git/courses/javascript-dom-html-css)
@@ -174,7 +174,7 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ---
 
-### 10. MySQL 8.x y Bases de Datos Relacionales desde Cero
+### 10. MySQL y Bases de Datos
 * **ID / Slug:** `mysql-esencial`
 * **Categoria:** `backend` | **Nivel:** `Principiante a Intermedio` | **Duracion:** `10 Horas` | **Lecciones:** `7`
 * **Directorio:** [`courses/mysql-esencial`](file:///home/randolh/Documents/Content_EduXP_git/courses/mysql-esencial)

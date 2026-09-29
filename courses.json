@@ -5,7 +5,7 @@
     {
       "id": "nodejs-esencial",
       "slug": "nodejs-esencial",
-      "title": "Node.js Fundamentos Paso a Paso",
+      "title": "Node.js Fundamentos",
       "description": "Aprende a ejecutar JavaScript en el servidor de forma gradual. Lecciones cortas donde cada concepto e instalación se enseña de manera aislada.",
       "category": "backend",
       "level": "Principiante",
@@ -48,7 +48,7 @@
     {
       "id": "express-api-rest",
       "slug": "express-api-rest",
-      "title": "APIs REST con Express Esencial y Avanzado",
+      "title": "APIs REST con Express",
       "description": "Domina la creación de servicios web backend profesionales con Express.js. Incluye arquitectura MVC, CRUD completo, validaciones con Zod, manejo global de errores, autenticación JWT, seguridad en producción y un Proyecto Final Integrador API REST E-Commerce.",
       "category": "api",
       "level": "Principiante a Avanzado",
@@ -98,7 +98,7 @@
     {
       "id": "react-esencial",
       "slug": "react-esencial",
-      "title": "React Esencial y Avanzado Paso a Paso con Vite",
+      "title": "React Esencial con Vite",
       "description": "Aprende desarrollo frontend profesional con React desde cero hasta nivel avanzado. Incluye Hooks fundamentales y avanzados, consumo de APIs, React Router, Context API, optimización y un Proyecto Final Integrador E-Commerce.",
       "category": "frontend",
       "level": "Principiante a Avanzado",
@@ -148,7 +148,7 @@
     {
       "id": "git-github-esencial",
       "slug": "git-github-esencial",
-      "title": "Git y GitHub: Paso a Paso para Principiantes",
+      "title": "Git y GitHub",
       "description": "Aprende control de versiones con Git y GitHub desde cero. Lecciones cortas focalizadas en comandos, commits, ramas, sincronización con GitHub y técnicas avanzadas de restauración (restore, reset, revert).",
       "category": "tools",
       "level": "Principiante",
@@ -198,7 +198,7 @@
     {
       "id": "bash-terminal-esencial",
       "slug": "bash-terminal-esencial",
-      "title": "Terminal y Bash: Comandos de Consola y Scripts Paso a Paso",
+      "title": "Terminal y Bash",
       "description": "Aprende a dominar la línea de comandos de Linux y macOS desde cero. Navegación de archivos, permisos, tuberías, redirecciones, variables de entorno y automatización con scripts en Bash.",
       "category": "tools",
       "level": "Principiante",
@@ -245,7 +245,7 @@
     {
       "id": "markdown-esencial",
       "slug": "markdown-esencial",
-      "title": "Markdown Esencial: Documentación Paso a Paso",
+      "title": "Markdown Esencial",
       "description": "Aprende Markdown desde cero de forma gradual. Cada lección abarca un único concepto práctico: textos, listas, enlaces, imágenes, tablas y documentación técnica.",
       "category": "tools",
       "level": "Principiante",
@@ -287,7 +287,7 @@
     {
       "id": "html5-esencial",
       "slug": "html5-esencial",
-      "title": "HTML5 Moderno y Semántico: De Cero a Estándar Web",
+      "title": "HTML5 Moderno",
       "description": "Aprende la estructura del desarrollo web moderno con HTML5. Domina etiquetas semánticas, formularios avanzados, elementos multimedia responsivos, accesibilidad (a11y), SEO técnico y APIs web recientes como <dialog> y popover.",
       "category": "frontend",
       "level": "Principiante",
@@ -332,7 +332,7 @@
     {
       "id": "css-esencial",
       "slug": "css-esencial",
-      "title": "CSS Moderno Sin Frameworks: Flexbox, Grid y CSS Avanzado",
+      "title": "CSS Moderno",
       "description": "Domina la estilización web moderna con CSS puro sin depender de frameworks. Flexbox, CSS Grid 2D, Subgrid, Custom Properties, Nesting nativo, Container Queries, Cascade Layers y pseudo-clases avanzadas como :has().",
       "category": "frontend",
       "level": "Principiante a Avanzado",
@@ -380,7 +380,7 @@
     {
       "id": "introduccion-programacion",
       "slug": "introduccion-programacion",
-      "title": "Introduccion a la Programacion y Pensamiento Algoritmico",
+      "title": "Introduccion a la Programacion",
       "description": "Aprende los fundamentos de la programacion y el diseno de algoritmos desde cero. Domina variables, tipos de datos, estructuras condicionales, ciclos iterativos, funciones modulares y resolucion sistematica de problemas.",
       "category": "tools",
       "level": "Principiante",
@@ -426,7 +426,7 @@
     {
       "id": "python-esencial",
       "slug": "python-esencial",
-      "title": "Python 3.12+ Moderno: De Cero a Desarrollo Profesional",
+      "title": "Python Moderno",
       "description": "Domina el lenguaje de programacion mas versatil y demandado. Desde la sintaxis moderna (f-strings, pattern matching, type hints) hasta POO avanzada, manejo de archivos y entornos virtuales.",
       "category": "backend",
       "level": "Principiante a Intermedio",
@@ -476,7 +476,7 @@
     {
       "id": "javascript-esencial",
       "slug": "javascript-esencial",
-      "title": "JavaScript Moderno ES2024+: Fundamentos y Motor de Ejecucion",
+      "title": "JavaScript Moderno",
       "description": "Aprende el lenguaje de la Web desde sus cimientos hasta el estandar ES2024+. Variables const/let, funciones flecha, arrays inmutables modernos, promesas, async/await, clases con campos privados y modulos ESM.",
       "category": "frontend",
       "level": "Principiante a Intermedio",
@@ -525,7 +525,7 @@
     {
       "id": "javascript-dom-html-css",
       "slug": "javascript-dom-html-css",
-      "title": "JavaScript DOM, Eventos y Aplicaciones Web Interactivas con HTML5 y CSS3",
+      "title": "JavaScript DOM con HTML y CSS",
       "description": "Aprende a conectar JavaScript con HTML5 y CSS3 para crear interfaces dinamicas, responsivas e interactivas. Manipulacion del DOM, delegacion de eventos, formularios interactivos y localStorage.",
       "category": "frontend",
       "level": "Principiante a Intermedio",
@@ -575,7 +575,7 @@
     {
       "id": "mysql-esencial",
       "slug": "mysql-esencial",
-      "title": "MySQL 8.x y Bases de Datos Relacionales desde Cero",
+      "title": "MySQL y Bases de Datos",
       "description": "Aprende el sistema de gestion de bases de datos relacionales mas utilizado del mundo. Disena modelos entidad-relacion, domina SQL (DDL, DML, DQL), uniones complejas con JOINs, agrupaciones y transacciones ACID.",
       "category": "backend",
       "level": "Principiante a Intermedio",

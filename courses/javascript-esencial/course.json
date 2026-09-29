@@ -1,7 +1,7 @@
 {
   "id": "javascript-esencial",
   "slug": "javascript-esencial",
-  "title": "JavaScript Moderno ES2024+: Fundamentos y Motor de Ejecucion",
+  "title": "JavaScript Moderno",
   "description": "Aprende el lenguaje de la Web desde sus cimientos hasta el estandar ES2024+. Variables const/let, funciones flecha, arrays inmutables modernos, promesas, async/await, clases con campos privados y modulos ESM.",
   "category": "frontend",
   "level": "Principiante a Intermedio",

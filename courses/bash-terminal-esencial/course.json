@@ -1,7 +1,7 @@
 {
   "id": "bash-terminal-esencial",
   "slug": "bash-terminal-esencial",
-  "title": "Terminal y Bash: Comandos de Consola y Scripts Paso a Paso",
+  "title": "Terminal y Bash",
   "description": "Aprende a dominar la línea de comandos de Linux y macOS desde cero. Navegación de archivos, permisos, tuberías, redirecciones, variables de entorno y automatización con scripts en Bash.",
   "category": "tools",
   "level": "Principiante",

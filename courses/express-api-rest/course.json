@@ -1,7 +1,7 @@
 {
   "id": "express-api-rest",
   "slug": "express-api-rest",
-  "title": "APIs REST con Express Esencial y Avanzado",
+  "title": "APIs REST con Express",
   "description": "Domina la creación de servicios web backend profesionales con Express.js. Incluye arquitectura MVC, CRUD completo, validaciones con Zod, manejo global de errores, autenticación JWT, seguridad en producción y un Proyecto Final Integrador API REST E-Commerce.",
   "category": "api",
   "level": "Principiante a Avanzado",

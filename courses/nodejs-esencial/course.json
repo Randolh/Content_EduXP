@@ -1,7 +1,7 @@
 {
   "id": "nodejs-esencial",
   "slug": "nodejs-esencial",
-  "title": "Node.js Fundamentos Paso a Paso",
+  "title": "Node.js Fundamentos",
   "description": "Aprende a ejecutar JavaScript en el servidor de forma gradual. Lecciones cortas donde cada concepto se enseña de manera aislada y práctica.",
   "category": "backend",
   "level": "Principiante",

@@ -1,7 +1,7 @@
 {
   "id": "javascript-dom-html-css",
   "slug": "javascript-dom-html-css",
-  "title": "JavaScript DOM, Eventos y Aplicaciones Web Interactivas con HTML5 y CSS3",
+  "title": "JavaScript DOM con HTML y CSS",
   "description": "Aprende a conectar JavaScript con HTML5 y CSS3 para crear interfaces dinamicas, responsivas e interactivas. Manipulacion del DOM, delegacion de eventos, formularios interactivos y localStorage.",
   "category": "frontend",
   "level": "Principiante a Intermedio",

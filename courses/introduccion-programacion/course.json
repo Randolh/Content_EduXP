@@ -1,7 +1,7 @@
 {
   "id": "introduccion-programacion",
   "slug": "introduccion-programacion",
-  "title": "Introduccion a la Programacion y Pensamiento Algoritmico",
+  "title": "Introduccion a la Programacion",
   "description": "Aprende los fundamentos de la programacion y el diseno de algoritmos desde cero. Domina variables, tipos de datos, estructuras condicionales, ciclos iterativos, funciones modulares y resolucion sistematica de problemas.",
   "category": "tools",
   "level": "Principiante",

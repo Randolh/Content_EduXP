@@ -1,7 +1,7 @@
 {
   "id": "css-esencial",
   "slug": "css-esencial",
-  "title": "CSS Moderno Sin Frameworks: Flexbox, Grid y CSS Avanzado",
+  "title": "CSS Moderno",
   "description": "Domina la estilización web moderna con CSS puro sin depender de frameworks. Flexbox, CSS Grid 2D, Subgrid, Custom Properties, Nesting nativo, Container Queries, Cascade Layers y pseudo-clases avanzadas como :has().",
   "category": "frontend",
   "level": "Principiante a Avanzado",

@@ -1,7 +1,7 @@
 {
   "id": "mysql-esencial",
   "slug": "mysql-esencial",
-  "title": "MySQL 8.x y Bases de Datos Relacionales desde Cero",
+  "title": "MySQL y Bases de Datos",
   "description": "Aprende el sistema de gestion de bases de datos relacionales mas utilizado del mundo. Disena modelos entidad-relacion, domina SQL (DDL, DML, DQL), uniones complejas con JOINs, agrupaciones y transacciones ACID.",
   "category": "backend",
   "level": "Principiante a Intermedio",

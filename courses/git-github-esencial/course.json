@@ -1,7 +1,7 @@
 {
   "id": "git-github-esencial",
   "slug": "git-github-esencial",
-  "title": "Git y GitHub: Paso a Paso para Principiantes",
+  "title": "Git y GitHub",
   "description": "Aprende control de versiones con Git y GitHub desde cero. Lecciones cortas focalizadas en comandos, commits, ramas, sincronización con GitHub y técnicas avanzadas de restauración (restore, reset, revert).",
   "category": "tools",
   "level": "Principiante",
