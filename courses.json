@@ -621,6 +621,54 @@
         "Desarrolladores Backend que desean dominar bases de datos relacionales con MySQL 8.x.",
         "Estudiantes de ciencias de la computacion e ingenieria de software."
       ]
+    },
+    {
+      "id": "express-arquitectura-modular-vs-capas",
+      "slug": "express-arquitectura-modular-vs-capas",
+      "title": "Arquitectura en Express: Modular vs Capas",
+      "description": "Domina los dos patrones arquitectonicos clave para estructurar aplicaciones medianas y grandes en Express.js. Aprende el enfoque por capas (Layered), el enfoque modular basado en caracteristicas (Feature-based), y como escalar hacia microservicios.",
+      "category": "backend",
+      "level": "Intermedio a Avanzado",
+      "duration": "6 Horas",
+      "icon": "fa-solid fa-sitemap",
+      "badgeColor": "orange",
+      "totalLessons": 6,
+      "tags": [
+        "Express",
+        "Node.js",
+        "Arquitectura",
+        "Backend",
+        "Layered Architecture",
+        "Modular Architecture",
+        "Microservicios",
+        "Clean Code"
+      ],
+      "requirements": [
+        "Fundamentos solidos de Node.js, Express.js y JavaScript moderno (ESM, async/await)",
+        "Conceptos basicos de diseno de APIs REST y patrones backend"
+      ],
+      "objectives": [
+        "Comprender por que la naturaleza no-opinionada de Express.js requiere una disciplina arquitectonica estricta.",
+        "Implementar la Arquitectura por Capas tradicional separando Routes, Controllers, Services y Repositories.",
+        "Identificar los sintomas de degradacion del enfoque por capas en proyectos medianos y grandes (Shotgun Surgery, acoplamiento).",
+        "Construir aplicaciones con Arquitectura Modular basada en caracteristicas (Feature-based) con modulos autocontenidos.",
+        "Gestionar la comunicacion entre modulos independientes sin incurrir en dependencias circulares.",
+        "Aplicar una matriz de decision tecnica para seleccionar la arquitectura adecuada y migrar proyectos legados."
+      ],
+      "project": {
+        "title": "Sistema Comercial de Gestion y Pedidos con Arquitectura Modular Escalable",
+        "description": "Construiras una API REST empresarial estructurada mediante modulos autocontenidos (Auth, Productos, Ordenes) y capa compartida (Shared), implementando validaciones, servicios desacoplados y eventos inter-modulares.",
+        "deliverables": [
+          "Estructura modular feature-based con separacion estricta de dominios",
+          "Controladores, servicios y repositorios aislados por cada modulo",
+          "Mecanismo de comunicacion desacoplado para ordenes y productos",
+          "Middleware global centralizado de errores y capa compartida de base de datos"
+        ]
+      },
+      "targetAudience": [
+        "Desarrolladores backend de Node.js y Express que buscan estructurar proyectos profesionales mantenibles.",
+        "Lideres tecnicos y arquitectos de software que preparan codebases para escalar en equipo o transicionar a microservicios."
+      ]
     }
   ]
 }

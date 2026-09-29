@@ -189,6 +189,20 @@ El archivo maestro [`courses.json`](file:///home/randolh/Documents/Content_EduXP
 
 ---
 
+### 11. Arquitectura en Express: Modular vs Capas
+* **ID / Slug:** `express-arquitectura-modular-vs-capas`
+* **Categoria:** `backend` | **Nivel:** `Intermedio a Avanzado` | **Duracion:** `6 Horas` | **Lecciones:** `6`
+* **Directorio:** [`courses/express-arquitectura-modular-vs-capas`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-arquitectura-modular-vs-capas)
+* **Lecciones:**
+  1. [`01-el-dilema-de-la-arquitectura-en-express.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-arquitectura-modular-vs-capas/lessons/01-el-dilema-de-la-arquitectura-en-express.md)
+  2. [`02-arquitectura-por-capas-layered-approach.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-arquitectura-modular-vs-capas/lessons/02-arquitectura-por-capas-layered-approach.md)
+  3. [`03-limitaciones-del-enfoque-por-capas-a-escala.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-arquitectura-modular-vs-capas/lessons/03-limitaciones-del-enfoque-por-capas-a-escala.md)
+  4. [`04-arquitectura-modular-feature-based.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-arquitectura-modular-vs-capas/lessons/04-arquitectura-modular-feature-based.md)
+  5. [`05-comunicacion-inter-modular-y-buenas-practicas.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-arquitectura-modular-vs-capas/lessons/05-comunicacion-inter-modular-y-buenas-practicas.md)
+  6. [`06-guia-de-decision-migracion-y-proyecto.md`](file:///home/randolh/Documents/Content_EduXP_git/courses/express-arquitectura-modular-vs-capas/lessons/06-guia-de-decision-migracion-y-proyecto.md)
+
+---
+
 ## Cómo Añadir un Nuevo Curso
 
 1. **Crear el directorio del curso:** Crea una nueva carpeta en `courses/<slug-del-curso>/`.

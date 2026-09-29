@@ -1,0 +1,101 @@
+{
+  "id": "express-arquitectura-modular-vs-capas",
+  "slug": "express-arquitectura-modular-vs-capas",
+  "title": "Arquitectura en Express: Modular vs Capas",
+  "description": "Domina los dos patrones arquitectonicos clave para estructurar aplicaciones medianas y grandes en Express.js. Aprende el enfoque por capas (Layered), el enfoque modular basado en caracteristicas (Feature-based), y como escalar hacia microservicios.",
+  "category": "backend",
+  "level": "Intermedio a Avanzado",
+  "duration": "6 Horas",
+  "icon": "fa-solid fa-sitemap",
+  "badgeColor": "orange",
+  "author": "Comunidad EduXP",
+  "requirements": [
+    "Fundamentos solidos de Node.js, Express.js y JavaScript moderno (ESM, async/await).",
+    "Conocimientos basicos de APIs REST y patrones de diseno backend."
+  ],
+  "objectives": [
+    "Comprender por que la naturaleza no-opinionada de Express.js requiere una disciplina arquitectonica estricta.",
+    "Implementar la Arquitectura por Capas tradicional separando Routes, Controllers, Services y Repositories.",
+    "Identificar los sintomas de degradacion del enfoque por capas en proyectos medianos y grandes (Shotgun Surgery, acoplamiento).",
+    "Construir aplicaciones con Arquitectura Modular basada en caracteristicas (Feature-based) con modulos autocontenidos.",
+    "Gestionar la comunicacion entre modulos independientes sin incurrir en dependencias circulares.",
+    "Aplicar una matriz de decision tecnica para seleccionar la arquitectura adecuada y migrar proyectos legados."
+  ],
+  "project": {
+    "title": "Sistema Comercial de Gestion y Pedidos con Arquitectura Modular Escalable",
+    "description": "Construiras una API REST empresarial estructurada mediante modulos autocontenidos (Auth, Productos, Ordenes) y capa compartida (Shared), implementando validaciones, servicios desacoplados y eventos inter-modulares.",
+    "deliverables": [
+      "Estructura modular feature-based con separacion estricta de dominios",
+      "Controladores, servicios y repositorios aislados por cada modulo",
+      "Mecanismo de comunicacion desacoplado para ordenes y productos",
+      "Middleware global centralizado de errores y capa compartida de base de datos"
+    ]
+  },
+  "targetAudience": [
+    "Desarrolladores backend de Node.js y Express que buscan estructurar proyectos profesionales mantenibles.",
+    "Lideres tecnicos y arquitectos de software que preparan codebases para escalar en equipo o transicionar a microservicios."
+  ],
+  "videos": [],
+  "modules": [
+    {
+      "id": "modulo-1-fundamentos-y-capas",
+      "title": "Modulo 1: Fundamentos y Arquitectura por Capas",
+      "lessons": [
+        {
+          "id": "01-el-dilema-de-la-arquitectura-en-express",
+          "title": "1. El Dilema de la Arquitectura en Express.js y Deuda Tecnica",
+          "file": "lessons/01-el-dilema-de-la-arquitectura-en-express.md",
+          "duration": "20 min",
+          "xp": 50
+        },
+        {
+          "id": "02-arquitectura-por-capas-layered-approach",
+          "title": "2. Arquitectura por Capas (Layered Approach): Estructura y Flujo",
+          "file": "lessons/02-arquitectura-por-capas-layered-approach.md",
+          "duration": "30 min",
+          "xp": 75
+        }
+      ]
+    },
+    {
+      "id": "modulo-2-degradacion-y-modulo-feature",
+      "title": "Modulo 2: Limites de Capas y Arquitectura Modular",
+      "lessons": [
+        {
+          "id": "03-limitaciones-del-enfoque-por-capas-a-escala",
+          "title": "3. Limites del Enfoque por Capas en Proyectos Medianos y Grandes",
+          "file": "lessons/03-limitaciones-del-enfoque-por-capas-a-escala.md",
+          "duration": "25 min",
+          "xp": 70
+        },
+        {
+          "id": "04-arquitectura-modular-feature-based",
+          "title": "4. Arquitectura Modular (Feature-Based): Modulos Autocontenidos",
+          "file": "lessons/04-arquitectura-modular-feature-based.md",
+          "duration": "35 min",
+          "xp": 85
+        }
+      ]
+    },
+    {
+      "id": "modulo-3-comunicacion-y-migracion",
+      "title": "Modulo 3: Comunicacion Inter-Modular y Proyecto Final",
+      "lessons": [
+        {
+          "id": "05-comunicacion-inter-modular-y-buenas-practicas",
+          "title": "5. Comunicacion Inter-Modular, Inyeccion y Dependencias Circulares",
+          "file": "lessons/05-comunicacion-inter-modular-y-buenas-practicas.md",
+          "duration": "35 min",
+          "xp": 90
+        },
+        {
+          "id": "06-guia-de-decision-migracion-y-proyecto",
+          "title": "6. Matriz de Decision, Migracion Gradual y Proyecto Integrador",
+          "file": "lessons/06-guia-de-decision-migracion-y-proyecto.md",
+          "duration": "40 min",
+          "xp": 100
+        }
+      ]
+    }
+  ]
+}
